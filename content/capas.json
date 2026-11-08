@@ -1,6 +1,6 @@
 {
- "00-amanecer": [["sol-manana", 930, 40, 360], ["porco-manana", 330, -10, 380]],
- "01-mediodia": [["sol-mediodia", 760, 30, 360], ["porco-mediodia", 260, 10, 360]],
- "02-noche": [["luna", 1230, 0, 300], ["porco-noche", 120, 50, 360]],
- "03-nuevo-amanecer": [["sol-tarde", 1080, 90, 300], ["porco-amanecer", 380, -30, 370]]
+ "00-amanecer": [["porco-manana", 100, 27, 340], ["sol-manana", 1180, 170, 290]],
+ "01-mediodia": [["porco-mediodia", 92, 27, 340], ["sol-mediodia", 1150, 60, 330]],
+ "02-noche": [["porco-noche", 98, 27, 340], ["luna", 1230, 0, 300]],
+ "03-nuevo-amanecer": [["porco-amanecer", 38, 27, 340], ["sol-tarde", 1080, 90, 300]]
 }

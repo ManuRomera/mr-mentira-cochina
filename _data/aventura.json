@@ -1343,43 +1343,6 @@
       }
      },
      {
-      "_id": "adfd14a6a1d27edf",
-      "texture": {
-       "src": "systems/mr-mentira-cochina/assets/personajes/sol-manana.webp",
-       "fit": "fill",
-       "scaleX": 1,
-       "scaleY": 1
-      },
-      "x": 930,
-      "y": 40,
-      "width": 337,
-      "height": 360,
-      "elevation": 0,
-      "sort": 32,
-      "rotation": 0,
-      "alpha": 1,
-      "hidden": false,
-      "locked": true,
-      "restrictions": {
-       "light": false,
-       "weather": false
-      },
-      "occlusion": {
-       "mode": 0,
-       "alpha": 0
-      },
-      "video": {
-       "loop": true,
-       "autoplay": true,
-       "volume": 0
-      },
-      "flags": {
-       "mr-mentira-cochina": {
-        "capa": "00-amanecer-sol-manana"
-       }
-      }
-     },
-     {
       "_id": "641a65994dc53dce",
       "texture": {
        "src": "systems/mr-mentira-cochina/assets/personajes/porco-manana.webp",
@@ -1387,10 +1350,10 @@
        "scaleX": 1,
        "scaleY": 1
       },
-      "x": 330,
-      "y": -10,
-      "width": 372,
-      "height": 380,
+      "x": 100,
+      "y": 27,
+      "width": 333,
+      "height": 340,
       "elevation": 0,
       "sort": 34,
       "rotation": 0,
@@ -1413,6 +1376,43 @@
       "flags": {
        "mr-mentira-cochina": {
         "capa": "00-amanecer-porco-manana"
+       }
+      }
+     },
+     {
+      "_id": "adfd14a6a1d27edf",
+      "texture": {
+       "src": "systems/mr-mentira-cochina/assets/personajes/sol-manana.webp",
+       "fit": "fill",
+       "scaleX": 1,
+       "scaleY": 1
+      },
+      "x": 1180,
+      "y": 170,
+      "width": 272,
+      "height": 290,
+      "elevation": 0,
+      "sort": 32,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": true,
+      "restrictions": {
+       "light": false,
+       "weather": false
+      },
+      "occlusion": {
+       "mode": 0,
+       "alpha": 0
+      },
+      "video": {
+       "loop": true,
+       "autoplay": true,
+       "volume": 0
+      },
+      "flags": {
+       "mr-mentira-cochina": {
+        "capa": "00-amanecer-sol-manana"
        }
       }
      }
@@ -1509,43 +1509,6 @@
       }
      },
      {
-      "_id": "53acab1b67706142",
-      "texture": {
-       "src": "systems/mr-mentira-cochina/assets/personajes/sol-mediodia.webp",
-       "fit": "fill",
-       "scaleX": 1,
-       "scaleY": 1
-      },
-      "x": 760,
-      "y": 30,
-      "width": 356,
-      "height": 360,
-      "elevation": 0,
-      "sort": 34,
-      "rotation": 0,
-      "alpha": 1,
-      "hidden": false,
-      "locked": true,
-      "restrictions": {
-       "light": false,
-       "weather": false
-      },
-      "occlusion": {
-       "mode": 0,
-       "alpha": 0
-      },
-      "video": {
-       "loop": true,
-       "autoplay": true,
-       "volume": 0
-      },
-      "flags": {
-       "mr-mentira-cochina": {
-        "capa": "01-mediodia-sol-mediodia"
-       }
-      }
-     },
-     {
       "_id": "dfbedbe81b5f1240",
       "texture": {
        "src": "systems/mr-mentira-cochina/assets/personajes/porco-mediodia.webp",
@@ -1553,10 +1516,10 @@
        "scaleX": 1,
        "scaleY": 1
       },
-      "x": 260,
-      "y": 10,
-      "width": 347,
-      "height": 360,
+      "x": 92,
+      "y": 27,
+      "width": 327,
+      "height": 340,
       "elevation": 0,
       "sort": 36,
       "rotation": 0,
@@ -1579,6 +1542,43 @@
       "flags": {
        "mr-mentira-cochina": {
         "capa": "01-mediodia-porco-mediodia"
+       }
+      }
+     },
+     {
+      "_id": "53acab1b67706142",
+      "texture": {
+       "src": "systems/mr-mentira-cochina/assets/personajes/sol-mediodia.webp",
+       "fit": "fill",
+       "scaleX": 1,
+       "scaleY": 1
+      },
+      "x": 1150,
+      "y": 60,
+      "width": 326,
+      "height": 330,
+      "elevation": 0,
+      "sort": 34,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": true,
+      "restrictions": {
+       "light": false,
+       "weather": false
+      },
+      "occlusion": {
+       "mode": 0,
+       "alpha": 0
+      },
+      "video": {
+       "loop": true,
+       "autoplay": true,
+       "volume": 0
+      },
+      "flags": {
+       "mr-mentira-cochina": {
+        "capa": "01-mediodia-sol-mediodia"
        }
       }
      }
@@ -1675,6 +1675,43 @@
       }
      },
      {
+      "_id": "7c1444c3facd3726",
+      "texture": {
+       "src": "systems/mr-mentira-cochina/assets/personajes/porco-noche.webp",
+       "fit": "fill",
+       "scaleX": 1,
+       "scaleY": 1
+      },
+      "x": 98,
+      "y": 27,
+      "width": 337,
+      "height": 340,
+      "elevation": 0,
+      "sort": 30,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": true,
+      "restrictions": {
+       "light": false,
+       "weather": false
+      },
+      "occlusion": {
+       "mode": 0,
+       "alpha": 0
+      },
+      "video": {
+       "loop": true,
+       "autoplay": true,
+       "volume": 0
+      },
+      "flags": {
+       "mr-mentira-cochina": {
+        "capa": "02-noche-porco-noche"
+       }
+      }
+     },
+     {
       "_id": "74cd2664cc38fe13",
       "texture": {
        "src": "systems/mr-mentira-cochina/assets/personajes/luna.webp",
@@ -1708,43 +1745,6 @@
       "flags": {
        "mr-mentira-cochina": {
         "capa": "02-noche-luna"
-       }
-      }
-     },
-     {
-      "_id": "7c1444c3facd3726",
-      "texture": {
-       "src": "systems/mr-mentira-cochina/assets/personajes/porco-noche.webp",
-       "fit": "fill",
-       "scaleX": 1,
-       "scaleY": 1
-      },
-      "x": 120,
-      "y": 50,
-      "width": 356,
-      "height": 360,
-      "elevation": 0,
-      "sort": 30,
-      "rotation": 0,
-      "alpha": 1,
-      "hidden": false,
-      "locked": true,
-      "restrictions": {
-       "light": false,
-       "weather": false
-      },
-      "occlusion": {
-       "mode": 0,
-       "alpha": 0
-      },
-      "video": {
-       "loop": true,
-       "autoplay": true,
-       "volume": 0
-      },
-      "flags": {
-       "mr-mentira-cochina": {
-        "capa": "02-noche-porco-noche"
        }
       }
      }
@@ -1841,6 +1841,43 @@
       }
      },
      {
+      "_id": "5cae1dc183dac8d2",
+      "texture": {
+       "src": "systems/mr-mentira-cochina/assets/personajes/porco-amanecer.webp",
+       "fit": "fill",
+       "scaleX": 1,
+       "scaleY": 1
+      },
+      "x": 38,
+      "y": 27,
+      "width": 337,
+      "height": 340,
+      "elevation": 0,
+      "sort": 42,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": true,
+      "restrictions": {
+       "light": false,
+       "weather": false
+      },
+      "occlusion": {
+       "mode": 0,
+       "alpha": 0
+      },
+      "video": {
+       "loop": true,
+       "autoplay": true,
+       "volume": 0
+      },
+      "flags": {
+       "mr-mentira-cochina": {
+        "capa": "03-nuevo-amanecer-porco-amanecer"
+       }
+      }
+     },
+     {
       "_id": "30ce98776388f41a",
       "texture": {
        "src": "systems/mr-mentira-cochina/assets/personajes/sol-tarde.webp",
@@ -1874,43 +1911,6 @@
       "flags": {
        "mr-mentira-cochina": {
         "capa": "03-nuevo-amanecer-sol-tarde"
-       }
-      }
-     },
-     {
-      "_id": "5cae1dc183dac8d2",
-      "texture": {
-       "src": "systems/mr-mentira-cochina/assets/personajes/porco-amanecer.webp",
-       "fit": "fill",
-       "scaleX": 1,
-       "scaleY": 1
-      },
-      "x": 380,
-      "y": -30,
-      "width": 367,
-      "height": 370,
-      "elevation": 0,
-      "sort": 42,
-      "rotation": 0,
-      "alpha": 1,
-      "hidden": false,
-      "locked": true,
-      "restrictions": {
-       "light": false,
-       "weather": false
-      },
-      "occlusion": {
-       "mode": 0,
-       "alpha": 0
-      },
-      "video": {
-       "loop": true,
-       "autoplay": true,
-       "volume": 0
-      },
-      "flags": {
-       "mr-mentira-cochina": {
-        "capa": "03-nuevo-amanecer-porco-amanecer"
        }
       }
      }
