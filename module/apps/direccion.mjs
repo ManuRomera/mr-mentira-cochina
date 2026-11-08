@@ -112,7 +112,7 @@ export class PanelDireccion extends ConMemoria(HandlebarsApplicationMixin(Applic
       cortinillas: AV.cortinillas.map(c => ({ ...c, hecha: e.cortinillas.includes(c.id), arte: `${ARTE}/personajes/${c.porco}.webp` })),
       filtro: this.filtro,
       grupos: [{ clave: "todos", nombre: "Todos" }, ...GRUPOS].map(g => ({ ...g, activo: g.clave === this.filtro })),
-      retos: AV.retos.filter(r => this.filtro === "todos" || GRUPOS.find(g => g.clave === this.filtro)?.test(r)).map(r => ({ ...r, estado: e.retos[r.id] ?? "" })),
+      retos: AV.retos.filter(r => this.filtro === "todos" || GRUPOS.find(g => g.clave === this.filtro)?.test(r)).map(r => ({ ...r, estado: e.retos[r.id] ?? "", reservado: r.quien === "gran escala" && e.desbarajuste < 3 })),
       provocaciones: AV.provocaciones.map(p => ({ ...p, actor: pjs().find(a => a.name.includes(p.pj)) })),
       frases: FRASES_MENT.map((texto, i) => ({ texto, i })),
       finales: FINALES.map(f => ({ ...f, elegido: e.final === f.id })),

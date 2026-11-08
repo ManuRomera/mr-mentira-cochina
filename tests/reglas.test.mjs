@@ -40,3 +40,12 @@ test("reloj real y cortinillas", () => {
   assert.equal(cortinillaPendiente(30, []), null);
   assert.equal(acota(9, 0, 6), 6);
 });
+
+test("dobles del caos: solo con Desbarajuste 4+ o caos marcado y dados iguales", async () => {
+  const { caosActivo, esDobles } = await import("../module/reglas.mjs");
+  assert.equal(esDobles([4, 4]), true);
+  assert.equal(esDobles([4, 3]), false);
+  assert.equal(caosActivo(3), false);
+  assert.equal(caosActivo(4), true);
+  assert.equal(caosActivo(0, true), true);
+});

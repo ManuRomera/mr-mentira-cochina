@@ -10,7 +10,7 @@
 @page { size: 182mm 257mm; margin: 17mm 14mm 17mm 14mm;
   @top-left { content: "¡MENTIRA COCHINA!"; font: 11pt Bangers; letter-spacing: .06em; color: #1b1515; }
   @top-right { content: "SEMANAL ¡PAM! · Nº 47"; font: 8pt Maru; font-weight: 800; color: #1b1515; }
-  @bottom-center { content: counter(page); font: 13pt Bangers; color: #1b1515; } }
+  @bottom-center { content: counter(page); font: 400 11pt Dela; color: #1b1515; } }
 @page crema { background: #f7efd0; }
 @page rosa { background: #f9e0e2; }
 @page celeste { background: #dcecf3; }
@@ -61,7 +61,7 @@ strong, b { font-weight: 900; }
 .ix-lista { list-style: none; padding: 0; margin: 4mm 0; columns: 1; border: .8mm solid var(--tinta); background: #fff; box-shadow: 1.6mm 1.6mm 0 var(--tinta); }
 .ix-lista li { border-bottom: .3mm solid var(--tinta); }
 .ix-lista a { display: flex; align-items: center; gap: 3mm; padding: 1.6mm 3mm; color: var(--tinta); text-decoration: none; font-size: 10.5pt; }
-.ix-n { font: 15pt Bangers; background: var(--tinta); color: var(--amarillo); width: 10mm; text-align: center; }
+.ix-n { font: 400 11pt Dela; letter-spacing: 0; background: var(--tinta); color: var(--amarillo); width: 10mm; text-align: center; }
 .ix-lista li:nth-child(odd) .ix-n { background: var(--rojo); color: #fff; }
 .staff { font-size: 7.5pt; line-height: 1.4; border-top: .6mm solid var(--tinta); padding-top: 2mm; }
 .staff b { font: 11pt Bangers; background: var(--amarillo); padding: 0 2mm; margin-right: 2mm; }
@@ -73,8 +73,8 @@ strong, b { font-weight: 900; }
 .splash.noche h1 { color: var(--amarillo); }
 .splash-frase { position: absolute; right: 8mm; bottom: 12mm; max-width: 110mm; background: #fff; border: .8mm solid var(--tinta); border-radius: 50% / 45%; padding: 7mm 10mm;
   font: 900 13pt/1.3 Maru; text-align: center; box-shadow: 1.5mm 1.5mm 0 var(--tinta); }
-.cap-num { display: inline-block; font: 13pt Bangers; letter-spacing: .08em; background: var(--rojo); color: #fff; padding: .5mm 3mm; margin-bottom: 2mm; border: .5mm solid var(--tinta); }
-.cap-num b { font-size: 17pt; color: var(--amarillo); }
+.cap-num { display: inline-block; font: 400 9pt Dela; letter-spacing: .06em; background: var(--rojo); color: #fff; padding: .5mm 3mm; margin-bottom: 2mm; border: .5mm solid var(--tinta); }
+.cap-num b { font: 400 13pt Dela; color: var(--amarillo); }
 
 /* Capítulos en papel tintado */
 .cap { break-before: auto; margin-top: 8mm; }
@@ -123,10 +123,10 @@ strong, b { font-weight: 900; }
 .pj-secreto b { font: 10.5pt Bangers; letter-spacing: .05em; color: var(--amarillo); margin-right: 1mm; }
 
 /* Retos */
-.retos { columns: 2; column-gap: 5mm; }
-.reto { break-inside: avoid; background: #fff; border: .7mm solid var(--tinta); box-shadow: 1.2mm 1.2mm 0 var(--tinta); margin: 0 0 4mm; padding: 0 0 1.5mm; font-size: 8.3pt; line-height: 1.38; }
+.retos { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm 5mm; align-items: start; }
+.reto { break-inside: avoid; margin: 0 !important; background: #fff; border: .7mm solid var(--tinta); box-shadow: 1.2mm 1.2mm 0 var(--tinta); margin: 0 0 4mm; padding: 0 0 1.5mm; font-size: 8.3pt; line-height: 1.38; }
 .reto header { background: var(--tinta); color: #fff; padding: 1.2mm 2.5mm; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2mm; }
-.reto-cod { font: 12pt Bangers; background: var(--rojo); padding: 0 1.5mm; }
+.reto-cod { font: 400 9pt Dela; background: var(--rojo); padding: 0 1.5mm; }
 .reto h3 { font: 12.5pt/1.1 Bangers; letter-spacing: .03em; margin: 0; color: var(--amarillo); }
 .reto small { font-size: 7pt; opacity: .85; width: 100%; }
 .reto p { margin: 1mm 2.5mm 0; }
@@ -149,7 +149,7 @@ strong, b { font-weight: 900; }
 .recorte h3 small { font: 800 8pt Maru; margin-left: 2mm; }
 .recorte p { margin: 0 0 .8mm; }
 .recorte b { color: var(--rojo); }
-.ficha-ya { font: 11pt Bangers; letter-spacing: .04em; }
+.ficha-ya { font: 900 9.5pt Maru; letter-spacing: 0; }
 
 /* Encuesta */
 .encuesta { background: #fffbe8; padding: 14mm 12mm; border: 3mm solid var(--rojo); }
@@ -161,18 +161,18 @@ strong, b { font-weight: 900; }
 
 /* Contraportada: anuncio de juguete noventero */
 .contra { background: var(--amarillo) repeating-conic-gradient(from 0deg at 50% 45%, #ffd60a 0 6deg, #ffe873 6deg 12deg); }
-.anuncio { position: absolute; inset: 10mm 10mm 40mm; border: 1.4mm solid var(--tinta); background: rgba(255, 255, 255, .55); padding: 6mm; }
+.anuncio { position: absolute; inset: 10mm 10mm 70mm; border: 1.4mm solid var(--tinta); background: rgba(255, 255, 255, .55); padding: 6mm; }
 .an-nuevo { position: absolute; top: -6mm; left: -4mm; font: 20pt Bangers; background: var(--rojo); color: #fff; padding: 1mm 4mm; transform: rotate(-8deg); border: .8mm solid var(--tinta); }
 .anuncio h1 { font: 46pt/1 Dela; color: var(--rojo); -webkit-text-stroke: .6mm var(--tinta); paint-order: stroke fill; margin: 4mm 0 0; }
 .an-sub { font: 13pt Bangers; letter-spacing: .05em; margin: 1mm 0 0; }
 .an-ment { position: absolute; right: 0; top: 44mm; width: 78mm; filter: drop-shadow(2mm 2mm 0 rgba(0, 0, 0, .5)); }
 .anuncio ul { position: absolute; left: 6mm; top: 62mm; width: 62mm; font: 900 10.5pt/1.4 Maru; padding-left: 4mm; }
 .anuncio ul li { margin-bottom: 3mm; }
-.an-letra { position: absolute; left: 6mm; right: 6mm; bottom: 4mm; font-size: 6.5pt; line-height: 1.3; }
-.an-precio { position: absolute; left: 10mm; bottom: 22mm; width: 40mm; height: 40mm; border-radius: 50%; background: var(--rojo); color: #fff; border: 1mm solid var(--tinta);
+.an-letra { position: absolute; left: 46mm; right: 6mm; bottom: 5mm; font-size: 7pt; line-height: 1.3; font-weight: 700; }
+.an-precio { position: absolute; left: 8mm; bottom: 20mm; width: 34mm; height: 34mm; border-radius: 50%; background: var(--rojo); color: #fff; border: 1mm solid var(--tinta);
   display: grid; place-content: center; text-align: center; font: 13pt/1 Bangers; transform: rotate(-10deg); }
 .an-precio b { font-size: 26pt; color: var(--amarillo); }
-.contra-logo { position: absolute; left: 50%; bottom: 14mm; width: 100mm; transform: translateX(-50%); }
+.contra-logo { position: absolute; left: 50%; bottom: 14mm; width: 92mm; transform: translateX(-50%); }
 .contra-pie { position: absolute; left: 0; right: 0; bottom: 3mm; text-align: center; font: 9pt Bangers; letter-spacing: .06em; margin: 0; }
 
 /* Final de capítulo: marcador invisible para medir y viñeta «¡CONTINUARÁ!» que rellena el hueco. */

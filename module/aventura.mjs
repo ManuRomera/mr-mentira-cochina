@@ -314,6 +314,7 @@ export default {
    "porco": "porco-noche",
    "lineas": [
     "El Sol se quita las gafas y cae detrás del mar, agotado. Una Luna enorme aparece con gorro de dormir. Las ventanas van apagándose. Quedan grillos, el rumor del oleaje y un perro que ladra hasta que una vecina le responde que se calle. El perro contesta: «¡Pues sal tú a vigilar!».",
+    "Sobre el árbol, Porco lleva un pijama sobre su ropa habitual. Tiene una manta y el flash apagado.",
     "<strong>PORCO:</strong> «¡OIIIIINK! ¡BUENAS NOCHES! ¡En Villa Pingüino todo el mundo se mete en la cama! ¡Los niños sueñan, los tenderos descansan y los maridos tienen ocho horas para inventarse qué hicieron esta tarde!». Escucha un pequeño zumbido amarillo. «¡Que tengáis dulces sueños! ¡Y el que miente... bueno, que no ronque!». Apaga la lámpara. «Oink»."
    ]
   },

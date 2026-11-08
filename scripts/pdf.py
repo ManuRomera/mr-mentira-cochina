@@ -41,13 +41,13 @@ def limpia(h):
 
 def titulo_cap(n, titulo, papel, lamina=None, kana=""):
     return f'''<section class="cap {papel}" id="c{n}">
-  <header class="cap-cab"><span class="cap-num">EPISODIO <b>{n}</b></span><h1>{e(titulo)}</h1><span class="kana">{kana}</span></header>
+  <header class="cap-cab"><span class="cap-num">EPISODIO <b>{EP[n]}</b></span><h1>{e(titulo)}</h1><span class="kana">{kana}</span></header>
   {f'<figure class="lamina-bn">{img(lamina)}</figure>' if lamina and hay(lamina) else ""}'''
 
 def splash(n, titulo, lamina, frase, color="rojo"):
     return f'''<section class="splash {color}">
   {img(lamina, "fondo")}
-  <div class="splash-rotulo"><span class="cap-num">EPISODIO <b>{n}</b> · A TODO COLOR</span><h1>{e(titulo)}</h1></div>
+  <div class="splash-rotulo"><span class="cap-num">EPISODIO <b>{EP[n]}</b> · A TODO COLOR</span><h1>{e(titulo)}</h1></div>
   <p class="splash-frase">{frase}</p>
 </section>'''
 
@@ -66,11 +66,12 @@ portada = f'''<section class="portada">
 
 # ---------- Índice (página a color) ----------
 SECCIONES = [(1, "crema"), (2, "crema"), (3, "crema"), (4, "crema"), (5, "rosa"), (6, "rosa"), (7, "rosa"), (8, "celeste"), (9, "verde"), (10, "noche"), (11, "crema"), (19, "crema")]
-indice_filas = "".join(f'<li><a href="#c{n}"><span class="ix-n">{n:02d}</span><b>{e(cap[n]["titulo"])}</b><span class="ix-p"></span></a></li>' for n, _ in SECCIONES)
+EP = {n: i + 1 for i, (n, _) in enumerate(SECCIONES)}   # episodios correlativos 1–12 (los números del texto fuente saltan)
+indice_filas = "".join(f'<li><a href="#c{n}"><span class="ix-n">{EP[n]:02d}</span><b>{e(cap[n]["titulo"])}</b><span class="ix-p"></span></a></li>' for n, _ in SECCIONES)
 indice = f'''<section class="indice">
   <h1 class="ix-titulo">ÍNDICE <small>もくじ</small></h1>
   <div class="ix-promesa"><p class="globo">{e(AV["promesa"])}</p>{img("personajes/porco-manana.webp", "ix-porco")}</div>
-  <ol class="ix-lista">{indice_filas}<li><a href="#fichas"><span class="ix-n">✂</span><b>Fichas privadas para recortar</b></a></li></ol>
+  <ol class="ix-lista">{indice_filas}<li><a href="#fichas"><span class="ix-n">EX</span><b>Fichas privadas para recortar</b></a></li></ol>
   <div class="staff"><b>STAFF</b> Aventura y sistema: Manu Romera · Arte: generado para esta partida a partir de diseños propios y cosplays · Rótulos: Bangers, Dela Gothic One y Zen Maru Gothic (OFL) · Versión {SYS["version"]} para Foundry VTT 13–14.
   <br><em>Partida fan, original y no oficial, ambientada en el universo de una serie de Akira Toriyama. Sin ánimo de lucro. Para 3–5 participantes y dirección; 120 minutos; comedia de enredo para mesa adulta.</em></div>
 </section>'''
@@ -193,7 +194,7 @@ for n, _ in SECCIONES:
         r = pg.search_for(f"FINCAP{n:02d}")
         if not r: continue
         siguiente = [m for m, _ in SECCIONES if m > n]
-        mismo = siguiente and pg.search_for(f"EPISODIO {siguiente[0]}")
+        mismo = siguiente and pg.search_for(f"EPISODIO {EP[siguiente[0]]}")
         libre = (pg.rect.height - 17 * MM - r[0].y1) / MM
         if not mismo and libre > 45: rellenos[n] = round(libre - 9)
         break
@@ -204,12 +205,17 @@ print("rellenos:", rellenos)
 pags = {}
 for n, _ in SECCIONES:
     for i in range(2, len(d)):
-        if d[i].search_for(f"EPISODIO {n}") or d[i].search_for(f"EPISODIO  {n}"):
+        if d[i].search_for(f"EPISODIO {EP[n]}"):
             pags[n] = i + 1; break
 idx = d[1]
 for n, p in pags.items():
     for r in idx.search_for(cap[n]["titulo"][:28]):
         idx.insert_text((r.x0 + 330 if r.x0 < 300 else r.x1 + 6, r.y1 - 1), f"p. {p}", fontsize=10, fontname="helv", color=(0.89, 0.09, 0.18))
+        break
+for i in range(2, len(d)):
+    if "EXTRA" in d[i].get_text() and "Fichas privadas para recortar" in d[i].get_text():  # sensible a mayúsculas: «extra» aparece en el texto
+        for r in idx.search_for("Fichas privadas para recortar"):
+            idx.insert_text((r.x0 + 330, r.y1 - 1), f"p. {i + 1}", fontsize=10, fontname="helv", color=(0.89, 0.09, 0.18)); break
         break
 d.save(PDF, garbage=1, deflate=True)  # garbage≥3 o rewrite_images rompen los subconjuntos de fuentes de Chrome
 print(f"{PDF}: {len(d)} páginas, {PDF.stat().st_size / 1e6:.1f} MB · índice {pags}")

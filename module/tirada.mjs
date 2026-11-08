@@ -2,9 +2,9 @@
  * ¡PAM! 2.0: 2d6, +1d6 por el talento estrella, +1d6 por cada PJ que colabora (y se arriesga a la complicación);
  * como mucho 4d6. Se suman los dos mejores. Solo se tira cuando hay incertidumbre interesante.
  */
-import { ID, ARTE, pjs } from "./mesa.mjs";
+import { ID, ARTE, pjs, estado } from "./mesa.mjs";
 import { DialogV2 } from "./compat.mjs";
-import { reserva, resultado, dosMejores } from "./reglas.mjs";
+import { reserva, resultado, dosMejores, caosActivo, esDobles } from "./reglas.mjs";
 import { publicar } from "./chat.mjs";
 
 const esc = s => foundry.utils.escapeHTML(String(s ?? ""));
@@ -20,13 +20,14 @@ export async function dialogoTirada(actor) {
       <label class="mc-campo"><span>¿Qué intentas? <small>(opcional)</small></span><input type="text" name="accion" placeholder="Frenar la moto antes del puerto…" autofocus></label>
       <label class="mc-casilla mc-casilla-grande"><input type="checkbox" name="talento"><span><b>Mi talento estrella ayuda</b> <small>+1 dado · ${esc(actor.system.talento || "sin definir")}</small></span></label>
       ${otros.length ? `<fieldset class="mc-ayudas"><legend>Colabora y se arriesga a la complicación <small>+1 dado cada uno</small></legend>${ayudas}</fieldset>` : ""}
+      <label class="mc-casilla"><input type="checkbox" name="caos"><span><b>En pleno caos absurdo</b> <small>La casa vuela, la moto no para… (con Desbarajuste 4+ ya cuenta solo)</small></span></label>
       <p class="mc-nota">2d6 de base, máximo 4d6. Se suman los <b>dos mejores</b>. 2–5 fiasco útil · 6–8 éxito aparatoso · 9–11 éxito brillante · 12 éxito descomunal.</p>
     </div>`,
     ok: {
       label: "¡PAM!", icon: "fa-solid fa-hand-fist",
       callback: (ev, boton) => {
         const f = boton.form.elements;
-        return { accion: f.accion.value.trim(), talento: f.talento.checked, ayudas: [...boton.form.querySelectorAll("input[name=ayuda]:checked")].map(i => i.value) };
+        return { accion: f.accion.value.trim(), talento: f.talento.checked, caos: f.caos.checked, ayudas: [...boton.form.querySelectorAll("input[name=ayuda]:checked")].map(i => i.value) };
       }
     },
     rejectClose: false
@@ -34,13 +35,14 @@ export async function dialogoTirada(actor) {
   if (datos) return tirar(actor, datos);
 }
 
-export async function tirar(actor, { accion = "", talento = false, ayudas = [] } = {}) {
+export async function tirar(actor, { accion = "", talento = false, ayudas = [], caos = false } = {}) {
   const n = reserva({ talento, ayudas: ayudas.length });
   const roll = await new Roll(`${n}d6kh2`).evaluate();
   const caras = roll.dice[0].results.map(r => r.result);
   const cuentan = new Set(dosMejores(caras));
   const suma = roll.total;
   const r = resultado(suma);
+  const dobles = esDobles([...cuentan].map(i => caras[i])) && caosActivo(estado().desbarajuste, caos);
   const nombresAyuda = ayudas.map(id => game.actors.get(id)?.name).filter(Boolean);
   const extras = [talento && "talento", nombresAyuda.length && `ayuda de ${nombresAyuda.join(" y ")}`].filter(Boolean).join(" + ");
   return publicar({
@@ -49,7 +51,7 @@ export async function tirar(actor, { accion = "", talento = false, ayudas = [] }
     dados: caras.map((valor, i) => ({ valor, cuenta: cuentan.has(i) })), suma,
     titulo: r.nombre,
     globo: accion ? esc(accion) : "",
-    texto: `<p>${r.texto}</p>`,
+    texto: `<p>${r.texto}</p>${dobles ? "<p><b>¡Dobles del caos!</b> Quien dirige añade un giro cómico extra, aunque sea un éxito.</p>" : ""}`,
     botones: r.clave === "fiasco" ? [{ etiqueta: "+1 Desbarajuste", icono: "fa-solid fa-burst", accion: "desbarajuste", clase: "mc-solo-gm" }] : undefined,
     pie: nombresAyuda.length ? `Quien ayuda comparte la complicación si la hay.` : "",
     fx: { texto: r.sfx, sonido: r.clave, tono: r.clave }

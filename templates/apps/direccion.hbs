@@ -29,7 +29,7 @@
           <button type="button" class="mc-boton mc-boton-suave" data-action="marcador" data-clave="desbarajuste" data-delta="1" aria-label="Subir">+</button>
         </div>
         <p>{{desbarajuste.texto}}</p>
-        <p class="mc-nota">Sube solo con un desastre realmente nuevo; baja uno si se dedica una escena a reparar. No decide el final.</p>
+        <p class="mc-nota">Sube solo con un desastre realmente nuevo; baja uno si se dedica una escena a reparar. A 6, si de noche no calman a ME-NT, se activa el Final C.</p>
       </div>
       <div class="mc-recuadro mc-medidor mc-noche">
         <h3>Ruido <small>{{ruido.valor}}/4 · rastreo nocturno</small></h3>
@@ -39,7 +39,7 @@
           <button type="button" class="mc-boton mc-boton-suave" data-action="marcador" data-clave="ruido" data-delta="1" aria-label="Subir">+</button>
         </div>
         <p>{{ruido.texto}}</p>
-        <p class="mc-nota">Cada mentira de PJ durante la búsqueda puede sumar una (máximo una por escena).</p>
+        <p class="mc-nota">Cada mentira de PJ durante la búsqueda suma una. A 4, pulso doble contra dos PJ.</p>
       </div>
     </div>
 
@@ -62,11 +62,11 @@
   </section>
 
   <section data-group="panel" data-tab="retos" class="tab mc-pestana {{#if (eq pestana "retos")}}active{{/if}} mc-retos">
-    <p class="mc-nota">Elige 6–8 en total. 1 frase falsa → «¡PIUUUM!» → imagen imposible → algo personal en peligro → «¿qué hacéis?» → resolución abierta → remate → guarda la secuela.</p>
+    <p class="mc-nota">Elige 6–8 en total. Los de gran escala (R13–R16) se desbloquean con Desbarajuste 3 o más. 1 frase falsa → «¡PIUUUM!» → imagen imposible → algo personal en peligro → «¿qué hacéis?» → resolución abierta → remate → guarda la secuela.</p>
     <div class="mc-chips">{{#each grupos}}<button type="button" class="mc-chip {{#if activo}}activo{{/if}}" data-action="filtro" data-clave="{{clave}}">{{nombre}}</button>{{/each}}</div>
     {{#each retos}}
     <details class="mc-reto {{estado}}" data-memoria="reto-{{id}}">
-      <summary><span class="mc-reto-cod">{{id}}</span> <b>{{titulo}}</b> <small>{{quien}} · {{cuando}}</small>{{#if estado}}<span class="mc-sello">{{estado}}</span>{{/if}}</summary>
+      <summary><span class="mc-reto-cod">{{id}}</span> <b>{{titulo}}</b> <small>{{quien}} · {{cuando}}</small>{{#if reservado}}<span class="mc-sello" data-tooltip="Se desbloquea con Desbarajuste 3 o más">Desbarajuste 3+</span>{{/if}}{{#if estado}}<span class="mc-sello">{{estado}}</span>{{/if}}</summary>
       <dl>
         <dt>Mentira</dt><dd>{{mentira}}</dd><dt>Urgencia</dt><dd>{{urgencia}}</dd><dt>Opciones</dt><dd>{{opciones}}</dd>
         <dt>Giro</dt><dd>{{giro}}</dd><dt>Secuela</dt><dd>{{secuela}}</dd>

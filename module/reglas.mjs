@@ -34,22 +34,26 @@ export function probabilidad(n, objetivo) {
 }
 
 export const DESBARAJUSTE = [
-  "Todo en calma. Efectos locales; ME-NT se burla y juega.",
-  "Efectos locales; ME-NT se burla y juega.",
-  "Se mezclan secuelas de retos previos: aparece una consecuencia recurrente.",
-  "Se mezclan secuelas de retos previos: aparece una consecuencia recurrente.",
+  "Todo en calma: efectos locales; ME-NT se burla y juega.",
+  "Efectos locales; retos personales y públicos. ME-NT se burla y juega.",
+  "Efectos locales; retos personales y públicos. ME-NT se burla y juega.",
+  "Se mezclan secuelas de retos previos y se desbloquean los retos de gran escala (R13–R16).",
+  "Se mezclan secuelas de retos previos y se desbloquean los retos de gran escala (R13–R16).",
   "La antena pierde precisión: un nuevo pulso amenaza viviendas, calles o seres queridos.",
-  "La antena pierde precisión: un nuevo pulso amenaza viviendas, calles o seres queridos.",
-  "¡Sobrecarga! La máquina busca un lugar donde parar y alguien a quien retar. Se prepara el clímax."
+  "¡Sobrecarga! Si al caer la noche no logran calmar o reparar a ME-NT, se activa el Final C."
 ];
 
 export const RUIDO = [
-  "Silencio: se puede encontrar a ME-NT igualmente.",
+  "Silencio: se puede encontrar a ME-NT igualmente (sin pulso doble).",
   "La antena se orienta hacia vosotros.",
   "¡Aparece un pulso!",
   "ME-NT cambia de refugio.",
-  "ME-NT deja de huir y provoca la confrontación: empieza el juicio."
+  "¡Pulso doble! ME-NT deja de huir y lanza un pulso contra dos PJ a la vez; después, el juicio."
 ];
+
+/** Dobles del caos: con Desbarajuste 4+ (o caos absurdo marcado) y los dos dados que cuentan iguales, giro cómico extra. */
+export const caosActivo = (desbarajuste, manual = false) => Boolean(manual) || desbarajuste >= 4;
+export const esDobles = dosDados => dosDados.length === 2 && dosDados[0] === dosDados[1];
 
 export const acota = (v, min, max) => Math.min(max, Math.max(min, Math.round(Number(v) || 0)));
 
