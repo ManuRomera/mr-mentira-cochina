@@ -1,0 +1,3433 @@
+[
+ {
+  "_id": "5cf4fc3d97a7505c",
+  "name": "¡Mentira Cochina!",
+  "img": "systems/mr-mentira-cochina/assets/marca/portada.webp",
+  "caption": "Un día en Villa Pingüino en el que todas las mentiras se vuelven verdad.",
+  "description": "<p>durante un solo día, los vecinos de Villa Pingüino descubrirán que mentir tiene ventajas espectaculares y consecuencias catastróficas. Al caer la noche perseguirán una caja amarilla con voluntad propia, ME-NT [1R], sin sospechar que lo que necesita no es que la derroten, sino escuchar una verdad dicha sin esperar recompensa.</p><p>Incluye 16 escenas (cuatro cortinillas con el Sol, la Luna y Porco), los cinco personajes jugadores con su ficha privada, vecinos y cameos, y el diario de dirección completo.</p>",
+  "actors": [
+   {
+    "_id": "a224997095b2dfa1",
+    "name": "Pipa Pistón",
+    "type": "pj",
+    "img": "systems/mr-mentira-cochina/assets/retratos/pj-pipa.webp",
+    "folder": "edcbd7f5e689de95",
+    "sort": 0,
+    "system": {
+     "titulo": "Repartidora meteórica",
+     "talento": "velocidad, mensajería, persecuciones, conducción absurda.",
+     "defecto": "presume de controlar todo y no sabe cuándo frenar.",
+     "objetivo": "entregar un paquete importante sin quedar como una inútil.",
+     "vinculo": "Kame espera que le traiga una pieza para su pequeño artilugio; Bruno le ha impuesto una multa que considera injusta.",
+     "frase": "¡LO TENGO CONTROLAAAAADO!",
+     "presentacion": "el jefe llama; el paquete no está donde debería. ¿Qué improvisas?",
+     "mentira": "Nunca me da miedo conducir",
+     "verdad": "sufrió una caída ridícula, ahora teme perder el control de su moto y acelera demasiado para que nadie lo note.",
+     "confesion": "«Estoy asustada; ¿me ayudáis a detenerla?».",
+     "reto": "moto que no para, mochila con un paquete que una mentira ha vuelto imprescindible, o alguien querido atrapado en un vehículo fuera de control.",
+     "defraudar": "",
+     "jamas": "",
+     "yaLoSabia": false,
+     "notas": ""
+    },
+    "prototypeToken": {
+     "name": "Pipa Pistón",
+     "texture": {
+      "src": "systems/mr-mentira-cochina/assets/personajes/pj-pipa.webp",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+     },
+     "width": 1.2,
+     "height": 1.8,
+     "lockRotation": true,
+     "displayName": 30,
+     "disposition": 1,
+     "actorLink": true,
+     "ring": {
+      "enabled": false
+     },
+     "sight": {
+      "enabled": false
+     }
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {
+     "mr-mentira-cochina": {
+      "retrato": {
+       "x": 0.5,
+       "y": 0.4,
+       "z": 1.15
+      }
+     }
+    }
+   },
+   {
+    "_id": "ae9f5c9d1f15582a",
+    "name": "Bruno Boniato",
+    "type": "pj",
+    "img": "systems/mr-mentira-cochina/assets/retratos/pj-bruno.webp",
+    "folder": "edcbd7f5e689de95",
+    "sort": 1,
+    "system": {
+     "titulo": "Auxiliar municipal de autoridad excesiva",
+     "talento": "permisos, reglamentos, registros, órdenes y negociar con uniformados.",
+     "defecto": "antes firma cien formularios que aceptar un error.",
+     "objetivo": "impedir que una revisión documental ponga en peligro su empleo.",
+     "vinculo": "ha amenazado con multar a Pipa; Bibi le arregló una destructora que ahora encuaderna expedientes.",
+     "frase": "¡Esto es legal! ¡Lo dice alguna ordenanza, seguro!",
+     "presentacion": "le exigen el nombramiento original que nunca ha mostrado. ¿Cómo esquiva la llamada?",
+     "mentira": "Conseguí este puesto por méritos propios",
+     "verdad": "su nombramiento se produjo por un error administrativo que reconoció y ocultó durante años.",
+     "confesion": "«Me dio miedo perder todo lo que había construido».",
+     "reto": "su casa es reclasificada como zoológico o el registro municipal altera la identidad legal de todos sus compañeros.",
+     "defraudar": "",
+     "jamas": "",
+     "yaLoSabia": false,
+     "notas": ""
+    },
+    "prototypeToken": {
+     "name": "Bruno Boniato",
+     "texture": {
+      "src": "systems/mr-mentira-cochina/assets/personajes/pj-bruno.webp",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+     },
+     "width": 1.2,
+     "height": 1.8,
+     "lockRotation": true,
+     "displayName": 30,
+     "disposition": 1,
+     "actorLink": true,
+     "ring": {
+      "enabled": false
+     },
+     "sight": {
+      "enabled": false
+     }
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {
+     "mr-mentira-cochina": {
+      "retrato": {
+       "x": 0.5,
+       "y": 0.4,
+       "z": 1.15
+      }
+     }
+    }
+   },
+   {
+    "_id": "d0c6c0cf85396bfb",
+    "name": "Bibi Burbujas",
+    "type": "pj",
+    "img": "systems/mr-mentira-cochina/assets/retratos/pj-bibi.webp",
+    "folder": "edcbd7f5e689de95",
+    "sort": 2,
+    "system": {
+     "titulo": "Mecánica autodidacta y científica involuntaria",
+     "talento": "comprender circuitos, improvisar aparatos, reparar robots, inventos imposibles.",
+     "defecto": "no pide ayuda y pulsa botones que nadie le ha pedido tocar.",
+     "objetivo": "demostrar que puede solucionar la avería sin acudir a Senbei.",
+     "vinculo": "le prometió a Lulu reparar una cámara; Kame le presta piezas que supuestamente fabrica él.",
+     "frase": "¡Técnicamente no ha explotado! ¡Se está comunicando!",
+     "presentacion": "un cliente viene a buscar un invento que no funciona. ¿Qué le dices?",
+     "mentira": "No necesito ayuda de nadie",
+     "verdad": "saboteó su propio primer gran invento por miedo a que descubrieran que no entendía por qué funcionaba.",
+     "confesion": "«Me supera; necesito que me ayudéis».",
+     "reto": "un aparato ultraseguro empieza a expulsar cuanto lo rodea; su taller y sus herramientas cobran vida.",
+     "defraudar": "",
+     "jamas": "",
+     "yaLoSabia": false,
+     "notas": ""
+    },
+    "prototypeToken": {
+     "name": "Bibi Burbujas",
+     "texture": {
+      "src": "systems/mr-mentira-cochina/assets/personajes/pj-bibi.webp",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+     },
+     "width": 1.2,
+     "height": 1.8,
+     "lockRotation": true,
+     "displayName": 30,
+     "disposition": 1,
+     "actorLink": true,
+     "ring": {
+      "enabled": false
+     },
+     "sight": {
+      "enabled": false
+     }
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {
+     "mr-mentira-cochina": {
+      "retrato": {
+       "x": 0.5,
+       "y": 0.4,
+       "z": 1.15
+      }
+     }
+    }
+   },
+   {
+    "_id": "bc064fdb677308d1",
+    "name": "Taro Kame",
+    "type": "pj",
+    "img": "systems/mr-mentira-cochina/assets/retratos/pj-kame.webp",
+    "folder": "edcbd7f5e689de95",
+    "sort": 3,
+    "system": {
+     "titulo": "Niño ingenioso de imaginación inagotable",
+     "talento": "cachivaches, soluciones ingeniosas, colarse en sitios pequeños, recordar rumores del pueblo.",
+     "defecto": "convierte cualquier anécdota ordinaria en una historia imposible.",
+     "objetivo": "que el grupo reconozca que tiene algo valioso que aportar sin necesitar ser extraordinario.",
+     "vinculo": "encarga piezas a Pipa y ayuda en el taller de Bibi.",
+     "frase": "¡Eso ya lo sabía yo!",
+     "presentacion": "tu familia encuentra una carta de tu supuesto amigo espacial. ¿Qué historia cuentas?",
+     "mentira": "Tengo amigos importantísimos en otros planetas",
+     "verdad": "él escribió las cartas de su amigo extraterrestre porque le avergonzaba sentirse poco interesante y solo.",
+     "confesion": "«Me las inventé porque quería que me invitarais a jugar».",
+     "reto": "un enorme extraterrestre se presenta como su mejor amigo con dieciocho maletas y una mascota que come paredes. La comedia con Kame es fantástica y social, **no de contenido sexual**.",
+     "defraudar": "",
+     "jamas": "",
+     "yaLoSabia": false,
+     "notas": ""
+    },
+    "prototypeToken": {
+     "name": "Taro Kame",
+     "texture": {
+      "src": "systems/mr-mentira-cochina/assets/personajes/pj-kame.webp",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+     },
+     "width": 1.2,
+     "height": 1.8,
+     "lockRotation": true,
+     "displayName": 30,
+     "disposition": 1,
+     "actorLink": true,
+     "ring": {
+      "enabled": false
+     },
+     "sight": {
+      "enabled": false
+     }
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {
+     "mr-mentira-cochina": {
+      "retrato": {
+       "x": 0.5,
+       "y": 0.4,
+       "z": 1.15
+      }
+     }
+    }
+   },
+   {
+    "_id": "a950b4c4cf6d8a28",
+    "name": "Lulú Flash",
+    "type": "pj",
+    "img": "systems/mr-mentira-cochina/assets/retratos/pj-lulu.webp",
+    "folder": "edcbd7f5e689de95",
+    "sort": 4,
+    "system": {
+     "titulo": "Fotógrafa y reportera local",
+     "talento": "fotografía, escuchar conversaciones, conseguir contactos, hacer que otros posen o hablen.",
+     "defecto": "prefiere una exclusiva escandalosa a una explicación sencilla.",
+     "objetivo": "fotografiar el misterio del día y demostrar su valía como periodista independiente.",
+     "vinculo": "conoce el secreto del archivo de Bruno, pero aún no sabe si publicarlo; Bibi le debe la reparación de su cámara.",
+     "frase": "¡No es cotilleo, es documentación gráfica!",
+     "presentacion": "afirmas que una fotografía tuya será portada del periódico. ¿Qué ocurrió realmente con esa foto?",
+     "mentira": "Nunca he manipulado una fotografía",
+     "verdad": "su exclusiva más famosa fue un montaje inocente que se le fue de las manos y perjudicó a una persona buena; temió reconocerlo.",
+     "confesion": "«Quería ser importante y publiqué algo que sabía que no era verdad».",
+     "reto": "aparecen las versiones contradictorias de su propia famosa fotografía, y alguien afectado exige que aclare cuál es real.",
+     "defraudar": "",
+     "jamas": "",
+     "yaLoSabia": false,
+     "notas": ""
+    },
+    "prototypeToken": {
+     "name": "Lulú Flash",
+     "texture": {
+      "src": "systems/mr-mentira-cochina/assets/personajes/pj-lulu.webp",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+     },
+     "width": 1.2,
+     "height": 1.8,
+     "lockRotation": true,
+     "displayName": 30,
+     "disposition": 1,
+     "actorLink": true,
+     "ring": {
+      "enabled": false
+     },
+     "sight": {
+      "enabled": false
+     }
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {
+     "mr-mentira-cochina": {
+      "retrato": {
+       "x": 0.5,
+       "y": 0.4,
+       "z": 1.15
+      }
+     }
+    }
+   },
+   {
+    "_id": "8ef43f2bfffc1df5",
+    "name": "ME-NT [1R]",
+    "type": "pnj",
+    "img": "systems/mr-mentira-cochina/assets/retratos/ment.webp",
+    "folder": "c498733b16151c90",
+    "sort": 0,
+    "system": {
+     "papel": "Materializador Electromagnético de Narraciones Tramposas",
+     "frase": "¡Yo no invento las mentiras, listillo! ¡Las inventáis vosotros!",
+     "descripcion": "Caja amarilla con parabólica, abanicos y zapatones. Ingeniosa, petulante y burlona con quien se engaña a sí mismo; se paraliza cuando alguien acepta una verdad dolorosa. Quiere que la traten como alguien que puede elegir. Voz metálica y nasal; ríe «¡JE-JE-JE-JE!». Jamás se ríe del dolor grave.",
+     "notas": ""
+    },
+    "prototypeToken": {
+     "name": "ME-NT [1R]",
+     "texture": {
+      "src": "systems/mr-mentira-cochina/assets/personajes/ment.webp",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+     },
+     "width": 1.2,
+     "height": 1.4,
+     "lockRotation": true,
+     "displayName": 30,
+     "disposition": 0,
+     "actorLink": true,
+     "ring": {
+      "enabled": false
+     },
+     "sight": {
+      "enabled": false
+     }
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {}
+   },
+   {
+    "_id": "e678796444d95d6d",
+    "name": "Porco",
+    "type": "pnj",
+    "img": "systems/mr-mentira-cochina/assets/retratos/porco.webp",
+    "folder": "c498733b16151c90",
+    "sort": 1,
+    "system": {
+     "papel": "Cerdito narrador en el árbol",
+     "frase": "¡OIIIIINK! ¡BUENOS DÍAS, VILLA PINGÜINOOOO!",
+     "descripcion": "Presenta cada cortinilla desde su rama con la cámara y el flash.",
+     "notas": ""
+    },
+    "prototypeToken": {
+     "name": "Porco",
+     "texture": {
+      "src": "systems/mr-mentira-cochina/assets/personajes/porco-manana.webp",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+     },
+     "width": 1.2,
+     "height": 1.8,
+     "lockRotation": true,
+     "displayName": 30,
+     "disposition": 0,
+     "actorLink": true,
+     "ring": {
+      "enabled": false
+     },
+     "sight": {
+      "enabled": false
+     }
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {}
+   },
+   {
+    "_id": "cb4ca9ce19ff100e",
+    "name": "Presidenta Frambuesa",
+    "type": "pnj",
+    "img": "systems/mr-mentira-cochina/assets/personajes/pnj-frambuesa-cara.webp",
+    "folder": "c498733b16151c90",
+    "sort": 2,
+    "system": {
+     "papel": "Presidenta de la asociación vecinal",
+     "frase": "",
+     "descripcion": "Anciana bajita de pelo rosa y gafas turquesa con un libro rojo atado con lazo. Recuerda que el prototipo se probaba al anochecer, «cuando por fin no había mil bocazas dando su opinión».",
+     "notas": ""
+    },
+    "prototypeToken": {
+     "name": "Presidenta Frambuesa",
+     "texture": {
+      "src": "systems/mr-mentira-cochina/assets/personajes/pnj-frambuesa.webp",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+     },
+     "width": 1.2,
+     "height": 1.8,
+     "lockRotation": true,
+     "displayName": 30,
+     "disposition": 0,
+     "actorLink": false,
+     "ring": {
+      "enabled": false
+     },
+     "sight": {
+      "enabled": false
+     }
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {}
+   },
+   {
+    "_id": "f12c76c24c87c288",
+    "name": "Doña Cafelina",
+    "type": "pnj",
+    "img": "systems/mr-mentira-cochina/assets/personajes/pnj-cafelina-cara.webp",
+    "folder": "c498733b16151c90",
+    "sort": 3,
+    "system": {
+     "papel": "Dueña de la cafetería",
+     "frase": "",
+     "descripcion": "Moño plateado altísimo, delantal de cuadros y una sonrisa que esconde una furia formidable. Cobra consumición hasta a los camiones de bomberos.",
+     "notas": ""
+    },
+    "prototypeToken": {
+     "name": "Doña Cafelina",
+     "texture": {
+      "src": "systems/mr-mentira-cochina/assets/personajes/pnj-cafelina.webp",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+     },
+     "width": 1.2,
+     "height": 1.8,
+     "lockRotation": true,
+     "displayName": 30,
+     "disposition": 0,
+     "actorLink": false,
+     "ring": {
+      "enabled": false
+     },
+     "sight": {
+      "enabled": false
+     }
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {}
+   },
+   {
+    "_id": "6b36756a83130e79",
+    "name": "Goro",
+    "type": "pnj",
+    "img": "systems/mr-mentira-cochina/assets/personajes/pnj-goro-cara.webp",
+    "folder": "c498733b16151c90",
+    "sort": 4,
+    "system": {
+     "papel": "Repartidor canino",
+     "frase": "",
+     "descripcion": "Perro repartidor, serio y demasiado literal.",
+     "notas": ""
+    },
+    "prototypeToken": {
+     "name": "Goro",
+     "texture": {
+      "src": "systems/mr-mentira-cochina/assets/personajes/pnj-goro.webp",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+     },
+     "width": 1.2,
+     "height": 1.8,
+     "lockRotation": true,
+     "displayName": 30,
+     "disposition": 0,
+     "actorLink": false,
+     "ring": {
+      "enabled": false
+     },
+     "sight": {
+      "enabled": false
+     }
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {}
+   },
+   {
+    "_id": "67e2ec3232535318",
+    "name": "La vecina dragona",
+    "type": "pnj",
+    "img": "systems/mr-mentira-cochina/assets/personajes/pnj-dragona-cara.webp",
+    "folder": "c498733b16151c90",
+    "sort": 5,
+    "system": {
+     "papel": "Suegra con bata (R06)",
+     "frase": "",
+     "descripcion": "Una dragona con rulos y bolso que solo quiere hablar con su hija y que el yerno la visite.",
+     "notas": ""
+    },
+    "prototypeToken": {
+     "name": "La vecina dragona",
+     "texture": {
+      "src": "systems/mr-mentira-cochina/assets/personajes/pnj-dragona.webp",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+     },
+     "width": 1.6,
+     "height": 1.8,
+     "lockRotation": true,
+     "displayName": 30,
+     "disposition": 0,
+     "actorLink": false,
+     "ring": {
+      "enabled": false
+     },
+     "sight": {
+      "enabled": false
+     }
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {}
+   },
+   {
+    "_id": "032ac04bc41c610d",
+    "name": "El alcalde porcino",
+    "type": "pnj",
+    "img": "systems/mr-mentira-cochina/assets/personajes/pnj-alcalde-cara.webp",
+    "folder": "c498733b16151c90",
+    "sort": 6,
+    "system": {
+     "papel": "Efecto del reto R10",
+     "frase": "",
+     "descripcion": "Alcalde con hocico y pezuñas que debe firmar un permiso y no puede sujetar el bolígrafo. Por primera vez es popular.",
+     "notas": ""
+    },
+    "prototypeToken": {
+     "name": "El alcalde porcino",
+     "texture": {
+      "src": "systems/mr-mentira-cochina/assets/personajes/pnj-alcalde.webp",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+     },
+     "width": 1.2,
+     "height": 1.8,
+     "lockRotation": true,
+     "displayName": 30,
+     "disposition": 0,
+     "actorLink": false,
+     "ring": {
+      "enabled": false
+     },
+     "sight": {
+      "enabled": false
+     }
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {}
+   },
+   {
+    "_id": "2c07de4d3008954e",
+    "name": "Señor Tanaka",
+    "type": "pnj",
+    "img": "systems/mr-mentira-cochina/assets/personajes/pnj-tanaka-cara.webp",
+    "folder": "c498733b16151c90",
+    "sort": 7,
+    "system": {
+     "papel": "Vecino de excusas perpetuas",
+     "frase": "",
+     "descripcion": "Tendero de cortinilla imposible, siempre inventando una excusa con dos recibos en la mano.",
+     "notas": ""
+    },
+    "prototypeToken": {
+     "name": "Señor Tanaka",
+     "texture": {
+      "src": "systems/mr-mentira-cochina/assets/personajes/pnj-tanaka.webp",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+     },
+     "width": 1.2,
+     "height": 1.8,
+     "lockRotation": true,
+     "displayName": 30,
+     "disposition": 0,
+     "actorLink": false,
+     "ring": {
+      "enabled": false
+     },
+     "sight": {
+      "enabled": false
+     }
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {}
+   },
+   {
+    "_id": "bf4391b5c8f475c6",
+    "name": "El amigo espacial de Kame",
+    "type": "pnj",
+    "img": "systems/mr-mentira-cochina/assets/personajes/pnj-alien-cara.webp",
+    "folder": "c498733b16151c90",
+    "sort": 8,
+    "system": {
+     "papel": "Visitante imposible (R04)",
+     "frase": "",
+     "descripcion": "Dos metros y medio de amabilidad lavanda con tres ojos, dieciocho maletas, una trompeta cuántica y una mascota que come paredes.",
+     "notas": ""
+    },
+    "prototypeToken": {
+     "name": "El amigo espacial de Kame",
+     "texture": {
+      "src": "systems/mr-mentira-cochina/assets/personajes/pnj-alien.webp",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+     },
+     "width": 1.2,
+     "height": 1.8,
+     "lockRotation": true,
+     "displayName": 30,
+     "disposition": 0,
+     "actorLink": false,
+     "ring": {
+      "enabled": false
+     },
+     "sight": {
+      "enabled": false
+     }
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {}
+   },
+   {
+    "_id": "a91ba86a387ee028",
+    "name": "Ramona Ráting",
+    "type": "pnj",
+    "img": "systems/mr-mentira-cochina/assets/personajes/pnj-ramona-cara.webp",
+    "folder": "c498733b16151c90",
+    "sort": 9,
+    "system": {
+     "papel": "Agente comercial sin escrúpulos",
+     "frase": "",
+     "descripcion": "PNJ opcional: productora televisiva que quiere comprar ME-NT para un concurso.",
+     "notas": ""
+    },
+    "prototypeToken": {
+     "name": "Ramona Ráting",
+     "texture": {
+      "src": "systems/mr-mentira-cochina/assets/personajes/pnj-ramona.webp",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+     },
+     "width": 1.2,
+     "height": 1.8,
+     "lockRotation": true,
+     "displayName": 30,
+     "disposition": 0,
+     "actorLink": false,
+     "ring": {
+      "enabled": false
+     },
+     "sight": {
+      "enabled": false
+     }
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {}
+   },
+   {
+    "_id": "13cc30c0648f5a12",
+    "name": "Agente alto",
+    "type": "pnj",
+    "img": "systems/mr-mentira-cochina/assets/personajes/pnj-policia-a-cara.webp",
+    "folder": "c498733b16151c90",
+    "sort": 10,
+    "system": {
+     "papel": "Pareja de policías",
+     "frase": "",
+     "descripcion": "Cameo: uniforme caqui y gorra de plato; tareas absurdas propias.",
+     "notas": ""
+    },
+    "prototypeToken": {
+     "name": "Agente alto",
+     "texture": {
+      "src": "systems/mr-mentira-cochina/assets/personajes/pnj-policia-a.webp",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+     },
+     "width": 1.2,
+     "height": 1.8,
+     "lockRotation": true,
+     "displayName": 30,
+     "disposition": 0,
+     "actorLink": false,
+     "ring": {
+      "enabled": false
+     },
+     "sight": {
+      "enabled": false
+     }
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {}
+   },
+   {
+    "_id": "859981e3f0d58eb3",
+    "name": "Agente bajito",
+    "type": "pnj",
+    "img": "systems/mr-mentira-cochina/assets/personajes/pnj-policia-b-cara.webp",
+    "folder": "c498733b16151c90",
+    "sort": 11,
+    "system": {
+     "papel": "Pareja de policías",
+     "frase": "",
+     "descripcion": "Cameo: bigotazo y manos en la cintura.",
+     "notas": ""
+    },
+    "prototypeToken": {
+     "name": "Agente bajito",
+     "texture": {
+      "src": "systems/mr-mentira-cochina/assets/personajes/pnj-policia-b.webp",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+     },
+     "width": 1.2,
+     "height": 1.8,
+     "lockRotation": true,
+     "displayName": 30,
+     "disposition": 0,
+     "actorLink": false,
+     "ring": {
+      "enabled": false
+     },
+     "sight": {
+      "enabled": false
+     }
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {}
+   },
+   {
+    "_id": "28a3df935209f27e",
+    "name": "Heladero jubilado",
+    "type": "pnj",
+    "img": "systems/mr-mentira-cochina/assets/personajes/pnj-anciano-cara.webp",
+    "folder": "c498733b16151c90",
+    "sort": 12,
+    "system": {
+     "papel": "Cameo",
+     "frase": "",
+     "descripcion": "Anciano de gafas redondas oscuras que siempre está comiendo algo.",
+     "notas": ""
+    },
+    "prototypeToken": {
+     "name": "Heladero jubilado",
+     "texture": {
+      "src": "systems/mr-mentira-cochina/assets/personajes/pnj-anciano.webp",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+     },
+     "width": 1.2,
+     "height": 1.8,
+     "lockRotation": true,
+     "displayName": 30,
+     "disposition": 0,
+     "actorLink": false,
+     "ring": {
+      "enabled": false
+     },
+     "sight": {
+      "enabled": false
+     }
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {}
+   },
+   {
+    "_id": "261aa1d0fb100132",
+    "name": "Bombero canino",
+    "type": "pnj",
+    "img": "systems/mr-mentira-cochina/assets/personajes/pnj-bombero-cara.webp",
+    "folder": "c498733b16151c90",
+    "sort": 13,
+    "system": {
+     "papel": "Reto R14",
+     "frase": "",
+     "descripcion": "El bombero con más experiencia: no deja de perseguir la manguera.",
+     "notas": ""
+    },
+    "prototypeToken": {
+     "name": "Bombero canino",
+     "texture": {
+      "src": "systems/mr-mentira-cochina/assets/personajes/pnj-bombero.webp",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+     },
+     "width": 1.2,
+     "height": 1.8,
+     "lockRotation": true,
+     "displayName": 30,
+     "disposition": 0,
+     "actorLink": false,
+     "ring": {
+      "enabled": false
+     },
+     "sight": {
+      "enabled": false
+     }
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {}
+   },
+   {
+    "_id": "578e2a56b0f54760",
+    "name": "Pingüino delegado",
+    "type": "pnj",
+    "img": "systems/mr-mentira-cochina/assets/personajes/pnj-pinguino-cara.webp",
+    "folder": "c498733b16151c90",
+    "sort": 14,
+    "system": {
+     "papel": "Reto R02",
+     "frase": "",
+     "descripcion": "Se presenta como director del zoo y reclama horas extras.",
+     "notas": ""
+    },
+    "prototypeToken": {
+     "name": "Pingüino delegado",
+     "texture": {
+      "src": "systems/mr-mentira-cochina/assets/personajes/pnj-pinguino.webp",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+     },
+     "width": 1.2,
+     "height": 1.8,
+     "lockRotation": true,
+     "displayName": 30,
+     "disposition": 0,
+     "actorLink": false,
+     "ring": {
+      "enabled": false
+     },
+     "sight": {
+      "enabled": false
+     }
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {}
+   },
+   {
+    "_id": "20dd42ccc247a1d8",
+    "name": "Los heladeros",
+    "type": "pnj",
+    "img": "systems/mr-mentira-cochina/assets/personajes/pnj-heladeros-cara.webp",
+    "folder": "c498733b16151c90",
+    "sort": 15,
+    "system": {
+     "papel": "Subtrama de Suppaman",
+     "frase": "",
+     "descripcion": "Dos vendedores de helados confundidos con atracadores internacionales.",
+     "notas": ""
+    },
+    "prototypeToken": {
+     "name": "Los heladeros",
+     "texture": {
+      "src": "systems/mr-mentira-cochina/assets/personajes/pnj-heladeros.webp",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+     },
+     "width": 1.6,
+     "height": 1.8,
+     "lockRotation": true,
+     "displayName": 30,
+     "disposition": 0,
+     "actorLink": false,
+     "ring": {
+      "enabled": false
+     },
+     "sight": {
+      "enabled": false
+     }
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {}
+   },
+   {
+    "_id": "336b8d84c3daaa17",
+    "name": "Senbei",
+    "type": "pnj",
+    "img": "systems/mr-mentira-cochina/assets/personajes/canon-senbei-cara.webp",
+    "folder": "94cb72bb614f8947",
+    "sort": 16,
+    "system": {
+     "papel": "Inventor (cameo)",
+     "frase": "",
+     "descripcion": "Construyó ME-NT. Tiene su propia trama tontísima (el cinturón abdominal) y no viene a resolver la partida.",
+     "notas": ""
+    },
+    "prototypeToken": {
+     "name": "Senbei",
+     "texture": {
+      "src": "systems/mr-mentira-cochina/assets/personajes/canon-senbei.webp",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+     },
+     "width": 1.2,
+     "height": 1.8,
+     "lockRotation": true,
+     "displayName": 30,
+     "disposition": 0,
+     "actorLink": false,
+     "ring": {
+      "enabled": false
+     },
+     "sight": {
+      "enabled": false
+     }
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {}
+   },
+   {
+    "_id": "bca3a828cb77a5b3",
+    "name": "Midori",
+    "type": "pnj",
+    "img": "systems/mr-mentira-cochina/assets/personajes/canon-midori-cara.webp",
+    "folder": "94cb72bb614f8947",
+    "sort": 17,
+    "system": {
+     "papel": "Cameo",
+     "frase": "",
+     "descripcion": "Encuentra el manual: «USO MÁXIMO: 5 SEGUNDOS».",
+     "notas": ""
+    },
+    "prototypeToken": {
+     "name": "Midori",
+     "texture": {
+      "src": "systems/mr-mentira-cochina/assets/personajes/canon-midori.webp",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+     },
+     "width": 1.2,
+     "height": 1.8,
+     "lockRotation": true,
+     "displayName": 30,
+     "disposition": 0,
+     "actorLink": false,
+     "ring": {
+      "enabled": false
+     },
+     "sight": {
+      "enabled": false
+     }
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {}
+   },
+   {
+    "_id": "69b329991f3b2c13",
+    "name": "Arale",
+    "type": "pnj",
+    "img": "systems/mr-mentira-cochina/assets/personajes/canon-arale-cara.webp",
+    "folder": "94cb72bb614f8947",
+    "sort": 18,
+    "system": {
+     "papel": "Cameo",
+     "frase": "¡N'CHA!",
+     "descripcion": "Arrastra una correa unida a algo demasiado grande para verse. Si al final alza el planeta con un dedo, no hay pulso: no estaba mintiendo.",
+     "notas": ""
+    },
+    "prototypeToken": {
+     "name": "Arale",
+     "texture": {
+      "src": "systems/mr-mentira-cochina/assets/personajes/canon-arale.webp",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+     },
+     "width": 1.2,
+     "height": 1.8,
+     "lockRotation": true,
+     "displayName": 30,
+     "disposition": 0,
+     "actorLink": false,
+     "ring": {
+      "enabled": false
+     },
+     "sight": {
+      "enabled": false
+     }
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {}
+   },
+   {
+    "_id": "9adb25f82be4b273",
+    "name": "Gatchan",
+    "type": "pnj",
+    "img": "systems/mr-mentira-cochina/assets/personajes/canon-gatchan-cara.webp",
+    "folder": "94cb72bb614f8947",
+    "sort": 19,
+    "system": {
+     "papel": "Cameo",
+     "frase": "",
+     "descripcion": "Se comió ayer el mando de ME-NT, que crujió como una galleta. No vuelve a aparecer oportunamente.",
+     "notas": ""
+    },
+    "prototypeToken": {
+     "name": "Gatchan",
+     "texture": {
+      "src": "systems/mr-mentira-cochina/assets/personajes/canon-gatchan.webp",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+     },
+     "width": 1.2,
+     "height": 1.8,
+     "lockRotation": true,
+     "displayName": 30,
+     "disposition": 0,
+     "actorLink": false,
+     "ring": {
+      "enabled": false
+     },
+     "sight": {
+      "enabled": false
+     }
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {}
+   },
+   {
+    "_id": "0e9bc4e163dd88fa",
+    "name": "Suppaman",
+    "type": "pnj",
+    "img": "systems/mr-mentira-cochina/assets/personajes/canon-suppaman-cara.webp",
+    "folder": "94cb72bb614f8947",
+    "sort": 20,
+    "system": {
+     "papel": "Cameo",
+     "frase": "",
+     "descripcion": "Confunde a dos heladeros con atracadores internacionales y los persigue tumbado en su monopatín.",
+     "notas": ""
+    },
+    "prototypeToken": {
+     "name": "Suppaman",
+     "texture": {
+      "src": "systems/mr-mentira-cochina/assets/personajes/canon-suppaman.webp",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+     },
+     "width": 1.2,
+     "height": 1.8,
+     "lockRotation": true,
+     "displayName": 30,
+     "disposition": 0,
+     "actorLink": false,
+     "ring": {
+      "enabled": false
+     },
+     "sight": {
+      "enabled": false
+     }
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {}
+   },
+   {
+    "_id": "a9abe34377d52e7a",
+    "name": "Akane",
+    "type": "pnj",
+    "img": "systems/mr-mentira-cochina/assets/personajes/canon-akane-cara.webp",
+    "folder": "94cb72bb614f8947",
+    "sort": 21,
+    "system": {
+     "papel": "Cameo",
+     "frase": "",
+     "descripcion": "Cambia las flechas de una señal para mandarlas al mar: «arte contemporáneo».",
+     "notas": ""
+    },
+    "prototypeToken": {
+     "name": "Akane",
+     "texture": {
+      "src": "systems/mr-mentira-cochina/assets/personajes/canon-akane.webp",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+     },
+     "width": 1.2,
+     "height": 1.8,
+     "lockRotation": true,
+     "displayName": 30,
+     "disposition": 0,
+     "actorLink": false,
+     "ring": {
+      "enabled": false
+     },
+     "sight": {
+      "enabled": false
+     }
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {}
+   },
+   {
+    "_id": "2b8f81a70d562b8a",
+    "name": "Tarō Soramame",
+    "type": "pnj",
+    "img": "systems/mr-mentira-cochina/assets/personajes/canon-soramame-cara.webp",
+    "folder": "94cb72bb614f8947",
+    "sort": 22,
+    "system": {
+     "papel": "Cameo (no confundir con Kame)",
+     "frase": "",
+     "descripcion": "Cómplice de Akane en lo de las señales.",
+     "notas": ""
+    },
+    "prototypeToken": {
+     "name": "Tarō Soramame",
+     "texture": {
+      "src": "systems/mr-mentira-cochina/assets/personajes/canon-soramame.webp",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+     },
+     "width": 1.2,
+     "height": 1.8,
+     "lockRotation": true,
+     "displayName": 30,
+     "disposition": 0,
+     "actorLink": false,
+     "ring": {
+      "enabled": false
+     },
+     "sight": {
+      "enabled": false
+     }
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {}
+   },
+   {
+    "_id": "6a04986a71810fe6",
+    "name": "Peasuke",
+    "type": "pnj",
+    "img": "systems/mr-mentira-cochina/assets/personajes/canon-peasuke-cara.webp",
+    "folder": "94cb72bb614f8947",
+    "sort": 23,
+    "system": {
+     "papel": "Cameo",
+     "frase": "",
+     "descripcion": "Quiere demostrar que su casco lo protege de todo.",
+     "notas": ""
+    },
+    "prototypeToken": {
+     "name": "Peasuke",
+     "texture": {
+      "src": "systems/mr-mentira-cochina/assets/personajes/canon-peasuke.webp",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+     },
+     "width": 1.2,
+     "height": 1.8,
+     "lockRotation": true,
+     "displayName": 30,
+     "disposition": 0,
+     "actorLink": false,
+     "ring": {
+      "enabled": false
+     },
+     "sight": {
+      "enabled": false
+     }
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {}
+   },
+   {
+    "_id": "b6c489a0f0d8f3b3",
+    "name": "Criaturas verdes",
+    "type": "pnj",
+    "img": "systems/mr-mentira-cochina/assets/personajes/canon-criaturas-cara.webp",
+    "folder": "94cb72bb614f8947",
+    "sort": 24,
+    "system": {
+     "papel": "Cameo",
+     "frase": "",
+     "descripcion": "Pasean por la villa con sus propias tareas absurdas.",
+     "notas": ""
+    },
+    "prototypeToken": {
+     "name": "Criaturas verdes",
+     "texture": {
+      "src": "systems/mr-mentira-cochina/assets/personajes/canon-criaturas.webp",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+     },
+     "width": 1.6,
+     "height": 1.8,
+     "lockRotation": true,
+     "displayName": 30,
+     "disposition": 0,
+     "actorLink": false,
+     "ring": {
+      "enabled": false
+     },
+     "sight": {
+      "enabled": false
+     }
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {}
+   }
+  ],
+  "scenes": [
+   {
+    "_id": "849704a2e0d36878",
+    "name": "Cortinilla · ¡Buenos días!",
+    "folder": "5e8d4be98058c5f8",
+    "sort": 0,
+    "navigation": true,
+    "navOrder": 0,
+    "navName": "Cortinilla · ¡Buenos días!",
+    "background": {
+     "src": "systems/mr-mentira-cochina/assets/escenas/00-amanecer.webp"
+    },
+    "thumb": "systems/mr-mentira-cochina/assets/escenas/00-amanecer-thumb.webp",
+    "width": 1920,
+    "height": 1080,
+    "padding": 0,
+    "backgroundColor": "#f5eedb",
+    "grid": {
+     "type": 0,
+     "size": 100,
+     "distance": 1,
+     "units": "m"
+    },
+    "tokenVision": false,
+    "fog": {
+     "exploration": false
+    },
+    "environment": {
+     "globalLight": {
+      "enabled": true
+     }
+    },
+    "tiles": [
+     {
+      "_id": "b90c2ab2d60b8010",
+      "texture": {
+       "src": "systems/mr-mentira-cochina/assets/marca/mr-marca.webm",
+       "fit": "fill",
+       "scaleX": 1,
+       "scaleY": 1
+      },
+      "x": 1788,
+      "y": 968,
+      "width": 121,
+      "height": 101,
+      "elevation": 0,
+      "sort": 27,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": true,
+      "restrictions": {
+       "light": false,
+       "weather": false
+      },
+      "occlusion": {
+       "mode": 0,
+       "alpha": 0
+      },
+      "video": {
+       "loop": true,
+       "autoplay": true,
+       "volume": 0
+      },
+      "flags": {
+       "mr-mentira-cochina": {
+        "capa": "00-amanecer-marca"
+       }
+      }
+     },
+     {
+      "_id": "adfd14a6a1d27edf",
+      "texture": {
+       "src": "systems/mr-mentira-cochina/assets/personajes/sol-manana.webp",
+       "fit": "fill",
+       "scaleX": 1,
+       "scaleY": 1
+      },
+      "x": 930,
+      "y": 40,
+      "width": 337,
+      "height": 360,
+      "elevation": 0,
+      "sort": 32,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": true,
+      "restrictions": {
+       "light": false,
+       "weather": false
+      },
+      "occlusion": {
+       "mode": 0,
+       "alpha": 0
+      },
+      "video": {
+       "loop": true,
+       "autoplay": true,
+       "volume": 0
+      },
+      "flags": {
+       "mr-mentira-cochina": {
+        "capa": "00-amanecer-sol-manana"
+       }
+      }
+     },
+     {
+      "_id": "641a65994dc53dce",
+      "texture": {
+       "src": "systems/mr-mentira-cochina/assets/personajes/porco-manana.webp",
+       "fit": "fill",
+       "scaleX": 1,
+       "scaleY": 1
+      },
+      "x": 330,
+      "y": -10,
+      "width": 372,
+      "height": 380,
+      "elevation": 0,
+      "sort": 34,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": true,
+      "restrictions": {
+       "light": false,
+       "weather": false
+      },
+      "occlusion": {
+       "mode": 0,
+       "alpha": 0
+      },
+      "video": {
+       "loop": true,
+       "autoplay": true,
+       "volume": 0
+      },
+      "flags": {
+       "mr-mentira-cochina": {
+        "capa": "00-amanecer-porco-manana"
+       }
+      }
+     }
+    ],
+    "tokens": [],
+    "drawings": [],
+    "lights": [],
+    "notes": [],
+    "sounds": [],
+    "templates": [],
+    "walls": [],
+    "regions": [],
+    "initial": {
+     "x": 960,
+     "y": 540,
+     "scale": 0.5
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {
+     "mr-mentira-cochina": {
+      "escena": "00-amanecer"
+     }
+    }
+   },
+   {
+    "_id": "02ba49e0b7da0167",
+    "name": "Cortinilla · ¡A comer!",
+    "folder": "5e8d4be98058c5f8",
+    "sort": 100,
+    "navigation": false,
+    "navOrder": 1,
+    "navName": "Cortinilla · ¡A comer!",
+    "background": {
+     "src": "systems/mr-mentira-cochina/assets/escenas/01-mediodia.webp"
+    },
+    "thumb": "systems/mr-mentira-cochina/assets/escenas/01-mediodia-thumb.webp",
+    "width": 1920,
+    "height": 1080,
+    "padding": 0,
+    "backgroundColor": "#f5eedb",
+    "grid": {
+     "type": 0,
+     "size": 100,
+     "distance": 1,
+     "units": "m"
+    },
+    "tokenVision": false,
+    "fog": {
+     "exploration": false
+    },
+    "environment": {
+     "globalLight": {
+      "enabled": true
+     }
+    },
+    "tiles": [
+     {
+      "_id": "923d1c17cfce1230",
+      "texture": {
+       "src": "systems/mr-mentira-cochina/assets/marca/mr-marca.webm",
+       "fit": "fill",
+       "scaleX": 1,
+       "scaleY": 1
+      },
+      "x": 1788,
+      "y": 968,
+      "width": 121,
+      "height": 101,
+      "elevation": 0,
+      "sort": 27,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": true,
+      "restrictions": {
+       "light": false,
+       "weather": false
+      },
+      "occlusion": {
+       "mode": 0,
+       "alpha": 0
+      },
+      "video": {
+       "loop": true,
+       "autoplay": true,
+       "volume": 0
+      },
+      "flags": {
+       "mr-mentira-cochina": {
+        "capa": "01-mediodia-marca"
+       }
+      }
+     },
+     {
+      "_id": "53acab1b67706142",
+      "texture": {
+       "src": "systems/mr-mentira-cochina/assets/personajes/sol-mediodia.webp",
+       "fit": "fill",
+       "scaleX": 1,
+       "scaleY": 1
+      },
+      "x": 760,
+      "y": 30,
+      "width": 356,
+      "height": 360,
+      "elevation": 0,
+      "sort": 34,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": true,
+      "restrictions": {
+       "light": false,
+       "weather": false
+      },
+      "occlusion": {
+       "mode": 0,
+       "alpha": 0
+      },
+      "video": {
+       "loop": true,
+       "autoplay": true,
+       "volume": 0
+      },
+      "flags": {
+       "mr-mentira-cochina": {
+        "capa": "01-mediodia-sol-mediodia"
+       }
+      }
+     },
+     {
+      "_id": "dfbedbe81b5f1240",
+      "texture": {
+       "src": "systems/mr-mentira-cochina/assets/personajes/porco-mediodia.webp",
+       "fit": "fill",
+       "scaleX": 1,
+       "scaleY": 1
+      },
+      "x": 260,
+      "y": 10,
+      "width": 347,
+      "height": 360,
+      "elevation": 0,
+      "sort": 36,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": true,
+      "restrictions": {
+       "light": false,
+       "weather": false
+      },
+      "occlusion": {
+       "mode": 0,
+       "alpha": 0
+      },
+      "video": {
+       "loop": true,
+       "autoplay": true,
+       "volume": 0
+      },
+      "flags": {
+       "mr-mentira-cochina": {
+        "capa": "01-mediodia-porco-mediodia"
+       }
+      }
+     }
+    ],
+    "tokens": [],
+    "drawings": [],
+    "lights": [],
+    "notes": [],
+    "sounds": [],
+    "templates": [],
+    "walls": [],
+    "regions": [],
+    "initial": {
+     "x": 960,
+     "y": 540,
+     "scale": 0.5
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {
+     "mr-mentira-cochina": {
+      "escena": "01-mediodia"
+     }
+    }
+   },
+   {
+    "_id": "b2372335ce1707da",
+    "name": "Cortinilla · ¡Buenas noches!",
+    "folder": "5e8d4be98058c5f8",
+    "sort": 200,
+    "navigation": false,
+    "navOrder": 2,
+    "navName": "Cortinilla · ¡Buenas noches!",
+    "background": {
+     "src": "systems/mr-mentira-cochina/assets/escenas/02-noche.webp"
+    },
+    "thumb": "systems/mr-mentira-cochina/assets/escenas/02-noche-thumb.webp",
+    "width": 1920,
+    "height": 1080,
+    "padding": 0,
+    "backgroundColor": "#f5eedb",
+    "grid": {
+     "type": 0,
+     "size": 100,
+     "distance": 1,
+     "units": "m"
+    },
+    "tokenVision": false,
+    "fog": {
+     "exploration": false
+    },
+    "environment": {
+     "globalLight": {
+      "enabled": true
+     }
+    },
+    "tiles": [
+     {
+      "_id": "317f2610952d264e",
+      "texture": {
+       "src": "systems/mr-mentira-cochina/assets/marca/mr-marca.webm",
+       "fit": "fill",
+       "scaleX": 1,
+       "scaleY": 1
+      },
+      "x": 1788,
+      "y": 968,
+      "width": 121,
+      "height": 101,
+      "elevation": 0,
+      "sort": 24,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": true,
+      "restrictions": {
+       "light": false,
+       "weather": false
+      },
+      "occlusion": {
+       "mode": 0,
+       "alpha": 0
+      },
+      "video": {
+       "loop": true,
+       "autoplay": true,
+       "volume": 0
+      },
+      "flags": {
+       "mr-mentira-cochina": {
+        "capa": "02-noche-marca"
+       }
+      }
+     },
+     {
+      "_id": "74cd2664cc38fe13",
+      "texture": {
+       "src": "systems/mr-mentira-cochina/assets/personajes/luna.webp",
+       "fit": "fill",
+       "scaleX": 1,
+       "scaleY": 1
+      },
+      "x": 1230,
+      "y": 0,
+      "width": 219,
+      "height": 300,
+      "elevation": 0,
+      "sort": 23,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": true,
+      "restrictions": {
+       "light": false,
+       "weather": false
+      },
+      "occlusion": {
+       "mode": 0,
+       "alpha": 0
+      },
+      "video": {
+       "loop": true,
+       "autoplay": true,
+       "volume": 0
+      },
+      "flags": {
+       "mr-mentira-cochina": {
+        "capa": "02-noche-luna"
+       }
+      }
+     },
+     {
+      "_id": "7c1444c3facd3726",
+      "texture": {
+       "src": "systems/mr-mentira-cochina/assets/personajes/porco-noche.webp",
+       "fit": "fill",
+       "scaleX": 1,
+       "scaleY": 1
+      },
+      "x": 120,
+      "y": 50,
+      "width": 356,
+      "height": 360,
+      "elevation": 0,
+      "sort": 30,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": true,
+      "restrictions": {
+       "light": false,
+       "weather": false
+      },
+      "occlusion": {
+       "mode": 0,
+       "alpha": 0
+      },
+      "video": {
+       "loop": true,
+       "autoplay": true,
+       "volume": 0
+      },
+      "flags": {
+       "mr-mentira-cochina": {
+        "capa": "02-noche-porco-noche"
+       }
+      }
+     }
+    ],
+    "tokens": [],
+    "drawings": [],
+    "lights": [],
+    "notes": [],
+    "sounds": [],
+    "templates": [],
+    "walls": [],
+    "regions": [],
+    "initial": {
+     "x": 960,
+     "y": 540,
+     "scale": 0.5
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {
+     "mr-mentira-cochina": {
+      "escena": "02-noche"
+     }
+    }
+   },
+   {
+    "_id": "305328af97c9cb9b",
+    "name": "Cortinilla · Nuevo amanecer",
+    "folder": "5e8d4be98058c5f8",
+    "sort": 300,
+    "navigation": false,
+    "navOrder": 3,
+    "navName": "Cortinilla · Nuevo amanecer",
+    "background": {
+     "src": "systems/mr-mentira-cochina/assets/escenas/03-nuevo-amanecer.webp"
+    },
+    "thumb": "systems/mr-mentira-cochina/assets/escenas/03-nuevo-amanecer-thumb.webp",
+    "width": 1920,
+    "height": 1080,
+    "padding": 0,
+    "backgroundColor": "#f5eedb",
+    "grid": {
+     "type": 0,
+     "size": 100,
+     "distance": 1,
+     "units": "m"
+    },
+    "tokenVision": false,
+    "fog": {
+     "exploration": false
+    },
+    "environment": {
+     "globalLight": {
+      "enabled": true
+     }
+    },
+    "tiles": [
+     {
+      "_id": "5cba6351d535470f",
+      "texture": {
+       "src": "systems/mr-mentira-cochina/assets/marca/mr-marca.webm",
+       "fit": "fill",
+       "scaleX": 1,
+       "scaleY": 1
+      },
+      "x": 1788,
+      "y": 968,
+      "width": 121,
+      "height": 101,
+      "elevation": 0,
+      "sort": 33,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": true,
+      "restrictions": {
+       "light": false,
+       "weather": false
+      },
+      "occlusion": {
+       "mode": 0,
+       "alpha": 0
+      },
+      "video": {
+       "loop": true,
+       "autoplay": true,
+       "volume": 0
+      },
+      "flags": {
+       "mr-mentira-cochina": {
+        "capa": "03-nuevo-amanecer-marca"
+       }
+      }
+     },
+     {
+      "_id": "30ce98776388f41a",
+      "texture": {
+       "src": "systems/mr-mentira-cochina/assets/personajes/sol-tarde.webp",
+       "fit": "fill",
+       "scaleX": 1,
+       "scaleY": 1
+      },
+      "x": 1080,
+      "y": 90,
+      "width": 294,
+      "height": 300,
+      "elevation": 0,
+      "sort": 37,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": true,
+      "restrictions": {
+       "light": false,
+       "weather": false
+      },
+      "occlusion": {
+       "mode": 0,
+       "alpha": 0
+      },
+      "video": {
+       "loop": true,
+       "autoplay": true,
+       "volume": 0
+      },
+      "flags": {
+       "mr-mentira-cochina": {
+        "capa": "03-nuevo-amanecer-sol-tarde"
+       }
+      }
+     },
+     {
+      "_id": "5cae1dc183dac8d2",
+      "texture": {
+       "src": "systems/mr-mentira-cochina/assets/personajes/porco-amanecer.webp",
+       "fit": "fill",
+       "scaleX": 1,
+       "scaleY": 1
+      },
+      "x": 380,
+      "y": -30,
+      "width": 367,
+      "height": 370,
+      "elevation": 0,
+      "sort": 42,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": true,
+      "restrictions": {
+       "light": false,
+       "weather": false
+      },
+      "occlusion": {
+       "mode": 0,
+       "alpha": 0
+      },
+      "video": {
+       "loop": true,
+       "autoplay": true,
+       "volume": 0
+      },
+      "flags": {
+       "mr-mentira-cochina": {
+        "capa": "03-nuevo-amanecer-porco-amanecer"
+       }
+      }
+     }
+    ],
+    "tokens": [],
+    "drawings": [],
+    "lights": [],
+    "notes": [],
+    "sounds": [],
+    "templates": [],
+    "walls": [],
+    "regions": [],
+    "initial": {
+     "x": 960,
+     "y": 540,
+     "scale": 0.5
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {
+     "mr-mentira-cochina": {
+      "escena": "03-nuevo-amanecer"
+     }
+    }
+   },
+   {
+    "_id": "2630fbeb66249ef0",
+    "name": "Camino de entrada",
+    "folder": "c7fb8a3023845585",
+    "sort": 400,
+    "navigation": true,
+    "navOrder": 4,
+    "navName": "Camino de entrada",
+    "background": {
+     "src": "systems/mr-mentira-cochina/assets/escenas/04-entrada.webp"
+    },
+    "thumb": "systems/mr-mentira-cochina/assets/escenas/04-entrada-thumb.webp",
+    "width": 1920,
+    "height": 1080,
+    "padding": 0,
+    "backgroundColor": "#f5eedb",
+    "grid": {
+     "type": 0,
+     "size": 100,
+     "distance": 1,
+     "units": "m"
+    },
+    "tokenVision": false,
+    "fog": {
+     "exploration": false
+    },
+    "environment": {
+     "globalLight": {
+      "enabled": true
+     }
+    },
+    "tiles": [
+     {
+      "_id": "d5a965e5a185cab8",
+      "texture": {
+       "src": "systems/mr-mentira-cochina/assets/marca/mr-marca.webm",
+       "fit": "fill",
+       "scaleX": 1,
+       "scaleY": 1
+      },
+      "x": 1788,
+      "y": 968,
+      "width": 121,
+      "height": 101,
+      "elevation": 0,
+      "sort": 26,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": true,
+      "restrictions": {
+       "light": false,
+       "weather": false
+      },
+      "occlusion": {
+       "mode": 0,
+       "alpha": 0
+      },
+      "video": {
+       "loop": true,
+       "autoplay": true,
+       "volume": 0
+      },
+      "flags": {
+       "mr-mentira-cochina": {
+        "capa": "04-entrada-marca"
+       }
+      }
+     }
+    ],
+    "tokens": [],
+    "drawings": [],
+    "lights": [],
+    "notes": [],
+    "sounds": [],
+    "templates": [],
+    "walls": [],
+    "regions": [],
+    "initial": {
+     "x": 960,
+     "y": 540,
+     "scale": 0.5
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {
+     "mr-mentira-cochina": {
+      "escena": "04-entrada"
+     }
+    }
+   },
+   {
+    "_id": "eb9e4c53b270b996",
+    "name": "La plaza de la fuente",
+    "folder": "c7fb8a3023845585",
+    "sort": 500,
+    "navigation": true,
+    "navOrder": 5,
+    "navName": "La plaza de la fuente",
+    "background": {
+     "src": "systems/mr-mentira-cochina/assets/escenas/05-plaza.webp"
+    },
+    "thumb": "systems/mr-mentira-cochina/assets/escenas/05-plaza-thumb.webp",
+    "width": 1920,
+    "height": 1080,
+    "padding": 0,
+    "backgroundColor": "#f5eedb",
+    "grid": {
+     "type": 0,
+     "size": 100,
+     "distance": 1,
+     "units": "m"
+    },
+    "tokenVision": false,
+    "fog": {
+     "exploration": false
+    },
+    "environment": {
+     "globalLight": {
+      "enabled": true
+     }
+    },
+    "tiles": [
+     {
+      "_id": "73fa4fd27ea0dd31",
+      "texture": {
+       "src": "systems/mr-mentira-cochina/assets/marca/mr-marca.webm",
+       "fit": "fill",
+       "scaleX": 1,
+       "scaleY": 1
+      },
+      "x": 1788,
+      "y": 968,
+      "width": 121,
+      "height": 101,
+      "elevation": 0,
+      "sort": 24,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": true,
+      "restrictions": {
+       "light": false,
+       "weather": false
+      },
+      "occlusion": {
+       "mode": 0,
+       "alpha": 0
+      },
+      "video": {
+       "loop": true,
+       "autoplay": true,
+       "volume": 0
+      },
+      "flags": {
+       "mr-mentira-cochina": {
+        "capa": "05-plaza-marca"
+       }
+      }
+     }
+    ],
+    "tokens": [],
+    "drawings": [],
+    "lights": [],
+    "notes": [],
+    "sounds": [],
+    "templates": [],
+    "walls": [],
+    "regions": [],
+    "initial": {
+     "x": 960,
+     "y": 540,
+     "scale": 0.5
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {
+     "mr-mentira-cochina": {
+      "escena": "05-plaza"
+     }
+    }
+   },
+   {
+    "_id": "898945709977d1eb",
+    "name": "El taller del inventor",
+    "folder": "c7fb8a3023845585",
+    "sort": 600,
+    "navigation": true,
+    "navOrder": 6,
+    "navName": "El taller del inventor",
+    "background": {
+     "src": "systems/mr-mentira-cochina/assets/escenas/06-taller-exterior.webp"
+    },
+    "thumb": "systems/mr-mentira-cochina/assets/escenas/06-taller-exterior-thumb.webp",
+    "width": 1920,
+    "height": 1080,
+    "padding": 0,
+    "backgroundColor": "#f5eedb",
+    "grid": {
+     "type": 0,
+     "size": 100,
+     "distance": 1,
+     "units": "m"
+    },
+    "tokenVision": false,
+    "fog": {
+     "exploration": false
+    },
+    "environment": {
+     "globalLight": {
+      "enabled": true
+     }
+    },
+    "tiles": [
+     {
+      "_id": "0ff1c8be4ef1b804",
+      "texture": {
+       "src": "systems/mr-mentira-cochina/assets/marca/mr-marca.webm",
+       "fit": "fill",
+       "scaleX": 1,
+       "scaleY": 1
+      },
+      "x": 1788,
+      "y": 968,
+      "width": 121,
+      "height": 101,
+      "elevation": 0,
+      "sort": 34,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": true,
+      "restrictions": {
+       "light": false,
+       "weather": false
+      },
+      "occlusion": {
+       "mode": 0,
+       "alpha": 0
+      },
+      "video": {
+       "loop": true,
+       "autoplay": true,
+       "volume": 0
+      },
+      "flags": {
+       "mr-mentira-cochina": {
+        "capa": "06-taller-exterior-marca"
+       }
+      }
+     }
+    ],
+    "tokens": [],
+    "drawings": [],
+    "lights": [],
+    "notes": [],
+    "sounds": [],
+    "templates": [],
+    "walls": [],
+    "regions": [],
+    "initial": {
+     "x": 960,
+     "y": 540,
+     "scale": 0.5
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {
+     "mr-mentira-cochina": {
+      "escena": "06-taller-exterior"
+     }
+    }
+   },
+   {
+    "_id": "3af28af1766f536d",
+    "name": "Dentro del taller",
+    "folder": "c7fb8a3023845585",
+    "sort": 700,
+    "navigation": false,
+    "navOrder": 7,
+    "navName": "Dentro del taller",
+    "background": {
+     "src": "systems/mr-mentira-cochina/assets/escenas/07-taller-interior.webp"
+    },
+    "thumb": "systems/mr-mentira-cochina/assets/escenas/07-taller-interior-thumb.webp",
+    "width": 1920,
+    "height": 1080,
+    "padding": 0,
+    "backgroundColor": "#f5eedb",
+    "grid": {
+     "type": 0,
+     "size": 100,
+     "distance": 1,
+     "units": "m"
+    },
+    "tokenVision": false,
+    "fog": {
+     "exploration": false
+    },
+    "environment": {
+     "globalLight": {
+      "enabled": true
+     }
+    },
+    "tiles": [
+     {
+      "_id": "4bb979dc4703cefe",
+      "texture": {
+       "src": "systems/mr-mentira-cochina/assets/marca/mr-marca.webm",
+       "fit": "fill",
+       "scaleX": 1,
+       "scaleY": 1
+      },
+      "x": 1788,
+      "y": 968,
+      "width": 121,
+      "height": 101,
+      "elevation": 0,
+      "sort": 34,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": true,
+      "restrictions": {
+       "light": false,
+       "weather": false
+      },
+      "occlusion": {
+       "mode": 0,
+       "alpha": 0
+      },
+      "video": {
+       "loop": true,
+       "autoplay": true,
+       "volume": 0
+      },
+      "flags": {
+       "mr-mentira-cochina": {
+        "capa": "07-taller-interior-marca"
+       }
+      }
+     }
+    ],
+    "tokens": [],
+    "drawings": [],
+    "lights": [],
+    "notes": [],
+    "sounds": [],
+    "templates": [],
+    "walls": [],
+    "regions": [],
+    "initial": {
+     "x": 960,
+     "y": 540,
+     "scale": 0.5
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {
+     "mr-mentira-cochina": {
+      "escena": "07-taller-interior"
+     }
+    }
+   },
+   {
+    "_id": "80a61753e7102509",
+    "name": "La cafetería Tetera",
+    "folder": "c7fb8a3023845585",
+    "sort": 800,
+    "navigation": true,
+    "navOrder": 8,
+    "navName": "La cafetería Tetera",
+    "background": {
+     "src": "systems/mr-mentira-cochina/assets/escenas/08-cafeteria-exterior.webp"
+    },
+    "thumb": "systems/mr-mentira-cochina/assets/escenas/08-cafeteria-exterior-thumb.webp",
+    "width": 1920,
+    "height": 1080,
+    "padding": 0,
+    "backgroundColor": "#f5eedb",
+    "grid": {
+     "type": 0,
+     "size": 100,
+     "distance": 1,
+     "units": "m"
+    },
+    "tokenVision": false,
+    "fog": {
+     "exploration": false
+    },
+    "environment": {
+     "globalLight": {
+      "enabled": true
+     }
+    },
+    "tiles": [
+     {
+      "_id": "9a99f097fdbe8062",
+      "texture": {
+       "src": "systems/mr-mentira-cochina/assets/marca/mr-marca.webm",
+       "fit": "fill",
+       "scaleX": 1,
+       "scaleY": 1
+      },
+      "x": 1788,
+      "y": 968,
+      "width": 121,
+      "height": 101,
+      "elevation": 0,
+      "sort": 37,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": true,
+      "restrictions": {
+       "light": false,
+       "weather": false
+      },
+      "occlusion": {
+       "mode": 0,
+       "alpha": 0
+      },
+      "video": {
+       "loop": true,
+       "autoplay": true,
+       "volume": 0
+      },
+      "flags": {
+       "mr-mentira-cochina": {
+        "capa": "08-cafeteria-exterior-marca"
+       }
+      }
+     }
+    ],
+    "tokens": [],
+    "drawings": [],
+    "lights": [],
+    "notes": [],
+    "sounds": [],
+    "templates": [],
+    "walls": [],
+    "regions": [],
+    "initial": {
+     "x": 960,
+     "y": 540,
+     "scale": 0.5
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {
+     "mr-mentira-cochina": {
+      "escena": "08-cafeteria-exterior"
+     }
+    }
+   },
+   {
+    "_id": "15680e49f5fb2e41",
+    "name": "Dentro de la cafetería",
+    "folder": "c7fb8a3023845585",
+    "sort": 900,
+    "navigation": false,
+    "navOrder": 9,
+    "navName": "Dentro de la cafetería",
+    "background": {
+     "src": "systems/mr-mentira-cochina/assets/escenas/09-cafeteria-interior.webp"
+    },
+    "thumb": "systems/mr-mentira-cochina/assets/escenas/09-cafeteria-interior-thumb.webp",
+    "width": 1920,
+    "height": 1080,
+    "padding": 0,
+    "backgroundColor": "#f5eedb",
+    "grid": {
+     "type": 0,
+     "size": 100,
+     "distance": 1,
+     "units": "m"
+    },
+    "tokenVision": false,
+    "fog": {
+     "exploration": false
+    },
+    "environment": {
+     "globalLight": {
+      "enabled": true
+     }
+    },
+    "tiles": [
+     {
+      "_id": "88e9a734d24e553b",
+      "texture": {
+       "src": "systems/mr-mentira-cochina/assets/marca/mr-marca.webm",
+       "fit": "fill",
+       "scaleX": 1,
+       "scaleY": 1
+      },
+      "x": 1788,
+      "y": 968,
+      "width": 121,
+      "height": 101,
+      "elevation": 0,
+      "sort": 37,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": true,
+      "restrictions": {
+       "light": false,
+       "weather": false
+      },
+      "occlusion": {
+       "mode": 0,
+       "alpha": 0
+      },
+      "video": {
+       "loop": true,
+       "autoplay": true,
+       "volume": 0
+      },
+      "flags": {
+       "mr-mentira-cochina": {
+        "capa": "09-cafeteria-interior-marca"
+       }
+      }
+     }
+    ],
+    "tokens": [],
+    "drawings": [],
+    "lights": [],
+    "notes": [],
+    "sounds": [],
+    "templates": [],
+    "walls": [],
+    "regions": [],
+    "initial": {
+     "x": 960,
+     "y": 540,
+     "scale": 0.5
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {
+     "mr-mentira-cochina": {
+      "escena": "09-cafeteria-interior"
+     }
+    }
+   },
+   {
+    "_id": "f5e1a56df9f80652",
+    "name": "El archivo municipal",
+    "folder": "c7fb8a3023845585",
+    "sort": 1000,
+    "navigation": false,
+    "navOrder": 10,
+    "navName": "El archivo municipal",
+    "background": {
+     "src": "systems/mr-mentira-cochina/assets/escenas/10-archivo.webp"
+    },
+    "thumb": "systems/mr-mentira-cochina/assets/escenas/10-archivo-thumb.webp",
+    "width": 1920,
+    "height": 1080,
+    "padding": 0,
+    "backgroundColor": "#f5eedb",
+    "grid": {
+     "type": 0,
+     "size": 100,
+     "distance": 1,
+     "units": "m"
+    },
+    "tokenVision": false,
+    "fog": {
+     "exploration": false
+    },
+    "environment": {
+     "globalLight": {
+      "enabled": true
+     }
+    },
+    "tiles": [
+     {
+      "_id": "f7c6860c7d6fe905",
+      "texture": {
+       "src": "systems/mr-mentira-cochina/assets/marca/mr-marca.webm",
+       "fit": "fill",
+       "scaleX": 1,
+       "scaleY": 1
+      },
+      "x": 1788,
+      "y": 968,
+      "width": 121,
+      "height": 101,
+      "elevation": 0,
+      "sort": 26,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": true,
+      "restrictions": {
+       "light": false,
+       "weather": false
+      },
+      "occlusion": {
+       "mode": 0,
+       "alpha": 0
+      },
+      "video": {
+       "loop": true,
+       "autoplay": true,
+       "volume": 0
+      },
+      "flags": {
+       "mr-mentira-cochina": {
+        "capa": "10-archivo-marca"
+       }
+      }
+     }
+    ],
+    "tokens": [],
+    "drawings": [],
+    "lights": [],
+    "notes": [],
+    "sounds": [],
+    "templates": [],
+    "walls": [],
+    "regions": [],
+    "initial": {
+     "x": 960,
+     "y": 540,
+     "scale": 0.5
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {
+     "mr-mentira-cochina": {
+      "escena": "10-archivo"
+     }
+    }
+   },
+   {
+    "_id": "07d28ec603c64883",
+    "name": "El puente del río",
+    "folder": "c7fb8a3023845585",
+    "sort": 1100,
+    "navigation": false,
+    "navOrder": 11,
+    "navName": "El puente del río",
+    "background": {
+     "src": "systems/mr-mentira-cochina/assets/escenas/11-puente.webp"
+    },
+    "thumb": "systems/mr-mentira-cochina/assets/escenas/11-puente-thumb.webp",
+    "width": 1920,
+    "height": 1080,
+    "padding": 0,
+    "backgroundColor": "#f5eedb",
+    "grid": {
+     "type": 0,
+     "size": 100,
+     "distance": 1,
+     "units": "m"
+    },
+    "tokenVision": false,
+    "fog": {
+     "exploration": false
+    },
+    "environment": {
+     "globalLight": {
+      "enabled": true
+     }
+    },
+    "tiles": [
+     {
+      "_id": "ea3b9c4ece1f8396",
+      "texture": {
+       "src": "systems/mr-mentira-cochina/assets/marca/mr-marca.webm",
+       "fit": "fill",
+       "scaleX": 1,
+       "scaleY": 1
+      },
+      "x": 1788,
+      "y": 968,
+      "width": 121,
+      "height": 101,
+      "elevation": 0,
+      "sort": 25,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": true,
+      "restrictions": {
+       "light": false,
+       "weather": false
+      },
+      "occlusion": {
+       "mode": 0,
+       "alpha": 0
+      },
+      "video": {
+       "loop": true,
+       "autoplay": true,
+       "volume": 0
+      },
+      "flags": {
+       "mr-mentira-cochina": {
+        "capa": "11-puente-marca"
+       }
+      }
+     }
+    ],
+    "tokens": [],
+    "drawings": [],
+    "lights": [],
+    "notes": [],
+    "sounds": [],
+    "templates": [],
+    "walls": [],
+    "regions": [],
+    "initial": {
+     "x": 960,
+     "y": 540,
+     "scale": 0.5
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {
+     "mr-mentira-cochina": {
+      "escena": "11-puente"
+     }
+    }
+   },
+   {
+    "_id": "e5622ee2ff294712",
+    "name": "La plaza, después del caos",
+    "folder": "c7fb8a3023845585",
+    "sort": 1200,
+    "navigation": false,
+    "navOrder": 12,
+    "navName": "La plaza, después del caos",
+    "background": {
+     "src": "systems/mr-mentira-cochina/assets/escenas/15-plaza-cataclismo.webp"
+    },
+    "thumb": "systems/mr-mentira-cochina/assets/escenas/15-plaza-cataclismo-thumb.webp",
+    "width": 1920,
+    "height": 1080,
+    "padding": 0,
+    "backgroundColor": "#f5eedb",
+    "grid": {
+     "type": 0,
+     "size": 100,
+     "distance": 1,
+     "units": "m"
+    },
+    "tokenVision": false,
+    "fog": {
+     "exploration": false
+    },
+    "environment": {
+     "globalLight": {
+      "enabled": true
+     }
+    },
+    "tiles": [
+     {
+      "_id": "1ae9483206072275",
+      "texture": {
+       "src": "systems/mr-mentira-cochina/assets/marca/mr-marca.webm",
+       "fit": "fill",
+       "scaleX": 1,
+       "scaleY": 1
+      },
+      "x": 1788,
+      "y": 968,
+      "width": 121,
+      "height": 101,
+      "elevation": 0,
+      "sort": 35,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": true,
+      "restrictions": {
+       "light": false,
+       "weather": false
+      },
+      "occlusion": {
+       "mode": 0,
+       "alpha": 0
+      },
+      "video": {
+       "loop": true,
+       "autoplay": true,
+       "volume": 0
+      },
+      "flags": {
+       "mr-mentira-cochina": {
+        "capa": "15-plaza-cataclismo-marca"
+       }
+      }
+     }
+    ],
+    "tokens": [],
+    "drawings": [],
+    "lights": [],
+    "notes": [],
+    "sounds": [],
+    "templates": [],
+    "walls": [],
+    "regions": [],
+    "initial": {
+     "x": 960,
+     "y": 540,
+     "scale": 0.5
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {
+     "mr-mentira-cochina": {
+      "escena": "15-plaza-cataclismo"
+     }
+    }
+   },
+   {
+    "_id": "71f91ee7feafbaa1",
+    "name": "Calle dormida",
+    "folder": "a871f37677b12b05",
+    "sort": 1300,
+    "navigation": true,
+    "navOrder": 13,
+    "navName": "Calle dormida",
+    "background": {
+     "src": "systems/mr-mentira-cochina/assets/escenas/12-calle-noche.webp"
+    },
+    "thumb": "systems/mr-mentira-cochina/assets/escenas/12-calle-noche-thumb.webp",
+    "width": 1920,
+    "height": 1080,
+    "padding": 0,
+    "backgroundColor": "#1d2350",
+    "grid": {
+     "type": 0,
+     "size": 100,
+     "distance": 1,
+     "units": "m"
+    },
+    "tokenVision": false,
+    "fog": {
+     "exploration": false
+    },
+    "environment": {
+     "globalLight": {
+      "enabled": true
+     }
+    },
+    "tiles": [
+     {
+      "_id": "624dd9113244532a",
+      "texture": {
+       "src": "systems/mr-mentira-cochina/assets/marca/mr-marca.webm",
+       "fit": "fill",
+       "scaleX": 1,
+       "scaleY": 1
+      },
+      "x": 1788,
+      "y": 968,
+      "width": 121,
+      "height": 101,
+      "elevation": 0,
+      "sort": 30,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": true,
+      "restrictions": {
+       "light": false,
+       "weather": false
+      },
+      "occlusion": {
+       "mode": 0,
+       "alpha": 0
+      },
+      "video": {
+       "loop": true,
+       "autoplay": true,
+       "volume": 0
+      },
+      "flags": {
+       "mr-mentira-cochina": {
+        "capa": "12-calle-noche-marca"
+       }
+      }
+     }
+    ],
+    "tokens": [],
+    "drawings": [],
+    "lights": [],
+    "notes": [],
+    "sounds": [],
+    "templates": [],
+    "walls": [],
+    "regions": [],
+    "initial": {
+     "x": 960,
+     "y": 540,
+     "scale": 0.5
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {
+     "mr-mentira-cochina": {
+      "escena": "12-calle-noche"
+     }
+    }
+   },
+   {
+    "_id": "89ae128eb6528fb4",
+    "name": "La azotea (refugio)",
+    "folder": "a871f37677b12b05",
+    "sort": 1400,
+    "navigation": true,
+    "navOrder": 14,
+    "navName": "La azotea (refugio)",
+    "background": {
+     "src": "systems/mr-mentira-cochina/assets/escenas/13-azotea.webp"
+    },
+    "thumb": "systems/mr-mentira-cochina/assets/escenas/13-azotea-thumb.webp",
+    "width": 1920,
+    "height": 1080,
+    "padding": 0,
+    "backgroundColor": "#1d2350",
+    "grid": {
+     "type": 0,
+     "size": 100,
+     "distance": 1,
+     "units": "m"
+    },
+    "tokenVision": false,
+    "fog": {
+     "exploration": false
+    },
+    "environment": {
+     "globalLight": {
+      "enabled": true
+     }
+    },
+    "tiles": [
+     {
+      "_id": "3db29850e6b53930",
+      "texture": {
+       "src": "systems/mr-mentira-cochina/assets/marca/mr-marca.webm",
+       "fit": "fill",
+       "scaleX": 1,
+       "scaleY": 1
+      },
+      "x": 1788,
+      "y": 968,
+      "width": 121,
+      "height": 101,
+      "elevation": 0,
+      "sort": 25,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": true,
+      "restrictions": {
+       "light": false,
+       "weather": false
+      },
+      "occlusion": {
+       "mode": 0,
+       "alpha": 0
+      },
+      "video": {
+       "loop": true,
+       "autoplay": true,
+       "volume": 0
+      },
+      "flags": {
+       "mr-mentira-cochina": {
+        "capa": "13-azotea-marca"
+       }
+      }
+     }
+    ],
+    "tokens": [],
+    "drawings": [],
+    "lights": [],
+    "notes": [],
+    "sounds": [],
+    "templates": [],
+    "walls": [],
+    "regions": [],
+    "initial": {
+     "x": 960,
+     "y": 540,
+     "scale": 0.5
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {
+     "mr-mentira-cochina": {
+      "escena": "13-azotea"
+     }
+    }
+   },
+   {
+    "_id": "a3e20a5015f54488",
+    "name": "El campanario",
+    "folder": "a871f37677b12b05",
+    "sort": 1500,
+    "navigation": false,
+    "navOrder": 15,
+    "navName": "El campanario",
+    "background": {
+     "src": "systems/mr-mentira-cochina/assets/escenas/14-campanario.webp"
+    },
+    "thumb": "systems/mr-mentira-cochina/assets/escenas/14-campanario-thumb.webp",
+    "width": 1920,
+    "height": 1080,
+    "padding": 0,
+    "backgroundColor": "#1d2350",
+    "grid": {
+     "type": 0,
+     "size": 100,
+     "distance": 1,
+     "units": "m"
+    },
+    "tokenVision": false,
+    "fog": {
+     "exploration": false
+    },
+    "environment": {
+     "globalLight": {
+      "enabled": true
+     }
+    },
+    "tiles": [
+     {
+      "_id": "3f491f42e2973db0",
+      "texture": {
+       "src": "systems/mr-mentira-cochina/assets/marca/mr-marca.webm",
+       "fit": "fill",
+       "scaleX": 1,
+       "scaleY": 1
+      },
+      "x": 1788,
+      "y": 968,
+      "width": 121,
+      "height": 101,
+      "elevation": 0,
+      "sort": 29,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": true,
+      "restrictions": {
+       "light": false,
+       "weather": false
+      },
+      "occlusion": {
+       "mode": 0,
+       "alpha": 0
+      },
+      "video": {
+       "loop": true,
+       "autoplay": true,
+       "volume": 0
+      },
+      "flags": {
+       "mr-mentira-cochina": {
+        "capa": "14-campanario-marca"
+       }
+      }
+     }
+    ],
+    "tokens": [],
+    "drawings": [],
+    "lights": [],
+    "notes": [],
+    "sounds": [],
+    "templates": [],
+    "walls": [],
+    "regions": [],
+    "initial": {
+     "x": 960,
+     "y": 540,
+     "scale": 0.5
+    },
+    "ownership": {
+     "default": 0
+    },
+    "flags": {
+     "mr-mentira-cochina": {
+      "escena": "14-campanario"
+     }
+    }
+   }
+  ],
+  "journal": [
+   {
+    "_id": "4134c2141a0f7e69",
+    "name": "¡Mentira Cochina! · La aventura",
+    "pages": [
+     {
+      "_id": "1ddabfff32140ee9",
+      "name": "Cómo usar esta aventura",
+      "type": "text",
+      "title": {
+       "show": true,
+       "level": 1
+      },
+      "sort": 0,
+      "text": {
+       "format": 1,
+       "content": "<p><img src=\"systems/mr-mentira-cochina/assets/laminas/pdf-portada.webp\" alt=\"\"></p><p><strong>durante un solo día, los vecinos de Villa Pingüino descubrirán que mentir tiene ventajas espectaculares y consecuencias catastróficas. Al caer la noche perseguirán una caja amarilla con voluntad propia, ME-NT [1R], sin sospechar que lo que necesita no es que la derroten, sino escuchar una verdad dicha sin esperar recompensa.</strong></p>\n<p>Partida fan, original y no oficial, ambientada en Villa Pingüino. Para 3–5 jugadores y dirección; dura <strong>120 minutos reales</strong>. Comedia de enredo para mesa adulta.</p>\n<h2>Cómo se juega en Foundry</h2>\n<ul>\n<li><strong>Panel de dirección</strong> (botón en el directorio de Actores, en la barra de tokens o haciendo clic en la cartela de arriba): reloj real con avisos de cortinilla, <em>Desbarajuste</em> 0–6, <em>Ruido</em> 0–4, el botón <strong>¡PIUUUM!</strong>, las cuatro cortinillas, los 18 retos flotantes, el juicio de las mentiras con las provocaciones de ME-NT y los cuatro finales.</li>\n<li><strong>Cortinillas:</strong> activan su decorado con el Sol (o la Luna) y Porco en su rama y leen la narración en el chat. Toca a los 40, 80 y 112 minutos.</li>\n<li><strong>¡PIUUUM!</strong> cada vez que alguien miente y ME-NT lo materializa: destello, anillos y sonido en todas las pantallas.</li>\n<li><strong>Personajes:</strong> cada jugador tiene su perfil con el botón <strong>¡PAM!</strong> (2d6, +1 por talento, +1 por cada PJ que ayuda, máximo 4d6, suman los dos mejores) y su ficha «¡Eso ya lo sabía!». Su ficha privada solo la ven él y quien dirige.</li>\n<li><strong>Seguridad:</strong> Pausa, Velo y Tarjeta X anónimas en la barra de tokens. Si un gag incomoda, se cambia sin explicaciones.</li>\n<li>Reparte los personajes con clic derecho → <em>Configurar propiedad</em>. Al empezar una sesión nueva, repón las fichas «¡Eso ya lo sabía!» desde la pestaña Reparto.</li>\n</ul>\n<p>El libro completo, con la misma aventura maquetada como una revista de 1995, va en el PDF que acompaña al sistema.</p>"
+      },
+      "ownership": {
+       "default": -1
+      },
+      "flags": {}
+     },
+     {
+      "_id": "b3ac9a4195b3672b",
+      "name": "Una máquina, cien mentiras",
+      "type": "text",
+      "title": {
+       "show": true,
+       "level": 1
+      },
+      "sort": 100,
+      "text": {
+       "format": 1,
+       "content": "<p><img src=\"systems/mr-mentira-cochina/assets/laminas/bn-pulso.webp\" alt=\"\"></p><h2>Lo que ocurrió ayer (sólo dirección)</h2>\n<p>Senbei Norimaki construyó el <strong>Materializador Electromagnético de Narraciones Tramposas, modelo ME-NT [1R]</strong>. No quería arreglar el mundo. Quería poder decirle a Midori que había limpiado el taller, que había terminado un encargo o que había estado trabajando hasta tarde... y que todo resultase cierto. Instaló un sistema inteligente porque necesitaba distinguir las mentiras conscientes de los errores honestos.</p>\n<p>La máquina aprendió a hablar y pensar. Senbei le dijo cosas como «¡Eres el mejor invento que he construido!» y «¡Mañana te sacaré a pasear!». También instaló un mando que anulaba su autonomía. Arale golpeó jugando el limitador de la antena y activó un alcance de barrio; Gatchan se comió el mando, que crujió como una galleta. Nadie lo hizo con maldad. ME-NT [1R] quedó libre, pero su rutina de convertir mentiras en hechos sigue disparándose ante las falsedades que elige escuchar.</p>\n<p>No se trata de una rebelión de máquinas. Es una <strong>criatura cómica cansada de que la utilicen</strong>, que todavía no sabe expresar lo que desea: que alguien la quiera o al menos confíe en ella <strong>sin mentirle para obtener algo</strong>.</p>\n<p>Senbei, Arale, Gatchan y los demás tienen durante este capítulo sus <strong>propias tramas tontísimas</strong>. Su intervención en la avería es un antecedente; <strong>no vienen a resolver la partida</strong>. Senbei puede cruzarse por una calle huyendo de Midori y sin fijarse siquiera en lo que ME-NT está haciendo.</p>\n<h2>Lo que saben los jugadores al abrir el capítulo</h2>\n<p>Nada sobre la máquina. Conocen Villa Pingüino: pueblos soleados, dinosaurios que hacen la compra, animales que trabajan de fotógrafos, inventos imposibles y vecinos tan orgullosos como incompetentes. Cada PJ tiene <strong>una cosa que desea hoy</strong>, <strong>una mentira habitual</strong> y <strong>una verdad vergonzosa escrita en privado</strong>.</p>\n<h2>Cómo es ME-NT [1R]</h2>\n<p>Una <strong>caja rectangular amarilla</strong>, metálica y abombada, con esquinas redondeadas, ojos expresivos y una rejilla que hace de boca; zapatones cortos, brazos flexibles y <strong>un abanico japonés de papel en cada mano</strong>. Vuela agitando ambos abanicos como un condenado a espantar moscas. Sobre la parte superior sobresale una <strong>parabólica ridículamente grande</strong> que gira para captar declaraciones falsas. Al disparar, la antena lanza anillos luminosos amarillos, chisporrotea y suena «¡PIUUUM!». Tiene el nombre exacto <strong><code>ME-NT [1R]</code></strong> marcado en una plaquita visible de la carcasa. No escribir <code>ME-NT 01</code>, <code>MENTIRÓMETRO 3000</code> ni otros nombres como si fueran el modelo.</p>\n<p><strong>Personalidad en una frase:</strong> una criatura ingeniosa, petulante y burlona que se ríe de las personas que se engañan a sí mismas, pero se queda paralizada cuando alguien acepta una verdad dolorosa.</p>\n<p><strong>Voz:</strong> metálica, aguda, nasal; imita en tono burlón las frases captadas. Risa característica: «¡JE-JE-JE-JE!». A veces se enoja y bate los abanicos con tanta violencia que tira sombreros y tendederos. Si se entristece, deja de volar y aterriza de culo. <strong>Jamás se ríe del dolor grave</strong>; es cruel con las excusas, no con el sufrimiento.</p>\n<p><strong>Deseo profundo, no revelar pronto:</strong> quiere ser tratado como alguien que puede elegir. Necesita comprobar que hay humanos capaces de decirle la verdad y aceptarse mutuamente sin comprarse el afecto mediante una mentira.</p>\n<p><strong>Frases listas para interpretar:</strong> «¡Yo no invento las mentiras, listillo! ¡Las inventáis vosotros!», «¡Antena en alto! ¡Vergüenza en camino!», «¡Ese embuste tiene una potencia preciosa!», «¡No me hagas promesas bonitas si son para pulsarme un botón!».</p>"
+      },
+      "ownership": {
+       "default": -1
+      },
+      "flags": {}
+     },
+     {
+      "_id": "911eda7631797fca",
+      "name": "Las reglas de ME-NT [1R]",
+      "type": "text",
+      "title": {
+       "show": true,
+       "level": 1
+      },
+      "sort": 200,
+      "text": {
+       "format": 1,
+       "content": "<p><img src=\"systems/mr-mentira-cochina/assets/laminas/bn-mando.webp\" alt=\"\"></p><p><strong>1. Qué escucha.</strong> Detecta <strong>afirmaciones conscientes de falsedad</strong>, no preguntas, bromas entendidas como ficción, errores sinceros, deseos («ojalá») ni pensamientos sin pronunciar. Su antena capta unos <strong>150 metros</strong>, en vez de únicamente la voz de Senbei. Cuando hay demasiadas mentiras simultáneas <strong>elige una</strong>; no convierte todas las frases en eventos automáticos. El director selecciona la que produzca una consecuencia jugable, no la más punitiva.</p>\n<p><strong>2. Qué crea.</strong> Un pulso vuelve literalmente cierta la afirmación, intentando respetar la intención inicial. «Tengo un coche deportivo» puede producir un deportivo auténtico; «soy un cerdo» puede transformar al mentiroso o crear una identidad civil de cerdo. Primero la intención plausible; después el remate visual. Una mentira útil <strong>funciona</strong>: la comedia viene de sus costes y de otras mentiras, no de negar arbitrariamente los éxitos.</p>\n<p><strong>3. Qué persiste.</strong> El cambio continúa hasta que ME-NT lo revierte, otra mentira <strong>compatible y específica</strong> lo modifica o el circuito se restaura voluntariamente. Desactivar un efecto no repara automáticamente los daños secundarios: si una casa voladora rompe un campanario, el agujero del campanario permanece. El director puede condensar la reparación en epílogo; nunca obliga a jugar una auditoría de desperfectos.</p>\n<p><strong>4. Su voluntad.</strong> La máquina elige adónde volar, qué mentira materializar y cuándo hablar. No es un hechizo que cualquiera pueda ordenar. Puede colaborar si le interesa; no acepta órdenes por tener botones imaginarios.</p>\n<p><strong>5. Autoprotección.</strong> Una afirmación que pretenda destruir, apagar, hacer desaparecer, secuestrar la voluntad o controlar a ME-NT no puede afectarla. El circuito redirige el efecto hacia el declarante o crea un objeto inútil. Ejemplo canónico: «¡Tengo el mando a distancia original!»: aparece un mando amarillo; al pulsar <code>STOP</code> se paraliza <strong>el portador</strong>, con <code>REWIND</code> camina hacia atrás y con <code>MUTE</code> se queda sin voz. ME-NT se parte de risa si está cerca. Los jugadores pueden estudiar y reaprovechar ese mando sobre sí mismos: no es decoración descartable.</p>\n<p><strong>6. Límite de cuidado.</strong> Una mentira puede deformar la escena, crear un doble o cambiar circunstancias de un PJ, pero <strong>no puede decidir cómo piensa, siente ni actúa otro personaje jugador</strong>. Para cambios permanentes de cuerpo o situación personal, se pide acuerdo al jugador. Las verdades del epílogo no las arranca la máquina: cada persona elige si las dice.</p>\n<p><strong>7. No hay botón de victoria.</strong> Romper o encerrar la caja antes de reparar la avería puede detener los pulsos, pero deja alteraciones en curso, causa otra avería y sacrifica la posible reconciliación. <strong>Es una vía válida</strong>, no una prohibición del director. La autoprotección se aplica a mentiras y al pulso, no hace físicamente indestructible la máquina ante cualquier acción. Existen finales técnicos o accidentales; la reconciliación es la <strong>victoria limpia</strong>, no la única victoria.</p>\n<p><strong>8. El secreto nocturno.</strong> Cuando la mayoría de habitantes duerme, dejan de pronunciar mentiras conscientes: la antena recibe mucho menos ruido, la máquina vuela más despacio y puede rastrearse por el ruido de los abanicos. Los personajes pueden preparar una captura sin provocar a centenares de mentirosos. <strong>Pero si se mienten durante la cacería, iluminan su posición</strong>.</p>\n<h3>Un ejemplo de cadena, sin bloqueo</h3>\n<p>Pipa miente: «¡Mi moto nunca se para!». ¡PIUUUM! La moto marcha sin detenerse. Bruno grita: «¡Yo tengo un mando para eso!». Aparece un mando que lo controla a él. Bibi dice: «¡La moto pesa menos que una pluma!». La moto comienza a elevarse <strong>pero sigue avanzando</strong>, y Pipa puede utilizarla como dirigible. Cada mentira cambia posibilidades concretas; los jugadores conservan la iniciativa.</p>"
+      },
+      "ownership": {
+       "default": -1
+      },
+      "flags": {}
+     },
+     {
+      "_id": "ab166d76a01bc618",
+      "name": "¡PAM! 2.0 · Dos dados buenos, muchos problemas",
+      "type": "text",
+      "title": {
+       "show": true,
+       "level": 1
+      },
+      "sort": 300,
+      "text": {
+       "format": 1,
+       "content": "<p><img src=\"systems/mr-mentira-cochina/assets/laminas/bn-dados.webp\" alt=\"\"></p><p><strong>Tira sólo cuando exista incertidumbre interesante.</strong> No se tira para decir una mentira, coger un objeto caído, hablar con un vecino ni hacer un chiste. Un PJ puede inventar una falsedad sin tirada: la incertidumbre aparece al <strong>controlar el pulso</strong>, salvar a alguien, pilotar algo imposible, negociar, atrapar o comprender un circuito.</p>\n<p><strong>Reserva:</strong> tira <strong>2d6</strong> por defecto. Si tu <strong>Talento Estrella</strong> ayuda, añade <strong>+1d6</strong>. Si otro PJ colabora activamente y se arriesga a sufrir la complicación, añade <strong>+1d6</strong>. Máximo <strong>4d6</strong>. <strong>Suma los dos valores más altos</strong>, no todos los dados.</p>\n<table>\n<thead>\n<tr>\n<th>Suma de los dos mejores</th>\n<th>Resultado</th>\n<th>Dirección</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>2–5</strong></td>\n<td><strong>Fiasco útil</strong></td>\n<td>La acción falla o se desvía; ofrece inmediatamente otra posibilidad y un lío visible. Sin callejón sin salida.</td>\n</tr>\n<tr>\n<td><strong>6–8</strong></td>\n<td><strong>Éxito aparatoso</strong></td>\n<td>El objetivo se logra, pero con un coste cómico o una consecuencia secundaria concreta.</td>\n</tr>\n<tr>\n<td><strong>9–11</strong></td>\n<td><strong>Éxito brillante</strong></td>\n<td>Logra lo que quería sin precio relevante; añade descripción memorable, nunca un castigo escondido.</td>\n</tr>\n<tr>\n<td><strong>12</strong></td>\n<td><strong>Éxito descomunal</strong></td>\n<td>Además de lograrlo, el jugador elige un beneficio extraordinario y visible.</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Probabilidades de lograr al menos 6:</strong> 2d6 = <strong>72,2 %</strong>; 3d6 conservando los dos mejores = <strong>89,4 %</strong>; 4d6 conservando los dos mejores = <strong>96,0 %</strong>. Los éxitos con coste son frecuentes, los fallos no detienen el episodio.</p>\n<p><strong>Una ficha «¡ESO YA LO SABÍA!» por jugador:</strong> una vez en la sesión puede declarar una coincidencia estrambótica y útil («mi tía guarda un gancho para detener casas voladoras»). Si encaja en la realidad establecida, es cierto y no exige tirada; el director introduce un <strong>remate</strong> que no invalide la utilidad. Los dones no crean por sí solos una solución definitiva al conflicto de la máquina.</p>\n<p><strong>Los golpes siguen la física de historieta:</strong> paredes perforadas con silueta, peinados chamuscados, cuerpos elásticos, dentaduras que castañetean. Evitar daño realista, mutilación, humillación insistente, bromas de identidad y violencia sexual. Si un gag incomoda a alguien, se cambia sin explicaciones.</p>\n<h3>Marcador compartido de DESBARAJUSTE (0–6)</h3>\n<table>\n<thead>\n<tr>\n<th>Nivel</th>\n<th>Qué ocurre</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>0–1</td>\n<td>Efectos locales; ME-NT se burla y juega.</td>\n</tr>\n<tr>\n<td>2–3</td>\n<td>Se mezclan secuelas de retos previos; aparece una consecuencia recurrente.</td>\n</tr>\n<tr>\n<td>4–5</td>\n<td>La antena pierde precisión; un nuevo pulso amenaza viviendas, calles o seres queridos.</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Sobrecarga: la máquina busca un lugar donde parar y un interlocutor al que retar. Se prepara el clímax.</td>\n</tr>\n</tbody>\n</table>\n<p>Sube sólo con un desastre <strong>realmente nuevo</strong> o una elección que aumenta la escala. No por cada fallo ni por cada frase. El nivel puede bajar un punto si el grupo dedica una escena a reparar una cadena de consecuencias. <strong>No determina victoria ni final</strong>.</p>\n<h3>Rastreo nocturno (0–4)</h3>\n<p>Cada mentira de PJ deliberadamente pronunciada durante la búsqueda puede añadir una marca de <code>RUIDO</code> (máximo una por escena si varias se encadenan). A 1 la antena se orienta; a 2 aparece un pulso; a 3 ME-NT cambia de refugio; a 4 deja de huir y provoca la confrontación. Descubrir huellas, escuchar abanicos, hablar con honestidad o preparar una emboscada no suma ruido. <strong>Se puede encontrar a ME-NT con el contador a cero.</strong></p>"
+      },
+      "ownership": {
+       "default": -1
+      },
+      "flags": {}
+     },
+     {
+      "_id": "ef0e49ab5e94ecec",
+      "name": "Cinco humanos y cinco verdades",
+      "type": "text",
+      "title": {
+       "show": true,
+       "level": 1
+      },
+      "sort": 400,
+      "text": {
+       "format": 1,
+       "content": "<p><strong>Importante:</strong> los archivos de retratos entregados tienen prioridad absoluta sobre antiguos bocetos. Todos los PJ son humanos; los PNJ del pueblo pueden ser animales, robots y seres imposibles. Cada ficha tiene dos capas: lo que se muestra al grupo y lo que solo lee su jugador. Las verdades son <strong>ficción del personaje</strong>, nunca confesiones autobiográficas exigidas a los participantes.</p>\n<h2>PJ 1 · PIPA PISTÓN — Repartidora meteórica</h2>\n<ul>\n<li><strong>Talento:</strong> velocidad, mensajería, persecuciones, conducción absurda.</li>\n<li><strong>Defecto:</strong> presume de controlar todo y no sabe cuándo frenar.</li>\n<li><strong>Objetivo de hoy:</strong> entregar un paquete importante sin quedar como una inútil.</li>\n<li><strong>Vínculo:</strong> Kame espera que le traiga una pieza para su pequeño artilugio; Bruno le ha impuesto una multa que considera injusta.</li>\n<li><strong>Frase:</strong> «¡LO TENGO CONTROLAAAAADO!».</li>\n<li><strong>Presentación:</strong> el jefe llama; el paquete no está donde debería. ¿Qué improvisas?</li>\n<li><strong>Mentira habitual (privada):</strong> «Nunca me da miedo conducir».</li>\n<li><strong>Verdad vergonzosa (privada):</strong> sufrió una caída ridícula, ahora teme perder el control de su moto y acelera demasiado para que nadie lo note. <strong>Confesión posible:</strong> «Estoy asustada; ¿me ayudáis a detenerla?». No se fuerza.</li>\n<li><strong>Reto personal flotante:</strong> moto que no para, mochila con un paquete que una mentira ha vuelto imprescindible, o alguien querido atrapado en un vehículo fuera de control.</li>\n</ul>\n<h2>PJ 2 · BRUNO BONIATO — Auxiliar municipal de autoridad excesiva</h2>\n<ul>\n<li><strong>Talento:</strong> permisos, reglamentos, registros, órdenes y negociar con uniformados.</li>\n<li><strong>Defecto:</strong> antes firma cien formularios que aceptar un error.</li>\n<li><strong>Objetivo:</strong> impedir que una revisión documental ponga en peligro su empleo.</li>\n<li><strong>Vínculo:</strong> ha amenazado con multar a Pipa; Bibi le arregló una destructora que ahora encuaderna expedientes.</li>\n<li><strong>Frase:</strong> «¡Esto es legal! ¡Lo dice alguna ordenanza, seguro!».</li>\n<li><strong>Presentación:</strong> le exigen el nombramiento original que nunca ha mostrado. ¿Cómo esquiva la llamada?</li>\n<li><strong>Mentira habitual:</strong> «Conseguí este puesto por méritos propios».</li>\n<li><strong>Verdad vergonzosa:</strong> su nombramiento se produjo por un error administrativo que reconoció y ocultó durante años. <strong>Confesión posible:</strong> «Me dio miedo perder todo lo que había construido».</li>\n<li><strong>Reto personal:</strong> su casa es reclasificada como zoológico o el registro municipal altera la identidad legal de todos sus compañeros.</li>\n</ul>\n<h2>PJ 3 · BIBI BURBUJAS — Mecánica autodidacta y científica involuntaria</h2>\n<ul>\n<li><strong>Talento:</strong> comprender circuitos, improvisar aparatos, reparar robots, inventos imposibles.</li>\n<li><strong>Defecto:</strong> no pide ayuda y pulsa botones que nadie le ha pedido tocar.</li>\n<li><strong>Objetivo:</strong> demostrar que puede solucionar la avería sin acudir a Senbei.</li>\n<li><strong>Vínculo:</strong> le prometió a Lulu reparar una cámara; Kame le presta piezas que supuestamente fabrica él.</li>\n<li><strong>Frase:</strong> «¡Técnicamente no ha explotado! ¡Se está comunicando!».</li>\n<li><strong>Presentación:</strong> un cliente viene a buscar un invento que no funciona. ¿Qué le dices?</li>\n<li><strong>Mentira habitual:</strong> «No necesito ayuda de nadie».</li>\n<li><strong>Verdad vergonzosa:</strong> saboteó su propio primer gran invento por miedo a que descubrieran que no entendía por qué funcionaba. <strong>Confesión posible:</strong> «Me supera; necesito que me ayudéis».</li>\n<li><strong>Reto personal:</strong> un aparato ultraseguro empieza a expulsar cuanto lo rodea; su taller y sus herramientas cobran vida.</li>\n</ul>\n<h2>PJ 4 · TARO KAME — Niño ingenioso de imaginación inagotable</h2>\n<ul>\n<li><strong>Talento:</strong> cachivaches, soluciones ingeniosas, colarse en sitios pequeños, recordar rumores del pueblo.</li>\n<li><strong>Defecto:</strong> convierte cualquier anécdota ordinaria en una historia imposible.</li>\n<li><strong>Objetivo:</strong> que el grupo reconozca que tiene algo valioso que aportar sin necesitar ser extraordinario.</li>\n<li><strong>Vínculo:</strong> encarga piezas a Pipa y ayuda en el taller de Bibi.</li>\n<li><strong>Frase:</strong> «¡Eso ya lo sabía yo!».</li>\n<li><strong>Presentación:</strong> tu familia encuentra una carta de tu supuesto amigo espacial. ¿Qué historia cuentas?</li>\n<li><strong>Mentira habitual:</strong> «Tengo amigos importantísimos en otros planetas».</li>\n<li><strong>Verdad vergonzosa:</strong> él escribió las cartas de su amigo extraterrestre porque le avergonzaba sentirse poco interesante y solo. <strong>Confesión posible:</strong> «Me las inventé porque quería que me invitarais a jugar».</li>\n<li><strong>Reto personal:</strong> un enorme extraterrestre se presenta como su mejor amigo con dieciocho maletas y una mascota que come paredes. La comedia con Kame es fantástica y social, <strong>no de contenido sexual</strong>.</li>\n</ul>\n<h2>PJ 5 · LULÚ FLASH — Fotógrafa y reportera local</h2>\n<ul>\n<li><strong>Talento:</strong> fotografía, escuchar conversaciones, conseguir contactos, hacer que otros posen o hablen.</li>\n<li><strong>Defecto:</strong> prefiere una exclusiva escandalosa a una explicación sencilla.</li>\n<li><strong>Objetivo:</strong> fotografiar el misterio del día y demostrar su valía como periodista independiente.</li>\n<li><strong>Vínculo:</strong> conoce el secreto del archivo de Bruno, pero aún no sabe si publicarlo; Bibi le debe la reparación de su cámara.</li>\n<li><strong>Frase:</strong> «¡No es cotilleo, es documentación gráfica!».</li>\n<li><strong>Presentación:</strong> afirmas que una fotografía tuya será portada del periódico. ¿Qué ocurrió realmente con esa foto?</li>\n<li><strong>Mentira habitual:</strong> «Nunca he manipulado una fotografía».</li>\n<li><strong>Verdad vergonzosa:</strong> su exclusiva más famosa fue un montaje inocente que se le fue de las manos y perjudicó a una persona buena; temió reconocerlo. <strong>Confesión posible:</strong> «Quería ser importante y publiqué algo que sabía que no era verdad».</li>\n<li><strong>Reto personal:</strong> aparecen las versiones contradictorias de su propia famosa fotografía, y alguien afectado exige que aclare cuál es real.</li>\n</ul>\n<h3>La ficha privada que se entrega a cada jugador</h3>\n<p><code>NOMBRE / TALENTO / DEFECTO / QUIERO CONSEGUIR HOY\nMI MENTIRA QUE SUELO CONTAR: ___________________________\nLA VERDAD QUE NO QUIERO DECIR: _________________________\nUNA PERSONA A LA QUE PODRÍA DEFRAUDAR: _________________\nMI VÍNCULO CON OTRO PJ: ________________________________\nUNA COSA QUE JAMÁS PERDONARÍA QUE ME QUITARAN: __________\n1 ficha «¡ESO YA LO SABÍA!» [ ]</code></p>\n<p>Se puede usar el secreto pregenerado o sustituirlo por otro <strong>inventado para el PJ</strong>. No hay castigo por no confesarlo. Si una persona no quiere jugar una temática, se cambia por un secreto de orgullo, dinero, trabajo, rivalidad o metedura de pata.</p>"
+      },
+      "ownership": {
+       "default": -1
+      },
+      "flags": {}
+     },
+     {
+      "_id": "a9badfdf529677f9",
+      "name": "Un día entero en 120 minutos",
+      "type": "text",
+      "title": {
+       "show": true,
+       "level": 1
+      },
+      "sort": 500,
+      "text": {
+       "format": 1,
+       "content": "<table>\n<thead>\n<tr>\n<th>Minutos de mesa</th>\n<th>Hora de ficción y estructura</th>\n<th>Lo que debe quedar claro</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>00–05</strong></td>\n<td><strong>AMANECE:</strong> Sol cepillándose y Porco en el árbol</td>\n<td>Éste es el universo de <em>Dr. Slump</em>. Presentación televisiva del día.</td>\n</tr>\n<tr>\n<td><strong>05–12</strong></td>\n<td>Montaje matinal de cada PJ</td>\n<td>Deseos, fallos, primeras mentiras; todos tienen algo que perder.</td>\n</tr>\n<tr>\n<td><strong>12–40</strong></td>\n<td><strong>ACTO I · CAOS MATINAL</strong></td>\n<td>2–3 retos, ME-NT visto, pista de que las frases falsas producen pulsos.</td>\n</tr>\n<tr>\n<td><strong>40–43</strong></td>\n<td><strong>MEDIODÍA:</strong> Sol agotado; cerdito almorzando</td>\n<td>El pueblo continúa viviendo aunque los PJ no estén presentes.</td>\n</tr>\n<tr>\n<td><strong>43–80</strong></td>\n<td><strong>ACTO II · TARDE DE LOCOS</strong></td>\n<td>2–3 retos mezclados, 1–2 consecuencias personales, descubren por qué la noche ayuda y una pista emocional.</td>\n</tr>\n<tr>\n<td><strong>80–83</strong></td>\n<td><strong>NOCHE:</strong> Luna, ventanas que se apagan, cerdito en pijama</td>\n<td>Silencio: la gente dormida no miente; puede rastrearse a ME-NT.</td>\n</tr>\n<tr>\n<td><strong>83–95</strong></td>\n<td><strong>CACERÍA NOCTURNA</strong></td>\n<td>Rastrean, se delatan o llegan a un refugio; la máquina se siente sola.</td>\n</tr>\n<tr>\n<td><strong>95–112</strong></td>\n<td><strong>EL JUICIO DE LAS MENTIRAS</strong></td>\n<td>Todos tienen oportunidad de mentir o decir la verdad. Resolución voluntaria, técnica o caótica.</td>\n</tr>\n<tr>\n<td><strong>112–120</strong></td>\n<td><strong>NUEVO AMANECER</strong></td>\n<td>Secuelas, epílogo por PJ y un último gag propio de Toriyama.</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Estos son cortes de montaje, no horas del reloj interno del juego.</strong> Los retos son flotantes: se sitúan en la próxima localización que aún no haya quedado fijada, sin teletransportar objetos ya observados ni deshacer éxitos de los jugadores. Si van más rápido, introduce un problema que afecte a su vida; si van más lento, corta con la transición del cerdito y muestra cómo evolucionó lo que dejaron a medias.</p>"
+      },
+      "ownership": {
+       "default": -1
+      },
+      "flags": {}
+     },
+     {
+      "_id": "265eeea623a62a19",
+      "name": "Acto I · Amanecer y desastres cotidianos",
+      "type": "text",
+      "title": {
+       "show": true,
+       "level": 1
+      },
+      "sort": 600,
+      "text": {
+       "format": 1,
+       "content": "<p><img src=\"systems/mr-mentira-cochina/assets/laminas/pdf-acto1.webp\" alt=\"\"></p><h2>Cabecera audiovisual: «Buenos días, Villa Pingüino» (00–05)</h2>\n<blockquote>\n<p><strong>Narración, segunda persona:</strong> El mar está oscuro y todo parece tranquilo. Sobre las montañas, un enorme despertador comienza a sonar. Una mano redonda emerge detrás de una nube y lo silencia de un manotazo. El Sol aparece adormilado, se echa pasta sobre un cepillo gigantesco y empieza a lavarse los dientes. Escupe una espuma que se transforma en tres nubecillas. Abajo, los tejados blancos de Villa Pingüino comienzan a brillar. En un árbol, un cerdito vestido como fotógrafo y con una cámara al cuello se incorpora sobre una rama, estira el hocico y apunta el flash hacia el horizonte.</p>\n<p><strong>PORCO (voz entusiasta):</strong> «¡OIIIIINK! ¡BUENOS DÍAS, VILLA PINGÜINOOOO! ¡El Sol ya se ha cepillado los dientes, los dinosaurios han sacado a pasear a sus dueños y alguien ha aparcado un tractor dentro de la panadería! ¡Otro día absolutamente normal en nuestro maravilloso pueblo!».</p>\n<p>Un golpe sacude el tronco. La cámara de Porco dispara sola y lo deja deslumbrado. «¡Oink! ¡Y ahora, nuestros maravillosos vecinos!».</p>\n</blockquote>\n<p><strong>Montaje matinal:</strong> ofrece las cinco microaperturas de las fichas en turnos de 45–60 segundos. Cada uno responde a su pregunta y declara una acción. <strong>No materialices automáticamente la mentira privada principal en la primera frase.</strong> A lo sumo deja escuchar un misterioso «¡PIUUUM!» entre dos transiciones.</p>\n<p><strong>Convergencia flexible (minuto 10):</strong> un objeto importante de uno de ellos aterriza en el camino de los demás: el paquete de Pipa, la carpeta de Bruno, la cámara de Lulú, el invento de Bibi o una carta de Kame. Un pulso transforma el objeto y obliga a que dos PJ se encuentren. No están contratados como comité ni les imponen una misión: <strong>se meten en la misma historia porque comparten sus consecuencias</strong>.</p>\n<h3>Qué ofrecer antes del mediodía</h3>\n<p>Elige <strong>dos</strong> de los retos <code>R01–R05</code> del apartado 8 y <strong>uno</strong> de los retos públicos <code>R06–R12</code> si el grupo va rápido. La primera mentira debe tener causa y efecto visibles (alguien la pronuncia → parabólica gira → pulso → consecuencia). El jugador que quiera intervenir obtiene una acción decisiva, no una descripción del director de cinco minutos.</p>\n<p><strong>Primer encuentro con ME-NT:</strong> la caja amarilla pasa sobre un cable de tendido, aleteando con sus abanicos. Se ríe del lío y dice «¡YO NO HE MENTIDO, EH! ¡VOSOTROS SÍ!». Puede dejar caer una pequeña arandela de Senbei o aparecer reflejada en la fotografía de Lulú. Si la cazan temprano, no impongas una fuga milagrosa: pueden retenerla momentáneamente y descubrir que la antena sigue oyendo mentiras y poniendo en peligro a quienes la rodean. Esa situación desplaza el reto a <strong>mantenerla a salvo</strong> y comprenderla.</p>\n<p><strong>Primera defensa vistosa:</strong> si alguien declara que tiene el mando, úsalo como gag de autoprotección explicado en el apartado 2. Si prueban con violencia física, la máquina es frágil ante golpes reales y puede pedir que no la rompan; los pulsos pendientes continúan activos. El dilema no depende de la invulnerabilidad del guion.</p>\n<p><strong>Corte obligatorio a los 40 minutos:</strong> termina la acción inmediata, deja una secuela en curso y ejecuta la transición del mediodía.</p>\n<h2>Cortinilla: «¡A comer!» (40–43)</h2>\n<blockquote>\n<p><strong>Narración:</strong> El Sol ha llegado arriba del todo. Lleva gafas oscuras, suda como una tetera y se da aire con una nube doblada. En su árbol, Porco ha sustituido la cámara por una fiambrera; intenta comerse un arroz que un pájaro le roba grano a grano.</p>\n<p><strong>PORCO:</strong> «¡OIIIIINK! ¡SON LAS DOCEEEE! ¡Es hora de comer! ¡Las tiendas cierran, los trabajadores descansan y todos los que dijeron esta mañana que llegarían a casa para comer están empezando a preocuparse!».</p>\n<p>Una casa con alas pasa por encima. Un motorista sale despedido en la dirección contraria. Porco mastica, reflexiona y concluye: «¡Bueno, por lo menos hace sol! ¡QUE APROVECHEEEE!».</p>\n</blockquote>\n<p><strong>Montaje de consecuencia:</strong> recupera un gag previo y muéstralo evolucionado en 10 segundos. La motocicleta puede seguir rebotando contra una pared; un vecino ya cobra entrada por contemplarla. No añadas un nuevo reto entero dentro de la cortinilla.</p>"
+      },
+      "ownership": {
+       "default": -1
+      },
+      "flags": {}
+     },
+     {
+      "_id": "8dc0b11412251a07",
+      "name": "Acto II · La tarde que todos mintieron",
+      "type": "text",
+      "title": {
+       "show": true,
+       "level": 1
+      },
+      "sort": 700,
+      "text": {
+       "format": 1,
+       "content": "<p><img src=\"systems/mr-mentira-cochina/assets/laminas/pdf-acto2.webp\" alt=\"\"></p><h2>Libertad con presión auténtica</h2>\n<p>Los personajes pueden perseguir a la máquina, ayudar a vecinos, probar una mentira calculada o preparar herramientas. No hay tres llaves ni un orden de escenas. Pero <strong>cada vez que deciden esperar sin intervenir, una consecuencia establecida sigue avanzando</strong>: una casa se eleva, una multa se tramita, alguien querido se aleja en una moto, un negocio se hunde. Muestra el peligro y ofrece intervenciones posibles, no una catástrofe decretada.</p>\n<p>Elige <strong>dos retos flotantes</strong> del apartado 8 y asegúrate de activar un reto relacionado con un <strong>secreto o un objeto irrenunciable</strong> de un PJ que aún no tuvo protagonismo. Si hay cinco jugadores, reduce a 1–2 retos grandes, porque el enfrentamiento final necesitará tiempo.</p>\n<h3>Las tres vías de información sobre la noche (todas válidas, nunca bloqueadas por tirada)</h3>\n<ol>\n<li><strong>Investigar planos o circuitos:</strong> Bibi, Kame o cualquier persona que manipule una placa de servicio ve el diagrama <code>RECEPTOR: SENBEI / AVERÍA: ÁREA EXTENDIDA / NÚCLEO: MENTIRAS CONSCIENTES</code>. Deducen que por la noche no habrá tantas mentiras.</li>\n<li><strong>Observarlo actuar:</strong> ME-NT vuela como loco sobre el mercado y desciende agotado en una calle silenciosa donde nadie discute. Basta fijarse; no hace falta una tirada de percepción.</li>\n<li><strong>Preguntar a los vecinos:</strong> Lulú, Frambuesa, un técnico, o un vecino que ayudó a Senbei recuerda que el prototipo se probaba al anochecer, cuando «por fin no había mil bocazas dando su opinión».</li>\n</ol>\n<p><strong>Si ignoran las tres pistas</strong>, al atardecer muestra a ME-NT descendiendo en la carretera vacía, con la parabólica casi quieta. El contraste entrega la misma conclusión. No sacrifiques la aventura por no formular la pregunta correcta.</p>\n<h3>Semilla emocional 1: «¿Y qué has ganado?»</h3>\n<p>Un vecino que mintió para ocultar una torpeza reconoce delante de un perjudicado que la culpa fue suya. ME-NT suspende el pulso.</p>\n<blockquote>\n<p>«¿Por qué has dicho eso?». —«Porque es verdad». —«¿Y qué has ganado?». —«Nada. Ahora tengo que pagarlo».</p>\n</blockquote>\n<p>La caja parece molesta, pero no ríe. «¡Los humanos sois unos mal diseñados!». Sale volando, casi dando contra un tendedero. <strong>No expliques al grupo que la verdad es la clave del final.</strong> Solo muestra que afecta a la máquina.</p>\n<h3>Semilla emocional 2: «La grabación»</h3>\n<p>Si investigan en el taller, recuperan una cinta del altavoz interno. Se oye a Senbei diciendo: «Eres mi mejor invento», «Nunca te utilizaría para perjudicar a nadie» y «Te prometo que mañana iremos a pasear». Cada frase aparece marcada como <strong>AFIRMACIÓN FALSA</strong>. No es un misterio difícil: un jugador puede oírla al pulsar PLAY, y alguien puede interrumpir el gag con otro problema.</p>\n<p>El grupo debe comprender dos hechos antes de la noche: <strong>ME-NT escucha mentiras a gran escala</strong> y <strong>la relativa ausencia de mentiras nocturnas permite atraparlo</strong>. Su tristeza puede quedar apenas sugerida.</p>\n<h3>Vida propia del reparto clásico</h3>\n<p>Intercala un cameo de Arale y su mascota, Suppaman y un falso atraco, o Akane/Tarō Soramame intentando una travesura. <strong>Sus asuntos no están relacionados con ME-NT</strong>; su paso puede provocar desperfectos accidentales que los PJ deban esquivar. Tienen escena y remate propio en el apartado 9.</p>\n<h2>Cortinilla: «¡Buenas noches!» (80–83)</h2>\n<blockquote>\n<p><strong>Narración:</strong> El Sol se quita las gafas y cae detrás del mar, agotado. Una Luna enorme aparece con gorro de dormir. Las ventanas van apagándose. Quedan grillos, el rumor del oleaje y un perro que ladra hasta que una vecina le responde que se calle. El perro contesta: «¡Pues sal tú a vigilar!».</p>\n<p>Sobre el árbol, Porco lleva su mismo rostro, gafas y orejotas de la referencia, pero un pijama diseñado sobre su ropa habitual. Tiene una manta y el flash apagado.</p>\n<p><strong>PORCO:</strong> «¡OIIIIINK! ¡BUENAS NOCHES! ¡En Villa Pingüino todo el mundo se mete en la cama! ¡Los niños sueñan, los tenderos descansan y los maridos tienen ocho horas para inventarse qué hicieron esta tarde!». Escucha un pequeño zumbido amarillo. «¡Que tengáis dulces sueños! ¡Y el que miente... bueno, que no ronque!». Apaga la lámpara. «Oink».</p>\n</blockquote>\n<p><strong>Cambio de atmósfera:</strong> menos música, más aire nocturno. Hay restos absurdos inmóviles: un coche entre ramas, una casa atasacada entre dos colinas, una dragona con rulos dormida junto a una chimenea. La isla duerme. Casi nadie puede mentir sin estar despierto.</p>"
+      },
+      "ownership": {
+       "default": -1
+      },
+      "flags": {}
+     },
+     {
+      "_id": "1cb731318f4a04fb",
+      "name": "Banco de retos flotantes",
+      "type": "text",
+      "title": {
+       "show": true,
+       "level": 1
+      },
+      "sort": 800,
+      "text": {
+       "format": 1,
+       "content": "<p><img src=\"systems/mr-mentira-cochina/assets/laminas/bn-moto.webp\" alt=\"\"></p><p>Cada tarjeta contiene <strong>gatillo, peligro inmediato, al menos dos vías abiertas, giro y secuela reutilizable</strong>. La localización es flotante hasta establecerse en mesa. No quites a los PJ algo que protegieron con éxito. Cuando una persona dice una mentira, <strong>deja que se oiga la frase</strong>, orienta la antena y narra el pulso. Si el grupo inventa un recurso mejor que los previstos, acéptalo y usa las reglas.</p>\n<h2>R01 · ¡MI MOTO JAMÁS SE DETIENE! [Pipa / mañana]</h2>\n<p><strong>Mentira:</strong> Pipa presume de que su moto nunca se para. <strong>Urgencia:</strong> el vehículo sale disparado con la bolsa de reparto y un pasajero no previsto. Puede poner rumbo al puerto o entrar en una calle llena de bicicletas. <strong>Opciones:</strong> alcanzarla con un vehículo ajeno, preparar una trampa de blandos cojines, mentir para hacer aparecer un freno temporal o pedir ayuda a alguien experto. <strong>Giro:</strong> el motor lleva funcionando tanto rato que la moto empieza a adelantar a sus propias ruedas. <strong>Secuela:</strong> sigue pasando detrás de las escenas a velocidades cada vez menores; al amanecer alguien vende entradas para verla.</p>\n<h2>R02 · ¡TODOS MIS DOCUMENTOS SON CORRECTOS! [Bruno / mañana-tarde]</h2>\n<p><strong>Mentira:</strong> Bruno afirma que jamás se equivoca al tramitar expedientes. <strong>Urgencia:</strong> el archivo municipal reescribe retroactivamente sus decisiones: su casa es ahora un zoo, su despacho una piscina pública, o un amigo figura como vehículo de sustitución. <strong>Opciones:</strong> localizar una excepción legal, reconocer el error y tramitar el cambio, utilizar el sello del expediente para demorar el desalojo. <strong>Giro:</strong> un pingüino de corbata se presenta como director del zoo y reclama horas extras. <strong>Secuela:</strong> siguen llegando cartas dirigidas al nuevo «señor pingüino».</p>\n<h2>R03 · ¡ES COMPLETAMENTE SEGURO! [Bibi / mañana-tarde]</h2>\n<p><strong>Mentira:</strong> Bibi asegura que un prototipo no puede causar daños. <strong>Urgencia:</strong> activa una barrera que expulsa violentamente todo lo que se acerque, incluida su clientela, su material y un ser querido que trataba de salvarlo. <strong>Opciones:</strong> construir un manipulador a distancia, desmontar la fuente desde debajo, hablar con el aparato para que redefina «seguro», pedir ayuda franca. <strong>Giro:</strong> incluso una pluma se vuelve un proyectil inofensivo pero humillante. <strong>Secuela:</strong> el aparato ahora abre automáticamente un pequeño paraguas cada vez que alguien estornuda.</p>\n<h2>R04 · ¡MI AMIGO VIENE DE OTRO PLANETA! [Kame / mañana-tarde]</h2>\n<p><strong>Mentira:</strong> Kame dice que su mejor amigo es un extraterrestre famosísimo. <strong>Urgencia:</strong> baja una nave con un visitante enorme que trae 18 maletas, una trompeta cuántica y una mascota que come paredes. Da por hecho que se alojará en casa de Kame. <strong>Opciones:</strong> encontrarle alojamiento, negociar la duración de la visita, guiarlo hasta otra actividad, reconocer la exageración y proponer amistad real. <strong>Giro:</strong> la criatura se ofende por no tener cama hecha. <strong>Secuela:</strong> aparece en fotos de grupo y firma autógrafos con tinta que flota.</p>\n<h2>R05 · ¡JAMÁS HE RETOCADO UNA FOTO! [Lulú / mañana-tarde]</h2>\n<p><strong>Mentira:</strong> Lulú niega haber manipulado su famosa exclusiva. <strong>Urgencia:</strong> aparecen múltiples copias tridimensionales de una fotografía contradictoria; la persona fotografiada, que conoce la verdad, está atrapada entre dos versiones de su propia historia. <strong>Opciones:</strong> localizar el negativo original, explicar el montaje al afectado, fotografiar la escena completa para demostrar el contexto, buscar la colaboración de Bibi. <strong>Giro:</strong> una de las fotos sale andando con una cámara propia y amenaza con publicar imágenes de los periodistas. <strong>Secuela:</strong> los negativos reaparecen en la foto final del grupo, mostrando quien se atreve a mirar a cámara.</p>\n<h2>R06 · ¡MI SUEGRA ES UN DRAGÓN! [público / mañana]</h2>\n<p><strong>Mentira:</strong> un vecino furioso llama dragón a su suegra. <strong>Urgencia:</strong> una dragona con bata y bolso se sienta encima del coche o la tienda que los PJ necesitan. No quiere destrozar nada: quiere hablar con su hija y que el yerno la visite. <strong>Opciones:</strong> mediar, convencerla de mudarse, transportar el vehículo mientras ella está encima, modificar su forma mediante una mentira concreta. <strong>Giro:</strong> al estornudar chamusca el pantalón del yerno, que grita por la factura de la tintorería. <strong>Secuela:</strong> la dragona prepara un almuerzo familiar en el epílogo.</p>\n<h2>R07 · ¡ESTOY FORRADO! [público / mañana-tarde]</h2>\n<p><strong>Mentira:</strong> un comerciante asegura nadar en dinero. <strong>Urgencia:</strong> billetes pegados como un abrigo sobre su cuerpo; cientos de acreedores, familiares y un inspector fiscal bloquean la calle, justo donde un PJ necesita llegar. <strong>Opciones:</strong> negociar una salida para el comerciante, organizar un pasillo entre la multitud, convertir el dinero en billetes canjeables, resolver la reclamación concreta. <strong>Giro:</strong> Hacienda exige primero el modelo tributario de la ropa. <strong>Secuela:</strong> el comerciante presume de haber pagado impuestos por primera vez en su vida.</p>\n<h2>R08 · ¡ESTAMOS CASADOS! [público / tarde]</h2>\n<p><strong>Mentira:</strong> dos vecinos fingen ser pareja legal para ahorrar en una estancia. <strong>Urgencia:</strong> registro matrimonial, suegras, hipoteca y una celebración invaden el establecimiento de un amigo o familiar de los PJ. <strong>Opciones:</strong> gestionar anulación, apaciguar a invitados, averiguar qué deseaban realmente los dos, encontrar alojamiento alternativo. <strong>Giro:</strong> uno de ellos descubre que ya estaba legalmente casado. <strong>Secuela:</strong> los recién casados discuten sobre quién se lleva el frigorífico, incluso si se anula el vínculo.</p>\n<h2>R09 · ¡AQUÍ TODO ES GRATIS! [público / tarde]</h2>\n<p><strong>Mentira:</strong> un tendero anuncia que no cobrará nada. <strong>Urgencia:</strong> vacían el comercio y entre lo sustraído hay una herramienta, un paquete o un objeto insustituible de un protagonista. <strong>Opciones:</strong> negociación, organizar devolución, usar la mentira «los clientes pagan con trabajo» (si ME-NT decide captarla), rastrear el objeto. <strong>Giro:</strong> la caja registradora pide propina. <strong>Secuela:</strong> un vecino exige reembolso de una compra que le salió gratis.</p>\n<h2>R10 · ¡EL ALCALDE ES UN CERDO! [público / tarde]</h2>\n<p><strong>Mentira:</strong> un vecino indignado insulta al alcalde. <strong>Urgencia:</strong> alcalde porcino pero parlante; debe firmar un permiso para salvar una calle de la demolición y ahora no puede sujetar el bolígrafo. <strong>Opciones:</strong> adaptar la firma a pezuña, negociar con el secretario, descubrir la fuente del insulto, lograr que el alcalde delegue. <strong>Giro:</strong> gana popularidad por primera vez y considera continuar así. <strong>Secuela:</strong> su retrato municipal luce un hocico que nadie se atreve a borrar.</p>\n<h2>R11 · ¡YO NO TENGO PROBLEMAS! [público / tarde]</h2>\n<p><strong>Mentira:</strong> un vecino niega tener dificultades. <strong>Urgencia:</strong> sus facturas, un coche averiado, una suegra de visita y muebles embargados aparecen en la propiedad de un PJ. <strong>Opciones:</strong> devolver físicamente los bultos, asumir un trámite temporal, responsabilizar al auténtico dueño, usar una mentira limitada que los redistribuya. <strong>Giro:</strong> al vecino le ha desaparecido hasta el dolor de muelas; se siente genial y se niega a colaborar. <strong>Secuela:</strong> uno de sus acreedores empieza a tratar al PJ como avalista.</p>\n<h2>R12 · ¡TENGO LA CABEZA EN OTRA PARTE! [público / tarde]</h2>\n<p><strong>Mentira:</strong> mecánico se justifica por distraerse. <strong>Urgencia:</strong> cabeza en una mesa y cuerpo trabajando a ciegas sobre el mecanismo que necesita el grupo. <strong>Opciones:</strong> llevar la cabeza como copiloto, usar espejos, coordinar al cuerpo, restablecer la atención. <strong>Giro:</strong> la cabeza reclama doble sueldo. <strong>Secuela:</strong> el mecánico necesita un casco diseñado con dos tallas diferentes.</p>\n<h2>R13 · ¡ESTA CASA VUELA! [gran escala / tarde]</h2>\n<p><strong>Mentira:</strong> vendedor inmobiliario exagera la ligereza de una vivienda. <strong>Urgencia:</strong> una casa con alas se eleva con una persona relacionada con un PJ dentro. <strong>Opciones:</strong> rescatar a los habitantes, hacer aterrizar el edificio, crear un lastre absurdo, aprovechar otro vehículo volador. <strong>Giro:</strong> la casa tiene vértigo y se niega a bajar si alguien le grita. <strong>Secuela:</strong> multa por estacionamiento aéreo.</p>\n<h2>R14 · ¡LOS BOMBEROS YA ESTÁN AQUÍ! [gran escala / tarde]</h2>\n<p><strong>Mentira:</strong> alguien dice que los bomberos han llegado para apagar un fuego todavía pequeño. <strong>Urgencia:</strong> el camión se materializa dentro de la cafetería, bloqueando la salida; el incendio sigue. <strong>Opciones:</strong> despejar salida, conectar manguera, evacuar por tejado, convertir temporalmente el camión en vehículo pequeño mediante una mentira pensada. <strong>Giro:</strong> el bombero con más experiencia es un perro que no deja de perseguir la manguera. <strong>Secuela:</strong> Doña Cafelina cobra una consumición al vehículo.</p>\n<h2>R15 · ¡EL PUENTE ES DE GOMA! [gran escala / tarde]</h2>\n<p><strong>Mentira:</strong> un vecino asegura que el puente es elástico. <strong>Urgencia:</strong> autobús con familiares o bienes necesarios rebota sobre el río. <strong>Opciones:</strong> organizar rescate por tramos, estabilizar con pesos, utilizar el impulso para alcanzar las ventanas, traer una red. <strong>Giro:</strong> un turista pregunta cuánto cuesta saltar otra vez. <strong>Secuela:</strong> instalan un cartel de «PROHIBIDO HACER PUENTING SIN CITA PREVIA».</p>\n<h2>R16 · ¡ESTO NO SE ROMPE NI CON UNA BOMBA! [gran escala / tarde]</h2>\n<p><strong>Mentira:</strong> vendedor presume de una pieza indestructible. <strong>Urgencia:</strong> la pieza gira dentro de una máquina que tritura todo a su alrededor y amenaza el taller o almacén de un PJ. <strong>Opciones:</strong> desmontar la carcasa, evacuar y cortar la energía, cambiar el eje, modificar el movimiento con una mentira sin atacar a ME-NT. <strong>Giro:</strong> garantía comercial excluye «daños por utilización normal». <strong>Secuela:</strong> el objeto termina como pisapapeles municipal.</p>\n<h2>R17 · ¡TODO EL MUNDO ME ADORA! [social / tarde]</h2>\n<p><strong>Mentira:</strong> vecino vanidoso presume de popularidad. <strong>Urgencia:</strong> todos quienes ya lo conocen exageran su admiración de manera voluntaria, llenan la plaza y bloquean una ruta vital; los PJ no pierden su voluntad. <strong>Opciones:</strong> gestionar la multitud, trasladar acto, revelar una acción genuinamente buena de otra persona, organizar salida. <strong>Giro:</strong> le hacen una estatua en la tapa de un retrete. <strong>Secuela:</strong> al día siguiente el retrete es patrimonio cultural.</p>\n<h2>R18 · ¡NO HE ROTO NADA! [comodín de urgencia / cualquier acto]</h2>\n<p><strong>Mentira:</strong> alguien niega haber causado un desperfecto evidente. <strong>Urgencia:</strong> el objeto roto se recompone, pero la causa del accidente queda sin resolver y repite el mismo impacto una y otra vez; puede ser un escaparate de Pipa, una lente de Lulú o una pared de Bibi. <strong>Opciones:</strong> eliminar la causa, salvar a los afectados, confesar responsabilidad, introducir una reparación compatible. <strong>Giro:</strong> el escaparate se rompe y recompone tan rápido que un vecino empieza a usarlo como ventilador. <strong>Secuela:</strong> se puede retomar esta secuencia tres veces con un remate cada vez distinto.</p>\n<h3>Selección rápida recomendada</h3>\n<p><strong>Con tres PJ:</strong> 2 retos personales + R06 + R13 + R18 + una vuelta de un reto viejo. <strong>Con cinco PJ:</strong> un disparador personal para cada uno, 1 gran reto público y nada más antes de la noche. Si el grupo hace algo más gracioso, elimina un reto de la lista.</p>"
+      },
+      "ownership": {
+       "default": -1
+      },
+      "flags": {}
+     },
+     {
+      "_id": "b8c64a6510007854",
+      "name": "La villa vive sin nosotros",
+      "type": "text",
+      "title": {
+       "show": true,
+       "level": 1
+      },
+      "sort": 900,
+      "text": {
+       "format": 1,
+       "content": "<p><img src=\"systems/mr-mentira-cochina/assets/laminas/bn-cameos.webp\" alt=\"\"></p><p>El reparto de <em>Dr. Slump</em> aparece <strong>haciendo sus propias tonterías</strong>. No dan misiones, no llegan como salvadores, no arreglan ME-NT al final. Sus historias tienen tres pasos autónomos que se pueden mostrar con fugaces cortes de cámara: <strong>preparación — aparición en marcha — remate</strong>. No hace falta representarlos todos; elige dos subtramas de fondo y repítelas dos veces. En vídeo, usa <strong>exactamente el aspecto de las personas caracterizadas en las referencias, no versiones anime genéricas</strong>.</p>\n<table>\n<thead>\n<tr>\n<th>Subtrama</th>\n<th>Primera vez (mañana)</th>\n<th>Segunda vez (tarde)</th>\n<th>Remate (noche o epílogo)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Arale y su mascota imposible</strong></td>\n<td>Arale arrastra alegremente una correa unida a algo demasiado grande para verse. Saluda: «¡N'CHA!»</td>\n<td>El animal cruza una calle atravesando de lado un muro; Arale sigue sonriente, ajena al destrozo.</td>\n<td>El animal duerme en el tejado de la escuela. Arale le deja un hueso del tamaño de un piano.</td>\n</tr>\n<tr>\n<td><strong>Senbei y el cinturón abdominal</strong></td>\n<td>Senbei lleva un cinturón que le proporciona abdominales perfectos; presume ante Midori.</td>\n<td>El cinturón se contrae y lo lanza por encima de la tapia de su propio taller.</td>\n<td>Midori encuentra un manual que dice «USO MÁXIMO: 5 SEGUNDOS». Senbei niega haber leído mal; sale disparado.</td>\n</tr>\n<tr>\n<td><strong>Suppaman contra un atraco</strong></td>\n<td>Suppaman confunde a dos vendedores de helados con atracadores internacionales.</td>\n<td>Los persigue tumbado en su monopatín, capa al viento. Choca contra una máquina expendedora.</td>\n<td>Lo persiguen los vendedores, indignados porque se ha comido diecisiete helados y no ha pagado.</td>\n</tr>\n<tr>\n<td><strong>Akane y Tarō Soramame</strong></td>\n<td>Cambian las flechas de una señal de tráfico para mandarlas al mar.</td>\n<td>Un policía les persigue; ambos sostienen que sus nuevas señales son «arte contemporáneo».</td>\n<td>El propio policía instala una placa con su nombre bajo la señal, creyendo que es un monumento.</td>\n</tr>\n<tr>\n<td><strong>Peasuke y el casco prodigioso</strong></td>\n<td>Peasuke lleva un casco enorme y quiere demostrar que lo protege de todo.</td>\n<td>Se tropieza en un escalón y el casco queda intacto; el resto de su equipo termina en un árbol.</td>\n<td>El casco consigue una medalla de seguridad ciudadana. Peasuke no.</td>\n</tr>\n<tr>\n<td><strong>Gatchan come cosas</strong></td>\n<td>Gatchan se come cucharillas, tornillos y una radio que no era comestible.</td>\n<td>Una vecina le intenta recuperar la dentadura postiza de su marido.</td>\n<td>Gatchan eructa un pequeño jingle publicitario. El mando de ME-NT fue ingerido ayer y <strong>no vuelve a aparecer oportunamente</strong>.</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Cameos circunstanciales del vídeo:</strong> la pareja de policías del segundo 33, las criaturas verdes de los segundos 49–53 y el anciano con gafas de sol del segundo 29 pueden aparecer tal como se ven, con tareas absurdas propias. Si su identidad canónica no está confirmada por el material aportado, <strong>no inventar que son un personaje específico</strong>. Describir el atuendo visual, no adjudicar nombres.</p>\n<p><strong>Máximo dos minutos por cameo.</strong> Si la mesa no se ríe, corta sin dar explicación. Si los PJ deciden intervenir, esas personas responden de acuerdo con su deseo, pero <strong>nunca absorben el foco de la partida</strong>.</p>"
+      },
+      "ownership": {
+       "default": -1
+      },
+      "flags": {}
+     },
+     {
+      "_id": "dc05a58297cc571e",
+      "name": "Acto III · La noche y el juicio de las mentiras",
+      "type": "text",
+      "title": {
+       "show": true,
+       "level": 1
+      },
+      "sort": 1000,
+      "text": {
+       "format": 1,
+       "content": "<p><img src=\"systems/mr-mentira-cochina/assets/laminas/pdf-acto3.webp\" alt=\"\"></p><h2>10.1. Cacería entre los restos del día (83–95)</h2>\n<blockquote>\n<p><strong>Texto para leer:</strong> La mayoría de luces se han apagado. Escucháis el mar, los grillos y el ocasional ronquido que sale de un buzón. Los disparates de todo el día no han desaparecido: una moto continúa dando vueltas alrededor de una fuente, una casa reposa sobre un campanario y un Ferrari está incrustado hasta la mitad en una panadería. Pero ya no hay destellos amarillos cada treinta segundos. Entonces, entre los tejados, distinguís un ruido distinto: <em>flap-flap... flap-flap...</em> Como dos abanicos batiéndose con desgana. La enorme antena de ME-NT [1R] brilla un instante bajo la Luna.</p>\n</blockquote>\n<p>ME-NT está refugiado, <strong>donde mejor encaje con los movimientos del grupo</strong>, en una rama ancha, un depósito de agua, el cobertizo de Senbei o la azotea de la cafetería. Si los jugadores ya lo tienen atrapado, ese lugar es simplemente donde empiezan a hablar con él. Debe tener espacio para que ocurra una persecución breve, pero no un mapa táctico de combate.</p>\n<p><strong>Rastro disponible sin tirada:</strong> sonido de abanicos, una hilera de plumas de papel de sus abanicos, la vibración de una antena vieja o un testigo que lo vio aterrizar. <strong>Tirada opcional:</strong> solo si hay que cruzar un tejado resbaladizo, salvar una caída o acercarse sin alertar a un vecino despierto.</p>\n<p><strong>Cada mentira pronunciada cerca puede atraer la parabólica</strong>. Usa el contador <code>RUIDO 0–4</code>; a 4 o al localizarlo, comienza el juicio. Un fracaso no impide encontrarlo: adelanta el enfrentamiento, con ME-NT en una posición más ventajosa.</p>\n<h2>10.2. El silencio de la máquina (señal emocional; 1–2 minutos)</h2>\n<blockquote>\n<p>Encontráis a ME-NT [1R] sentado en el borde de un tejado. Sus pequeños zapatones cuelgan sobre la cornisa. La parabólica apunta a las estrellas. Tiene los abanicos plegados. Cuando os ve, no se ríe.</p>\n<p>«¿Sabéis qué es lo que más me gusta de la noche?». Espera una respuesta. «Que cuando dormís... por fin dejáis de mentir».</p>\n<p>Da una patadita al aire. «Mi inventor dijo que yo era especial. Dijo que me quería. También me puso un mando para obligarme a obedecer. No sé cuál de esas tres cosas era mentira».</p>\n</blockquote>\n<p><strong>No impongas todavía una reconciliación.</strong> Si los PJ son amables, escucha. Si intentan atraparlo, se asusta. Si lo insultan o le prometen algo inverosímil, se defiende con lo que ya sabemos de él. El final sigue siendo suyo.</p>\n<h2>10.3. El juicio de las mentiras (95–112)</h2>\n<p>ME-NT no puede detectar grandes cantidades de mentiras nocturnas y se siente débil. Se da cuenta de que los perseguidores <strong>tienen cosas que ocultar</strong>, como Senbei. Para protegerse y probar su teoría de que nadie dice la verdad cuando cuesta, intenta provocar que se mientan unos a otros.</p>\n<blockquote>\n<p><strong>ME-NT:</strong> «¡VENÍS A LLEVARME DE VUELTA! ¡JE-JE-JE! ¡PERO SEGURO QUE NI SIQUIERA OS CONOCÉIS DE VERDAD! ¡SI SOIS TAN AMIGOS, DECIDME QUIÉNES SOIS! ¡NO, MEJOR: DECÍDSELO A LOS DEMÁS! ¡MENTID! ¡MENTID BIEN, QUE YA NO QUEDA NADIE DESPIERTO PARA DIVERTIRME!».</p>\n</blockquote>\n<p><strong>Funcionamiento práctico (rápido, 3–4 minutos por PJ):</strong> ME-NT pone en escena una situación que recuerda <strong>el tema</strong> de la verdad privada, <strong>sin leer el secreto exacto ni revelarlo por su cuenta</strong>. El personaje puede <strong>mentir</strong>, <strong>decir una verdad</strong>, <strong>callar</strong>, <strong>cambiar de tema</strong>, <strong>intentar negociar</strong> o <strong>hacer una acción física</strong>. Todo funciona de acuerdo con las reglas.</p>\n<ul>\n<li>Si <strong>miente</strong>, el pulso materializa una ventaja y una dificultad visible. Si una segunda persona miente para ayudar, su mentira puede cruzarse con la anterior y modificar el campo de juego. Las consecuencias pueden solucionarse con acciones y las tiradas de ¡PAM! 2.0; ninguna confesión es necesaria para continuar.</li>\n<li>Si <strong>dice la verdad</strong> de manera voluntaria, no hay pulso. Puede perder prestigio, deber una disculpa o provocar que otro reaccione con afecto, sorpresa o bromas. <strong>No se tira para sincerarse</strong>. El director pregunta a un compañero: «¿Qué haces cuando te lo dice?». Mantén la intimidad en escala cómica, no hagas terapia.</li>\n<li>Si <strong>se calla</strong>, ME-NT puede burlarse de él, pero no puede obligarlo a hablar. Otro protagonista puede responder o buscar una salida técnica.</li>\n<li>Si <strong>se enfrenta físicamente</strong> a ME-NT, resuelve la acción con el sistema; la máquina tiene miedo real a ser rota. Puede llegar una victoria técnica. No uses una barrera invisible arbitraria.</li>\n</ul>\n<p><strong>Cinco provocaciones, adaptables a tres o cuatro PJ:</strong></p>\n<table>\n<thead>\n<tr>\n<th>Personaje</th>\n<th>Provocación de ME-NT, NO revelación del secreto</th>\n<th>Materialización si el PJ vuelve a mentir</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Pipa</td>\n<td>«¡Tú siempre conduces sin miedo, ¿verdad?!»</td>\n<td>Una Pipa duplicada, temeraria e incapaz de frenar, sube a la moto y arrastra un objeto preciado.</td>\n</tr>\n<tr>\n<td>Bruno</td>\n<td>«¡Tu expediente no tendrá ni una sola mancha!»</td>\n<td>Seis brazos selladores y expedientes flotantes legalizan sus equivocaciones.</td>\n</tr>\n<tr>\n<td>Bibi</td>\n<td>«¡Tú puedes reparar todo sola, ¿no?!»</td>\n<td>Sus herramientas se independizan y empiezan a arreglar cosas perfectamente sanas, destrozándolas.</td>\n</tr>\n<tr>\n<td>Kame</td>\n<td>«¡Tú conoces a todos los héroes del universo!»</td>\n<td>Una multitud de supuestos amigos se pelea por demostrar que lo conoce mejor; piden pruebas imposibles.</td>\n</tr>\n<tr>\n<td>Lulú</td>\n<td>«¡Nunca publicaste nada falso!»</td>\n<td>Los recortes de su reportaje cobran vida y representan versiones incompatibles del mismo suceso.</td>\n</tr>\n</tbody>\n</table>\n<p><strong>El remate humano:</strong> alguien reconoce una tontería que le avergüenza, los otros aceptan las consecuencias y terminan riéndose <strong>con él</strong>, no <strong>de él</strong>. Una verdad puede ser «me dio miedo», «fui un farsante», «necesito ayuda» o «hice daño a alguien por ganar fama». No hace falta pronunciar un discurso perfecto.</p>\n<h3>Final A · Victoria limpia (ME-NT se entrega por elección)</h3>\n<p>Requiere que el grupo muestre —con sus propias palabras o acciones— que puede <strong>reconocer verdades incómodas y hacerse cargo de las consecuencias</strong>, sin coacción y sin promesas falsas. No es una votación rígida de «todos confiesan o perdéis»: si un PJ no quiere compartir su secreto, puede <strong>respaldar sinceramente a otro o reconocer un error surgido en mesa</strong>. El director valora la confianza entre personajes, no el número de confesiones marcadas en una lista.</p>\n<blockquote>\n<p>«Sois bastante tontos», dice ME-NT. «Podíais haber pedido dinero, amor, músculo... ¡Hasta un Ferrari! Y habéis elegido contaros cosas que os ponen en ridículo». Los abanicos dejan de girar. «Creo que me caéis bien». Deja caer una llavecita de mantenimiento de su carcasa. «Si voy con vosotros... ¿me controlaréis como hacía él?».</p>\n</blockquote>\n<p>Deja responder. Una respuesta honesta, incluso «No lo sé, pero podemos hablarlo», vale más que «nunca mentiré» dicha falsamente. <strong>ME-NT acepta acompañarlos</strong>, mantiene su libertad, colabora en reparar el receptor y activa la <strong>restauración selectiva</strong>. Los jugadores eligen qué cambios deshacer y qué secuelas materiales o cómicas permanecen.</p>\n<h3>Final B · Victoria técnica, sin reconciliación</h3>\n<p>El grupo reconfigura la antena, aísla el receptor o repara el circuito con una acción aventurada. Puede encerrar la caja temporalmente e impedir que el pulso alcance el pueblo. <strong>Es legítimo vencer así</strong>. ME-NT sigue desconfiando y quizás escape otro día; parte de las secuelas permanecen hasta su reparación. Recalca el precio de sus decisiones sin castigar con una moraleja.</p>\n<h3>Final C · Se les va de las manos</h3>\n<p>Mentiras encadenadas, sobresalto o una actuación desesperada provocan la sobrecarga definitiva. La ciudad despierta convertida en un collage de mentiras: funcionarios con pezuñas, viviendas en el cielo, clientes felices con facturas terribles. Los protagonistas conservan la oportunidad de salvar a quien tenían cerca. <strong>No significa «perdisteis la partida»; significa que el episodio acabó con un desastre magnífico</strong>.</p>\n<h3>Final D · Los PJ deciden conservar una mentira</h3>\n<p>Quizá una persona rejuvenecida no quiera perderlo todo; quizá Kame desea continuar siendo amigo del extraterrestre, ahora que se han conocido. Permite que algunos efectos <strong>persistan por acuerdo</strong> y muestren consecuencias. La restitución no es una obligación moral de borrar todo lo extraño; Villa Pingüino ya era extraordinaria antes.</p>\n<h2>10.4. Nuevo amanecer (112–120) y últimos créditos</h2>\n<blockquote>\n<p>El Sol aparece otra vez por el mar. Está despeinado, bosteza y busca su cepillo de dientes entre las nubes. Mira abajo: una casa está apoyada en otra; un coche descansa dentro de una fuente; alguien ha instalado una sombrilla sobre la cabeza de una estatua. Se encoge de hombros y empieza a cepillarse.</p>\n<p>En el árbol, Porco sostiene su cámara con las manos temblorosas. Tiene los ojos hinchados de sueño.</p>\n<p><strong>PORCO:</strong> «¡OIIIIINK! ¡BUENOS DÍAS, VILLA PINGÜINO! ¡Ayer tuvimos algunos incidentes menores! ¡Una casa voló, un alcalde gruñó y alguien ha declarado su amor a un electrodoméstico! ¡Pero hoy vuelve a ser un día completamente normal!».</p>\n<p>Un estruendo sacude el árbol. Porco se agarra a una rama, mira a cámara y exclama: «¡O por lo menos va a intentarlo!».</p>\n</blockquote>\n<p><strong>Créditos:</strong> cada PJ describe durante 20–30 segundos una imagen del día siguiente. Debe incluir <strong>una consecuencia concreta de su mentira o una relación que haya cambiado</strong>. El director devuelve sólo uno o dos gags recurrentes. Si el grupo reconciliado lleva a ME-NT consigo, puede estar agitando los abanicos en el desayuno: «¿Sois siempre así de raros?». Si Arale aparece al fondo y alza el planeta con un dedo, no hay pulso: <strong>no estaba mintiendo</strong>. <strong>Corte a negro inmediato.</strong></p>"
+      },
+      "ownership": {
+       "default": -1
+      },
+      "flags": {}
+     },
+     {
+      "_id": "ae5ec05b59cc9d5c",
+      "name": "Apuntes para una dirección memorable",
+      "type": "text",
+      "title": {
+       "show": true,
+       "level": 1
+      },
+      "sort": 1900,
+      "text": {
+       "format": 1,
+       "content": "<p><img src=\"systems/mr-mentira-cochina/assets/laminas/pdf-final.webp\" alt=\"\"></p><p><strong>Que el chiste lo provoque la interpretación.</strong> Si Bruno asegura con toda su gravedad que el zorro que lleva su expediente es un funcionario de ventanilla, no hace falta añadir tres gags más: muestra al zorro extendiendo una pata para pedir el sello. <strong>Corta la escena en el punto más divertido.</strong></p>\n<p><strong>Los jugadores no son espectadores de los chistes del director.</strong> Cuando ME-NT provoca una alteración, pregunta de inmediato: «¿Qué hacéis?». Las mejores consecuencias tienen que nacer de sus mentiras, sus soluciones y sus defectos.</p>\n<p><strong>Los nombres de los personajes de la serie venden el ambiente, pero no la trama.</strong> El grupo debe acabar diciendo «nosotros la liamos más» en vez de «Arale nos rescató».</p>\n<p><strong>Jugar verdades vergonzosas no significa avergonzar jugadores.</strong> La confesión puede ser pequeña, íntima entre dos PJ y acabar con un gag. Deja que los compañeros respondan de manera entrañable o idiota. Lo único inadmisible es obligar a nadie a explicar algo personal de verdad.</p>\n<p><strong>Si la partida supera los 120 minutos:</strong> corta un reto público, muestra en una frase su secuela e introduce la cabecera siguiente. Si la partida va corta, repite uno de los running gags con una consecuencia diferente. La promesa estructural se cumple siempre: <strong>Sol y Porco al amanecer → Sol y Porco al mediodía → Luna y Porco de noche → nuevo amanecer</strong>.</p>\n<blockquote>\n<p><strong>Última instrucción de producción:</strong> este universo debe oler a ropa de vestuario, engranajes reparados con cinta adhesiva, peluquines imposibles y sol de vacaciones. Debe sentirse real a la vista y absolutamente insensato cuando sus habitantes abren la boca.</p>\n</blockquote>\n<p><strong>FIN DEL EPISODIO — ¡OIIIIINK!</strong></p>"
+      },
+      "ownership": {
+       "default": -1
+      },
+      "flags": {}
+     }
+    ],
+    "sort": 0,
+    "folder": null,
+    "ownership": {
+     "default": 0
+    },
+    "flags": {
+     "mr-mentira-cochina": {
+      "clave": "guia"
+     }
+    }
+   },
+   {
+    "_id": "ea74467937867c93",
+    "name": "Chuleta de dirección",
+    "pages": [
+     {
+      "_id": "c67eb117176019fa",
+      "name": "Chuleta de dirección",
+      "type": "text",
+      "title": {
+       "show": true,
+       "level": 1
+      },
+      "sort": 0,
+      "text": {
+       "format": 1,
+       "content": "<p><strong>PROMESA:</strong> un día con una máquina que vuelve ciertas las mentiras; al dormir el pueblo, los PJ pueden alcanzarla y decidir cómo terminar con el desastre.</p>\n<p><strong>CABECERAS FIJAS:</strong> 00 amanecer Sol/Porco · 40 mediodía Sol/Porco · 80 noche Luna/Porco · 112 nuevo amanecer Sol/Porco.</p>\n<p><strong>RITMO:</strong> presentación 12 min · 2–3 retos AM · 2–3 retos PM · caza 12 min · final 17 min · epílogo 8 min.</p>\n<p><strong>LA MÁQUINA:</strong> ME-NT [1R], amarilla, parabólica, brazos con abanicos japoneses y zapatones; quiere una verdad honesta, no órdenes; el mando original se lo comió Gatchan; mentir sobre tener un mando crea uno que controla al mentiroso.</p>\n<p><strong>TIRADA:</strong> 2d6 +1 dado por talento +1 por ayuda, suma dos mejores (máx. 4d6): 2–5 fiasco, 6–8 éxito con coste, 9–11 éxito, 12 sobresaliente. Tirar únicamente cuando hay incertidumbre.</p>\n<p><strong>BLOQUEO DE ARGUMENTO PROHIBIDO:</strong> la pista de la noche aparece sí o sí por planos, observación o diálogo; encontrar a ME-NT no depende de un dado; la verdad no se arranca a nadie; los héroes de la serie no salvan la situación por su cuenta.</p>\n<p><strong>SECUENCIA PARA UN RETO:</strong> 1 frase falsa → «¡PIUUUM!» → imagen imposible → algo personal en peligro → pregunta «¿qué haces?» → resolución abierta → remate → guarda secuela para más tarde.</p>\n<p><strong>REGLA DEL CHISTE:</strong> repetir con variación una consecuencia antigua rinde más que introducir veinte cosas nuevas. Ejemplo: moto que no frena → mecánico vende entradas → al amanecer el vecino cobra impuesto de circulación aéreo.</p>\n<p><strong>LA PREGUNTA DEL CLÍMAX:</strong> «¿Qué ocurre cuando alguien dice la verdad sabiendo que ya no puede esconderse?». La respuesta se juega en mesa, no se lee de un guion.</p>\n<p><strong>REPARTO ORIGINAL:</strong> Arale, Senbei, Midori, Gatchan, Suppaman, Akane, Tarō Soramame, Peasuke y otros cameos viven sus capítulos paralelos. </p>\n<p><strong>SEGURIDAD Y TONO:</strong> sátira, vergüenza adulta ficticia, enredos, humor físico; nada de sexualizar al PJ de aspecto infantil, crueldad realista ni confesiones autobiográficas.</p>"
+      },
+      "ownership": {
+       "default": -1
+      },
+      "flags": {}
+     }
+    ],
+    "sort": 1,
+    "folder": null,
+    "ownership": {
+     "default": 0
+    },
+    "flags": {
+     "mr-mentira-cochina": {
+      "clave": "chuleta"
+     }
+    }
+   },
+   {
+    "_id": "674cd62d41a0b581",
+    "name": "¡PAM! 2.0 · Reglas para la mesa",
+    "pages": [
+     {
+      "_id": "3fde588ee5cdff7a",
+      "name": "¡PAM! 2.0",
+      "type": "text",
+      "title": {
+       "show": true,
+       "level": 1
+      },
+      "sort": 0,
+      "text": {
+       "format": 1,
+       "content": "<p><img src=\"systems/mr-mentira-cochina/assets/laminas/bn-dados.webp\" alt=\"\"></p><p><strong>Tira sólo cuando exista incertidumbre interesante.</strong> No se tira para decir una mentira, coger un objeto caído, hablar con un vecino ni hacer un chiste. Un PJ puede inventar una falsedad sin tirada: la incertidumbre aparece al <strong>controlar el pulso</strong>, salvar a alguien, pilotar algo imposible, negociar, atrapar o comprender un circuito.</p>\n<p><strong>Reserva:</strong> tira <strong>2d6</strong> por defecto. Si tu <strong>Talento Estrella</strong> ayuda, añade <strong>+1d6</strong>. Si otro PJ colabora activamente y se arriesga a sufrir la complicación, añade <strong>+1d6</strong>. Máximo <strong>4d6</strong>. <strong>Suma los dos valores más altos</strong>, no todos los dados.</p>\n<table>\n<thead>\n<tr>\n<th>Suma de los dos mejores</th>\n<th>Resultado</th>\n<th>Dirección</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>2–5</strong></td>\n<td><strong>Fiasco útil</strong></td>\n<td>La acción falla o se desvía; ofrece inmediatamente otra posibilidad y un lío visible. Sin callejón sin salida.</td>\n</tr>\n<tr>\n<td><strong>6–8</strong></td>\n<td><strong>Éxito aparatoso</strong></td>\n<td>El objetivo se logra, pero con un coste cómico o una consecuencia secundaria concreta.</td>\n</tr>\n<tr>\n<td><strong>9–11</strong></td>\n<td><strong>Éxito brillante</strong></td>\n<td>Logra lo que quería sin precio relevante; añade descripción memorable, nunca un castigo escondido.</td>\n</tr>\n<tr>\n<td><strong>12</strong></td>\n<td><strong>Éxito descomunal</strong></td>\n<td>Además de lograrlo, el jugador elige un beneficio extraordinario y visible.</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Probabilidades de lograr al menos 6:</strong> 2d6 = <strong>72,2 %</strong>; 3d6 conservando los dos mejores = <strong>89,4 %</strong>; 4d6 conservando los dos mejores = <strong>96,0 %</strong>. Los éxitos con coste son frecuentes, los fallos no detienen el episodio.</p>\n<p><strong>Una ficha «¡ESO YA LO SABÍA!» por jugador:</strong> una vez en la sesión puede declarar una coincidencia estrambótica y útil («mi tía guarda un gancho para detener casas voladoras»). Si encaja en la realidad establecida, es cierto y no exige tirada; el director introduce un <strong>remate</strong> que no invalide la utilidad. Los dones no crean por sí solos una solución definitiva al conflicto de la máquina.</p>\n<p><strong>Los golpes siguen la física de historieta:</strong> paredes perforadas con silueta, peinados chamuscados, cuerpos elásticos, dentaduras que castañetean. Evitar daño realista, mutilación, humillación insistente, bromas de identidad y violencia sexual. Si un gag incomoda a alguien, se cambia sin explicaciones.</p>\n<h3>Marcador compartido de DESBARAJUSTE (0–6)</h3>\n<table>\n<thead>\n<tr>\n<th>Nivel</th>\n<th>Qué ocurre</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>0–1</td>\n<td>Efectos locales; ME-NT se burla y juega.</td>\n</tr>\n<tr>\n<td>2–3</td>\n<td>Se mezclan secuelas de retos previos; aparece una consecuencia recurrente.</td>\n</tr>\n<tr>\n<td>4–5</td>\n<td>La antena pierde precisión; un nuevo pulso amenaza viviendas, calles o seres queridos.</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Sobrecarga: la máquina busca un lugar donde parar y un interlocutor al que retar. Se prepara el clímax.</td>\n</tr>\n</tbody>\n</table>\n<p>Sube sólo con un desastre <strong>realmente nuevo</strong> o una elección que aumenta la escala. No por cada fallo ni por cada frase. El nivel puede bajar un punto si el grupo dedica una escena a reparar una cadena de consecuencias. <strong>No determina victoria ni final</strong>.</p>\n<h3>Rastreo nocturno (0–4)</h3>\n<p>Cada mentira de PJ deliberadamente pronunciada durante la búsqueda puede añadir una marca de <code>RUIDO</code> (máximo una por escena si varias se encadenan). A 1 la antena se orienta; a 2 aparece un pulso; a 3 ME-NT cambia de refugio; a 4 deja de huir y provoca la confrontación. Descubrir huellas, escuchar abanicos, hablar con honestidad o preparar una emboscada no suma ruido. <strong>Se puede encontrar a ME-NT con el contador a cero.</strong></p>"
+      },
+      "ownership": {
+       "default": -1
+      },
+      "flags": {}
+     }
+    ],
+    "sort": 2,
+    "folder": null,
+    "ownership": {
+     "default": 2
+    },
+    "flags": {
+     "mr-mentira-cochina": {
+      "clave": "reglas"
+     }
+    }
+   }
+  ],
+  "folders": [
+   {
+    "_id": "edcbd7f5e689de95",
+    "name": "Personajes jugadores",
+    "type": "Actor",
+    "color": "#e2172e",
+    "sorting": "m",
+    "sort": 1,
+    "folder": null,
+    "description": "",
+    "flags": {}
+   },
+   {
+    "_id": "c498733b16151c90",
+    "name": "Vecinos de la villa",
+    "type": "Actor",
+    "color": "#0f9ad8",
+    "sorting": "m",
+    "sort": 2,
+    "folder": null,
+    "description": "",
+    "flags": {}
+   },
+   {
+    "_id": "94cb72bb614f8947",
+    "name": "Reparto clásico (cameos)",
+    "type": "Actor",
+    "color": "#2fa84f",
+    "sorting": "m",
+    "sort": 3,
+    "folder": null,
+    "description": "",
+    "flags": {}
+   },
+   {
+    "_id": "5e8d4be98058c5f8",
+    "name": "Cortinillas",
+    "type": "Scene",
+    "color": "#ffd60a",
+    "sorting": "m",
+    "sort": 1,
+    "folder": null,
+    "description": "",
+    "flags": {}
+   },
+   {
+    "_id": "c7fb8a3023845585",
+    "name": "Villa Pingüino de día",
+    "type": "Scene",
+    "color": "#0f9ad8",
+    "sorting": "m",
+    "sort": 2,
+    "folder": null,
+    "description": "",
+    "flags": {}
+   },
+   {
+    "_id": "a871f37677b12b05",
+    "name": "La noche",
+    "type": "Scene",
+    "color": "#1d2350",
+    "sorting": "m",
+    "sort": 3,
+    "folder": null,
+    "description": "",
+    "flags": {}
+   }
+  ],
+  "items": [],
+  "tables": [],
+  "macros": [],
+  "cards": [],
+  "playlists": [],
+  "combats": [],
+  "sort": 0,
+  "flags": {
+   "mr-mentira-cochina": {
+    "version": "1.0.0"
+   }
+  },
+  "_stats": {
+   "systemId": "mr-mentira-cochina",
+   "systemVersion": "1.0.0",
+   "coreVersion": "13.351"
+  }
+ }
+]

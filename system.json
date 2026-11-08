@@ -1,0 +1,29 @@
+{
+  "id": "mr-mentira-cochina",
+  "title": "MR- ¡Mentira Cochina!",
+  "description": "Mini sistema y aventura de inicio para Foundry VTT: una partida fan, no oficial, de comedia de enredo en Villa Pingüino. Durante un día, una caja amarilla con parabólica, ME-NT [1R], vuelve ciertas las mentiras de todo el pueblo. Tiradas ¡PAM! 2.0 (2d6 a 4d6, suma los dos mejores), marcadores de Desbarajuste y Ruido, reloj real de 120 minutos con cortinillas del Sol y Porco, 18 retos flotantes, el juicio de las mentiras, efecto ¡PIUUUM! en pantalla y estética de revista shōnen de 1995. Incluye la aventura completa, que se instala sola en un mundo vacío, y su PDF.",
+  "version": "1.0.0",
+  "compatibility": { "minimum": "13", "verified": "13.351", "maximum": "14" },
+  "authors": [
+    { "name": "Manu Romera", "url": "https://github.com/ManuRomera", "flags": { "role": "Aventura, diseño e implementación" } },
+    { "name": "Anthropic Claude", "flags": { "role": "Asistencia de desarrollo" } }
+  ],
+  "esmodules": ["mr-mentira-cochina.mjs", "module/mr-credits.mjs"],
+  "styles": ["styles/mr-mentira-cochina.css"],
+  "languages": [{ "lang": "es", "name": "Español", "path": "lang/es.json" }],
+  "documentTypes": { "Actor": { "pj": { "htmlFields": ["notas"] }, "pnj": { "htmlFields": ["notas"] } } },
+  "packs": [
+    { "name": "aventura", "label": "¡Mentira Cochina! · Aventura", "path": "packs/aventura", "type": "Adventure", "system": "mr-mentira-cochina", "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" } }
+  ],
+  "socket": true,
+  "grid": { "distance": 1, "units": "m" },
+  "primaryTokenAttribute": "",
+  "background": "systems/mr-mentira-cochina/assets/marca/portada.webp",
+  "media": [
+    { "type": "setup", "url": "systems/mr-mentira-cochina/assets/marca/portada.webp", "thumbnail": "systems/mr-mentira-cochina/assets/marca/logo.webp" },
+    { "type": "icon", "url": "systems/mr-mentira-cochina/assets/marca/icono.webp" }
+  ],
+  "flags": { "hotReload": { "extensions": ["css", "hbs", "json"], "paths": ["styles", "templates", "lang"] } },
+  "url": "https://github.com/ManuRomera/mr-mentira-cochina",
+  "license": "LICENSE"
+}

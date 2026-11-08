@@ -1,0 +1,18 @@
+<div class="mc-perfil mc-perfil-pnj">
+  <aside class="mc-perfil-lado">
+    <figure class="mc-perfil-retrato" {{#if editable}}data-action="retrato" data-tooltip="Encuadrar o cambiar el retrato"{{/if}}>
+      <img src="{{actor.img}}" alt="Retrato de {{actor.name}}" data-retrato="{{actor.id}}" data-lupa>
+    </figure>
+    <figure class="mc-perfil-figura" {{#if editable}}data-action="figura" data-tooltip="Cambiar la figura (token)"{{/if}}><img src="{{figura}}" alt="" data-lupa></figure>
+  </aside>
+  <section class="mc-hoja-cuerpo">
+    <header class="mc-perfil-cab">
+      <input class="mc-nombre" name="name" value="{{actor.name}}" aria-label="Nombre" {{#unless editable}}disabled{{/unless}}>
+      <input class="mc-titulo" name="system.papel" value="{{system.papel}}" placeholder="Dueña de la cafetería" aria-label="Papel" {{#unless editable}}disabled{{/unless}}>
+      <label class="mc-globo mc-globo-frase"><span class="mc-oculto">Frase</span><input name="system.frase" value="{{system.frase}}" {{#unless editable}}disabled{{/unless}}></label>
+    </header>
+    <label class="mc-vineta mc-ancha"><span>Cómo es y qué quiere</span><textarea name="system.descripcion" rows="5" {{#unless editable}}disabled{{/unless}}>{{system.descripcion}}</textarea></label>
+    <section class="mc-notas-sec"><h3>Notas</h3>
+      {{#if editable}}<prose-mirror name="system.notas" value="{{system.notas}}" toggled>{{{notas}}}</prose-mirror>{{else}}{{{notas}}}{{/if}}</section>
+  </section>
+</div>

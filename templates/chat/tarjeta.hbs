@@ -1,0 +1,23 @@
+<article class="mc-tc mc-tono-{{tono}} mc-tipo-{{tipo}}">
+  <header class="mc-tc-cabecera">
+    <span class="mc-tc-cinta">{{#if icono}}<i class="{{icono}}" inert></i> {{/if}}{{etiqueta}}</span>
+    {{#if sfx}}<span class="mc-tc-sfx" data-texto="{{sfx}}">{{sfx}}</span>{{/if}}
+  </header>
+  {{#if arte}}<figure class="mc-tc-arte {{arteClase}}"><img src="{{arte}}" alt="{{arteAlt}}" {{#if retrato}}data-retrato="{{retrato}}"{{/if}}></figure>{{/if}}
+  {{#if dados}}
+  <div class="mc-tc-dados" aria-label="Dados: {{#each dados}}{{valor}}{{#if cuenta}} (cuenta){{/if}} {{/each}}">
+    {{#each dados}}<span class="mc-dado {{#if cuenta}}cuenta{{else}}fuera{{/if}}" data-cara="{{valor}}">{{valor}}</span>{{/each}}
+    <span class="mc-tc-suma">= {{suma}}</span>
+  </div>
+  {{/if}}
+  <h3 class="mc-tc-titulo">{{titulo}}</h3>
+  {{#if globo}}<blockquote class="mc-globo">{{{globo}}}</blockquote>{{/if}}
+  {{#if texto}}<div class="mc-tc-texto">{{{texto}}}</div>{{/if}}
+  {{#if filas}}<dl class="mc-tc-filas">{{#each filas}}<dt>{{clave}}</dt><dd>{{{valor}}}</dd>{{/each}}</dl>{{/if}}
+  {{#if botones}}
+  <footer class="mc-tc-botones">
+    {{#each botones}}<button type="button" class="mc-boton {{clase}}" data-mc-accion="{{accion}}" {{{attrs}}}>{{#if icono}}<i class="{{icono}}" inert></i> {{/if}}{{etiqueta}}</button>{{/each}}
+  </footer>
+  {{/if}}
+  {{#if pie}}<p class="mc-tc-pie">{{{pie}}}</p>{{/if}}
+</article>

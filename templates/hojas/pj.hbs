@@ -1,0 +1,55 @@
+<div class="mc-perfil">
+  <aside class="mc-perfil-lado">
+    <figure class="mc-perfil-retrato" {{#if editable}}data-action="retrato" data-tooltip="Encuadrar o cambiar el retrato"{{/if}}>
+      <img src="{{actor.img}}" alt="Retrato de {{actor.name}}" data-retrato="{{actor.id}}" data-lupa>
+    </figure>
+    <figure class="mc-perfil-figura" {{#if editable}}data-action="figura" data-tooltip="Cambiar la figura (token)"{{/if}}>
+      <img src="{{figura}}" alt="Figura de {{actor.name}}" data-lupa>
+    </figure>
+  </aside>
+  <section class="mc-hoja-cuerpo">
+    <header class="mc-perfil-cab">
+      <input class="mc-nombre" name="name" value="{{actor.name}}" aria-label="Nombre" {{#unless editable}}disabled{{/unless}}>
+      <input class="mc-titulo" name="system.titulo" value="{{system.titulo}}" placeholder="Repartidora meteórica" aria-label="Quién es" {{#unless editable}}disabled{{/unless}}>
+      <label class="mc-globo mc-globo-frase"><span class="mc-oculto">Frase</span><input name="system.frase" value="{{system.frase}}" placeholder="¡LO TENGO CONTROLAAAADO!" {{#unless editable}}disabled{{/unless}}></label>
+    </header>
+
+    <div class="mc-acciones-pj">
+      <button type="button" class="mc-boton mc-boton-pam" data-action="tirar" {{#unless editable}}disabled{{/unless}}><i class="fa-solid fa-hand-fist" inert></i> ¡PAM!</button>
+      <button type="button" class="mc-ficha-ya {{#if system.yaLoSabia}}gastada{{/if}}" data-action="yaLoSabia" {{#unless editable}}disabled{{/unless}}
+        data-tooltip="{{#if system.yaLoSabia}}Gastada esta sesión{{else}}Una vez por sesión: una coincidencia estrambótica y útil{{/if}}" aria-pressed="{{system.yaLoSabia}}">
+        <i class="fa-solid fa-lightbulb" inert></i><span>¡Eso ya lo sabía!</span></button>
+      {{#if esGM}}{{#if system.yaLoSabia}}<button type="button" class="mc-boton mc-boton-suave" data-action="reponer" data-tooltip="Devolver la ficha (nueva sesión)"><i class="fa-solid fa-rotate-left" inert></i></button>{{/if}}{{/if}}
+    </div>
+
+    <div class="mc-vinetas">
+      <label class="mc-vineta mc-v-talento"><span>Talento estrella</span><textarea name="system.talento" rows="2" {{#unless editable}}disabled{{/unless}}>{{system.talento}}</textarea></label>
+      <label class="mc-vineta mc-v-defecto"><span>Defecto</span><textarea name="system.defecto" rows="2" {{#unless editable}}disabled{{/unless}}>{{system.defecto}}</textarea></label>
+      <label class="mc-vineta mc-v-objetivo"><span>Quiero conseguir hoy</span><textarea name="system.objetivo" rows="2" {{#unless editable}}disabled{{/unless}}>{{system.objetivo}}</textarea></label>
+      <label class="mc-vineta mc-v-vinculo"><span>Vínculos</span><textarea name="system.vinculo" rows="3" {{#unless editable}}disabled{{/unless}}>{{system.vinculo}}</textarea></label>
+      <label class="mc-vineta mc-v-presentacion mc-ancha"><span>Presentación</span><textarea name="system.presentacion" rows="2" {{#unless editable}}disabled{{/unless}}>{{system.presentacion}}</textarea></label>
+    </div>
+
+    {{#if privado}}
+    <section class="mc-secreto" aria-label="Ficha privada">
+      <h3><i class="fa-solid fa-user-secret" inert></i> Solo para ti <small>quien dirige también la ve</small></h3>
+      <label class="mc-campo"><span>La mentira que suelo contar</span><input name="system.mentira" value="{{system.mentira}}"></label>
+      <label class="mc-campo"><span>La verdad que no quiero decir</span><textarea name="system.verdad" rows="3">{{system.verdad}}</textarea></label>
+      <label class="mc-campo"><span>Si algún día lo confieso…</span><input name="system.confesion" value="{{system.confesion}}" placeholder="No es obligatorio: nadie te lo va a arrancar"></label>
+      <div class="mc-dos">
+        <label class="mc-campo"><span>Una persona a la que podría defraudar</span><input name="system.defraudar" value="{{system.defraudar}}"></label>
+        <label class="mc-campo"><span>Jamás perdonaría que me quitaran…</span><input name="system.jamas" value="{{system.jamas}}"></label>
+      </div>
+      {{#if esGM}}<label class="mc-campo mc-gm"><span>Reto personal (dirección)</span><textarea name="system.reto" rows="2">{{system.reto}}</textarea></label>{{/if}}
+      <p class="mc-nota">Las verdades son ficción del personaje. Puedes cambiar el secreto por otro de orgullo, dinero, trabajo, rivalidad o metedura de pata; no hay castigo por no confesarlo.</p>
+    </section>
+    {{else}}
+    <section class="mc-secreto mc-censurado" aria-label="Ficha privada de otra persona"><span>TOP SECRET</span></section>
+    {{/if}}
+
+    <section class="mc-notas-sec">
+      <h3>Notas</h3>
+      {{#if editable}}<prose-mirror name="system.notas" value="{{system.notas}}" toggled>{{{notas}}}</prose-mirror>{{else}}{{{notas}}}{{/if}}
+    </section>
+  </section>
+</div>

@@ -1,0 +1,477 @@
+{
+ "promesa": "durante un solo día, los vecinos de Villa Pingüino descubrirán que mentir tiene ventajas espectaculares y consecuencias catastróficas. Al caer la noche perseguirán una caja amarilla con voluntad propia, ME-NT [1R], sin sospechar que lo que necesita no es que la derroten, sino escuchar una verdad dicha sin esperar recompensa.",
+ "pjs": [
+  {
+   "clave": "pipa",
+   "nombre": "Pipa Pistón",
+   "titulo": "Repartidora meteórica",
+   "talento": "velocidad, mensajería, persecuciones, conducción absurda.",
+   "defecto": "presume de controlar todo y no sabe cuándo frenar.",
+   "objetivo": "entregar un paquete importante sin quedar como una inútil.",
+   "vinculo": "Kame espera que le traiga una pieza para su pequeño artilugio; Bruno le ha impuesto una multa que considera injusta.",
+   "frase": "¡LO TENGO CONTROLAAAAADO!",
+   "presentacion": "el jefe llama; el paquete no está donde debería. ¿Qué improvisas?",
+   "mentira": "Nunca me da miedo conducir",
+   "verdad": "sufrió una caída ridícula, ahora teme perder el control de su moto y acelera demasiado para que nadie lo note.",
+   "confesion": "«Estoy asustada; ¿me ayudáis a detenerla?».",
+   "reto": "moto que no para, mochila con un paquete que una mentira ha vuelto imprescindible, o alguien querido atrapado en un vehículo fuera de control."
+  },
+  {
+   "clave": "bruno",
+   "nombre": "Bruno Boniato",
+   "titulo": "Auxiliar municipal de autoridad excesiva",
+   "talento": "permisos, reglamentos, registros, órdenes y negociar con uniformados.",
+   "defecto": "antes firma cien formularios que aceptar un error.",
+   "objetivo": "impedir que una revisión documental ponga en peligro su empleo.",
+   "vinculo": "ha amenazado con multar a Pipa; Bibi le arregló una destructora que ahora encuaderna expedientes.",
+   "frase": "¡Esto es legal! ¡Lo dice alguna ordenanza, seguro!",
+   "presentacion": "le exigen el nombramiento original que nunca ha mostrado. ¿Cómo esquiva la llamada?",
+   "mentira": "Conseguí este puesto por méritos propios",
+   "verdad": "su nombramiento se produjo por un error administrativo que reconoció y ocultó durante años.",
+   "confesion": "«Me dio miedo perder todo lo que había construido».",
+   "reto": "su casa es reclasificada como zoológico o el registro municipal altera la identidad legal de todos sus compañeros."
+  },
+  {
+   "clave": "bibi",
+   "nombre": "Bibi Burbujas",
+   "titulo": "Mecánica autodidacta y científica involuntaria",
+   "talento": "comprender circuitos, improvisar aparatos, reparar robots, inventos imposibles.",
+   "defecto": "no pide ayuda y pulsa botones que nadie le ha pedido tocar.",
+   "objetivo": "demostrar que puede solucionar la avería sin acudir a Senbei.",
+   "vinculo": "le prometió a Lulu reparar una cámara; Kame le presta piezas que supuestamente fabrica él.",
+   "frase": "¡Técnicamente no ha explotado! ¡Se está comunicando!",
+   "presentacion": "un cliente viene a buscar un invento que no funciona. ¿Qué le dices?",
+   "mentira": "No necesito ayuda de nadie",
+   "verdad": "saboteó su propio primer gran invento por miedo a que descubrieran que no entendía por qué funcionaba.",
+   "confesion": "«Me supera; necesito que me ayudéis».",
+   "reto": "un aparato ultraseguro empieza a expulsar cuanto lo rodea; su taller y sus herramientas cobran vida."
+  },
+  {
+   "clave": "kame",
+   "nombre": "Taro Kame",
+   "titulo": "Niño ingenioso de imaginación inagotable",
+   "talento": "cachivaches, soluciones ingeniosas, colarse en sitios pequeños, recordar rumores del pueblo.",
+   "defecto": "convierte cualquier anécdota ordinaria en una historia imposible.",
+   "objetivo": "que el grupo reconozca que tiene algo valioso que aportar sin necesitar ser extraordinario.",
+   "vinculo": "encarga piezas a Pipa y ayuda en el taller de Bibi.",
+   "frase": "¡Eso ya lo sabía yo!",
+   "presentacion": "tu familia encuentra una carta de tu supuesto amigo espacial. ¿Qué historia cuentas?",
+   "mentira": "Tengo amigos importantísimos en otros planetas",
+   "verdad": "él escribió las cartas de su amigo extraterrestre porque le avergonzaba sentirse poco interesante y solo.",
+   "confesion": "«Me las inventé porque quería que me invitarais a jugar».",
+   "reto": "un enorme extraterrestre se presenta como su mejor amigo con dieciocho maletas y una mascota que come paredes. La comedia con Kame es fantástica y social, **no de contenido sexual**."
+  },
+  {
+   "clave": "lulu",
+   "nombre": "Lulú Flash",
+   "titulo": "Fotógrafa y reportera local",
+   "talento": "fotografía, escuchar conversaciones, conseguir contactos, hacer que otros posen o hablen.",
+   "defecto": "prefiere una exclusiva escandalosa a una explicación sencilla.",
+   "objetivo": "fotografiar el misterio del día y demostrar su valía como periodista independiente.",
+   "vinculo": "conoce el secreto del archivo de Bruno, pero aún no sabe si publicarlo; Bibi le debe la reparación de su cámara.",
+   "frase": "¡No es cotilleo, es documentación gráfica!",
+   "presentacion": "afirmas que una fotografía tuya será portada del periódico. ¿Qué ocurrió realmente con esa foto?",
+   "mentira": "Nunca he manipulado una fotografía",
+   "verdad": "su exclusiva más famosa fue un montaje inocente que se le fue de las manos y perjudicó a una persona buena; temió reconocerlo.",
+   "confesion": "«Quería ser importante y publiqué algo que sabía que no era verdad».",
+   "reto": "aparecen las versiones contradictorias de su propia famosa fotografía, y alguien afectado exige que aclare cuál es real."
+  }
+ ],
+ "retos": [
+  {
+   "id": "R01",
+   "titulo": "¡MI MOTO JAMÁS SE DETIENE!",
+   "quien": "Pipa",
+   "cuando": "mañana",
+   "mentira": "Pipa presume de que su moto nunca se para.",
+   "urgencia": "el vehículo sale disparado con la bolsa de reparto y un pasajero no previsto. Puede poner rumbo al puerto o entrar en una calle llena de bicicletas.",
+   "opciones": "alcanzarla con un vehículo ajeno, preparar una trampa de blandos cojines, mentir para hacer aparecer un freno temporal o pedir ayuda a alguien experto.",
+   "giro": "el motor lleva funcionando tanto rato que la moto empieza a adelantar a sus propias ruedas.",
+   "secuela": "sigue pasando detrás de las escenas a velocidades cada vez menores; al amanecer alguien vende entradas para verla."
+  },
+  {
+   "id": "R02",
+   "titulo": "¡TODOS MIS DOCUMENTOS SON CORRECTOS!",
+   "quien": "Bruno",
+   "cuando": "mañana-tarde",
+   "mentira": "Bruno afirma que jamás se equivoca al tramitar expedientes.",
+   "urgencia": "el archivo municipal reescribe retroactivamente sus decisiones: su casa es ahora un zoo, su despacho una piscina pública, o un amigo figura como vehículo de sustitución.",
+   "opciones": "localizar una excepción legal, reconocer el error y tramitar el cambio, utilizar el sello del expediente para demorar el desalojo.",
+   "giro": "un pingüino de corbata se presenta como director del zoo y reclama horas extras.",
+   "secuela": "siguen llegando cartas dirigidas al nuevo «señor pingüino»."
+  },
+  {
+   "id": "R03",
+   "titulo": "¡ES COMPLETAMENTE SEGURO!",
+   "quien": "Bibi",
+   "cuando": "mañana-tarde",
+   "mentira": "Bibi asegura que un prototipo no puede causar daños.",
+   "urgencia": "activa una barrera que expulsa violentamente todo lo que se acerque, incluida su clientela, su material y un ser querido que trataba de salvarlo.",
+   "opciones": "construir un manipulador a distancia, desmontar la fuente desde debajo, hablar con el aparato para que redefina «seguro», pedir ayuda franca.",
+   "giro": "incluso una pluma se vuelve un proyectil inofensivo pero humillante.",
+   "secuela": "el aparato ahora abre automáticamente un pequeño paraguas cada vez que alguien estornuda."
+  },
+  {
+   "id": "R04",
+   "titulo": "¡MI AMIGO VIENE DE OTRO PLANETA!",
+   "quien": "Kame",
+   "cuando": "mañana-tarde",
+   "mentira": "Kame dice que su mejor amigo es un extraterrestre famosísimo.",
+   "urgencia": "baja una nave con un visitante enorme que trae 18 maletas, una trompeta cuántica y una mascota que come paredes. Da por hecho que se alojará en casa de Kame.",
+   "opciones": "encontrarle alojamiento, negociar la duración de la visita, guiarlo hasta otra actividad, reconocer la exageración y proponer amistad real.",
+   "giro": "la criatura se ofende por no tener cama hecha.",
+   "secuela": "aparece en fotos de grupo y firma autógrafos con tinta que flota."
+  },
+  {
+   "id": "R05",
+   "titulo": "¡JAMÁS HE RETOCADO UNA FOTO!",
+   "quien": "Lulú",
+   "cuando": "mañana-tarde",
+   "mentira": "Lulú niega haber manipulado su famosa exclusiva.",
+   "urgencia": "aparecen múltiples copias tridimensionales de una fotografía contradictoria; la persona fotografiada, que conoce la verdad, está atrapada entre dos versiones de su propia historia.",
+   "opciones": "localizar el negativo original, explicar el montaje al afectado, fotografiar la escena completa para demostrar el contexto, buscar la colaboración de Bibi.",
+   "giro": "una de las fotos sale andando con una cámara propia y amenaza con publicar imágenes de los periodistas.",
+   "secuela": "los negativos reaparecen en la foto final del grupo, mostrando quien se atreve a mirar a cámara."
+  },
+  {
+   "id": "R06",
+   "titulo": "¡MI SUEGRA ES UN DRAGÓN!",
+   "quien": "público",
+   "cuando": "mañana",
+   "mentira": "un vecino furioso llama dragón a su suegra.",
+   "urgencia": "una dragona con bata y bolso se sienta encima del coche o la tienda que los PJ necesitan. No quiere destrozar nada: quiere hablar con su hija y que el yerno la visite.",
+   "opciones": "mediar, convencerla de mudarse, transportar el vehículo mientras ella está encima, modificar su forma mediante una mentira concreta.",
+   "giro": "al estornudar chamusca el pantalón del yerno, que grita por la factura de la tintorería.",
+   "secuela": "la dragona prepara un almuerzo familiar en el epílogo."
+  },
+  {
+   "id": "R07",
+   "titulo": "¡ESTOY FORRADO!",
+   "quien": "público",
+   "cuando": "mañana-tarde",
+   "mentira": "un comerciante asegura nadar en dinero.",
+   "urgencia": "billetes pegados como un abrigo sobre su cuerpo; cientos de acreedores, familiares y un inspector fiscal bloquean la calle, justo donde un PJ necesita llegar.",
+   "opciones": "negociar una salida para el comerciante, organizar un pasillo entre la multitud, convertir el dinero en billetes canjeables, resolver la reclamación concreta.",
+   "giro": "Hacienda exige primero el modelo tributario de la ropa.",
+   "secuela": "el comerciante presume de haber pagado impuestos por primera vez en su vida."
+  },
+  {
+   "id": "R08",
+   "titulo": "¡ESTAMOS CASADOS!",
+   "quien": "público",
+   "cuando": "tarde",
+   "mentira": "dos vecinos fingen ser pareja legal para ahorrar en una estancia.",
+   "urgencia": "registro matrimonial, suegras, hipoteca y una celebración invaden el establecimiento de un amigo o familiar de los PJ.",
+   "opciones": "gestionar anulación, apaciguar a invitados, averiguar qué deseaban realmente los dos, encontrar alojamiento alternativo.",
+   "giro": "uno de ellos descubre que ya estaba legalmente casado.",
+   "secuela": "los recién casados discuten sobre quién se lleva el frigorífico, incluso si se anula el vínculo."
+  },
+  {
+   "id": "R09",
+   "titulo": "¡AQUÍ TODO ES GRATIS!",
+   "quien": "público",
+   "cuando": "tarde",
+   "mentira": "un tendero anuncia que no cobrará nada.",
+   "urgencia": "vacían el comercio y entre lo sustraído hay una herramienta, un paquete o un objeto insustituible de un protagonista.",
+   "opciones": "negociación, organizar devolución, usar la mentira «los clientes pagan con trabajo» (si ME-NT decide captarla), rastrear el objeto.",
+   "giro": "la caja registradora pide propina.",
+   "secuela": "un vecino exige reembolso de una compra que le salió gratis."
+  },
+  {
+   "id": "R10",
+   "titulo": "¡EL ALCALDE ES UN CERDO!",
+   "quien": "público",
+   "cuando": "tarde",
+   "mentira": "un vecino indignado insulta al alcalde.",
+   "urgencia": "alcalde porcino pero parlante; debe firmar un permiso para salvar una calle de la demolición y ahora no puede sujetar el bolígrafo.",
+   "opciones": "adaptar la firma a pezuña, negociar con el secretario, descubrir la fuente del insulto, lograr que el alcalde delegue.",
+   "giro": "gana popularidad por primera vez y considera continuar así.",
+   "secuela": "su retrato municipal luce un hocico que nadie se atreve a borrar."
+  },
+  {
+   "id": "R11",
+   "titulo": "¡YO NO TENGO PROBLEMAS!",
+   "quien": "público",
+   "cuando": "tarde",
+   "mentira": "un vecino niega tener dificultades.",
+   "urgencia": "sus facturas, un coche averiado, una suegra de visita y muebles embargados aparecen en la propiedad de un PJ.",
+   "opciones": "devolver físicamente los bultos, asumir un trámite temporal, responsabilizar al auténtico dueño, usar una mentira limitada que los redistribuya.",
+   "giro": "al vecino le ha desaparecido hasta el dolor de muelas; se siente genial y se niega a colaborar.",
+   "secuela": "uno de sus acreedores empieza a tratar al PJ como avalista."
+  },
+  {
+   "id": "R12",
+   "titulo": "¡TENGO LA CABEZA EN OTRA PARTE!",
+   "quien": "público",
+   "cuando": "tarde",
+   "mentira": "mecánico se justifica por distraerse.",
+   "urgencia": "cabeza en una mesa y cuerpo trabajando a ciegas sobre el mecanismo que necesita el grupo.",
+   "opciones": "llevar la cabeza como copiloto, usar espejos, coordinar al cuerpo, restablecer la atención.",
+   "giro": "la cabeza reclama doble sueldo.",
+   "secuela": "el mecánico necesita un casco diseñado con dos tallas diferentes."
+  },
+  {
+   "id": "R13",
+   "titulo": "¡ESTA CASA VUELA!",
+   "quien": "gran escala",
+   "cuando": "tarde",
+   "mentira": "vendedor inmobiliario exagera la ligereza de una vivienda.",
+   "urgencia": "una casa con alas se eleva con una persona relacionada con un PJ dentro.",
+   "opciones": "rescatar a los habitantes, hacer aterrizar el edificio, crear un lastre absurdo, aprovechar otro vehículo volador.",
+   "giro": "la casa tiene vértigo y se niega a bajar si alguien le grita.",
+   "secuela": "multa por estacionamiento aéreo."
+  },
+  {
+   "id": "R14",
+   "titulo": "¡LOS BOMBEROS YA ESTÁN AQUÍ!",
+   "quien": "gran escala",
+   "cuando": "tarde",
+   "mentira": "alguien dice que los bomberos han llegado para apagar un fuego todavía pequeño.",
+   "urgencia": "el camión se materializa dentro de la cafetería, bloqueando la salida; el incendio sigue.",
+   "opciones": "despejar salida, conectar manguera, evacuar por tejado, convertir temporalmente el camión en vehículo pequeño mediante una mentira pensada.",
+   "giro": "el bombero con más experiencia es un perro que no deja de perseguir la manguera.",
+   "secuela": "Doña Cafelina cobra una consumición al vehículo."
+  },
+  {
+   "id": "R15",
+   "titulo": "¡EL PUENTE ES DE GOMA!",
+   "quien": "gran escala",
+   "cuando": "tarde",
+   "mentira": "un vecino asegura que el puente es elástico.",
+   "urgencia": "autobús con familiares o bienes necesarios rebota sobre el río.",
+   "opciones": "organizar rescate por tramos, estabilizar con pesos, utilizar el impulso para alcanzar las ventanas, traer una red.",
+   "giro": "un turista pregunta cuánto cuesta saltar otra vez.",
+   "secuela": "instalan un cartel de «PROHIBIDO HACER PUENTING SIN CITA PREVIA»."
+  },
+  {
+   "id": "R16",
+   "titulo": "¡ESTO NO SE ROMPE NI CON UNA BOMBA!",
+   "quien": "gran escala",
+   "cuando": "tarde",
+   "mentira": "vendedor presume de una pieza indestructible.",
+   "urgencia": "la pieza gira dentro de una máquina que tritura todo a su alrededor y amenaza el taller o almacén de un PJ.",
+   "opciones": "desmontar la carcasa, evacuar y cortar la energía, cambiar el eje, modificar el movimiento con una mentira sin atacar a ME-NT.",
+   "giro": "garantía comercial excluye «daños por utilización normal».",
+   "secuela": "el objeto termina como pisapapeles municipal."
+  },
+  {
+   "id": "R17",
+   "titulo": "¡TODO EL MUNDO ME ADORA!",
+   "quien": "social",
+   "cuando": "tarde",
+   "mentira": "vecino vanidoso presume de popularidad.",
+   "urgencia": "todos quienes ya lo conocen exageran su admiración de manera voluntaria, llenan la plaza y bloquean una ruta vital; los PJ no pierden su voluntad.",
+   "opciones": "gestionar la multitud, trasladar acto, revelar una acción genuinamente buena de otra persona, organizar salida.",
+   "giro": "le hacen una estatua en la tapa de un retrete.",
+   "secuela": "al día siguiente el retrete es patrimonio cultural."
+  },
+  {
+   "id": "R18",
+   "titulo": "¡NO HE ROTO NADA!",
+   "quien": "comodín de urgencia",
+   "cuando": "cualquier acto",
+   "mentira": "alguien niega haber causado un desperfecto evidente.",
+   "urgencia": "el objeto roto se recompone, pero la causa del accidente queda sin resolver y repite el mismo impacto una y otra vez; puede ser un escaparate de Pipa, una lente de Lulú o una pared de Bibi.",
+   "opciones": "eliminar la causa, salvar a los afectados, confesar responsabilidad, introducir una reparación compatible.",
+   "giro": "el escaparate se rompe y recompone tan rápido que un vecino empieza a usarlo como ventilador.",
+   "secuela": "se puede retomar esta secuencia tres veces con un remate cada vez distinto."
+  }
+ ],
+ "cortinillas": [
+  {
+   "id": "amanecer",
+   "titulo": "¡Buenos días, Villa Pingüino!",
+   "minuto": 0,
+   "escena": "00-amanecer",
+   "sol": "sol-manana",
+   "porco": "porco-manana",
+   "lineas": [
+    "El mar está oscuro y todo parece tranquilo. Sobre las montañas, un enorme despertador comienza a sonar. Una mano redonda emerge detrás de una nube y lo silencia de un manotazo. El Sol aparece adormilado, se echa pasta sobre un cepillo gigantesco y empieza a lavarse los dientes. Escupe una espuma que se transforma en tres nubecillas. Abajo, los tejados blancos de Villa Pingüino comienzan a brillar. En un árbol, un cerdito vestido como fotógrafo y con una cámara al cuello se incorpora sobre una rama, estira el hocico y apunta el flash hacia el horizonte.",
+    "<strong>PORCO (voz entusiasta):</strong> «¡OIIIIINK! ¡BUENOS DÍAS, VILLA PINGÜINOOOO! ¡El Sol ya se ha cepillado los dientes, los dinosaurios han sacado a pasear a sus dueños y alguien ha aparcado un tractor dentro de la panadería! ¡Otro día absolutamente normal en nuestro maravilloso pueblo!».",
+    "Un golpe sacude el tronco. La cámara de Porco dispara sola y lo deja deslumbrado. «¡Oink! ¡Y ahora, nuestros maravillosos vecinos!»."
+   ]
+  },
+  {
+   "id": "mediodia",
+   "titulo": "¡A comer!",
+   "minuto": 40,
+   "escena": "01-mediodia",
+   "sol": "sol-mediodia",
+   "porco": "porco-mediodia",
+   "lineas": [
+    "El Sol ha llegado arriba del todo. Lleva gafas oscuras, suda como una tetera y se da aire con una nube doblada. En su árbol, Porco ha sustituido la cámara por una fiambrera; intenta comerse un arroz que un pájaro le roba grano a grano.",
+    "<strong>PORCO:</strong> «¡OIIIIINK! ¡SON LAS DOCEEEE! ¡Es hora de comer! ¡Las tiendas cierran, los trabajadores descansan y todos los que dijeron esta mañana que llegarían a casa para comer están empezando a preocuparse!».",
+    "Una casa con alas pasa por encima. Un motorista sale despedido en la dirección contraria. Porco mastica, reflexiona y concluye: «¡Bueno, por lo menos hace sol! ¡QUE APROVECHEEEE!»."
+   ]
+  },
+  {
+   "id": "noche",
+   "titulo": "¡Buenas noches!",
+   "minuto": 80,
+   "escena": "02-noche",
+   "sol": "luna",
+   "porco": "porco-noche",
+   "lineas": [
+    "El Sol se quita las gafas y cae detrás del mar, agotado. Una Luna enorme aparece con gorro de dormir. Las ventanas van apagándose. Quedan grillos, el rumor del oleaje y un perro que ladra hasta que una vecina le responde que se calle. El perro contesta: «¡Pues sal tú a vigilar!».",
+    "<strong>PORCO:</strong> «¡OIIIIINK! ¡BUENAS NOCHES! ¡En Villa Pingüino todo el mundo se mete en la cama! ¡Los niños sueñan, los tenderos descansan y los maridos tienen ocho horas para inventarse qué hicieron esta tarde!». Escucha un pequeño zumbido amarillo. «¡Que tengáis dulces sueños! ¡Y el que miente... bueno, que no ronque!». Apaga la lámpara. «Oink»."
+   ]
+  },
+  {
+   "id": "nuevo",
+   "titulo": "Nuevo amanecer",
+   "minuto": 112,
+   "escena": "03-nuevo-amanecer",
+   "sol": "sol-tarde",
+   "porco": "porco-amanecer",
+   "lineas": [
+    "El Sol aparece otra vez por el mar. Está despeinado, bosteza y busca su cepillo de dientes entre las nubes. Mira abajo: una casa está apoyada en otra; un coche descansa dentro de una fuente; alguien ha instalado una sombrilla sobre la cabeza de una estatua. Se encoge de hombros y empieza a cepillarse.",
+    "En el árbol, Porco sostiene su cámara con las manos temblorosas. Tiene los ojos hinchados de sueño.",
+    "<strong>PORCO:</strong> «¡OIIIIINK! ¡BUENOS DÍAS, VILLA PINGÜINO! ¡Ayer tuvimos algunos incidentes menores! ¡Una casa voló, un alcalde gruñó y alguien ha declarado su amor a un electrodoméstico! ¡Pero hoy vuelve a ser un día completamente normal!».",
+    "Un estruendo sacude el árbol. Porco se agarra a una rama, mira a cámara y exclama: «¡O por lo menos va a intentarlo!»."
+   ]
+  }
+ ],
+ "provocaciones": [
+  {
+   "pj": "Pipa",
+   "provocacion": "¡Tú siempre conduces sin miedo, ¿verdad?!",
+   "si_miente": "Una Pipa duplicada, temeraria e incapaz de frenar, sube a la moto y arrastra un objeto preciado."
+  },
+  {
+   "pj": "Bruno",
+   "provocacion": "¡Tu expediente no tendrá ni una sola mancha!",
+   "si_miente": "Seis brazos selladores y expedientes flotantes legalizan sus equivocaciones."
+  },
+  {
+   "pj": "Bibi",
+   "provocacion": "¡Tú puedes reparar todo sola, ¿no?!",
+   "si_miente": "Sus herramientas se independizan y empiezan a arreglar cosas perfectamente sanas, destrozándolas."
+  },
+  {
+   "pj": "Kame",
+   "provocacion": "¡Tú conoces a todos los héroes del universo!",
+   "si_miente": "Una multitud de supuestos amigos se pelea por demostrar que lo conoce mejor; piden pruebas imposibles."
+  },
+  {
+   "pj": "Lulú",
+   "provocacion": "¡Nunca publicaste nada falso!",
+   "si_miente": "Los recortes de su reportaje cobran vida y representan versiones incompatibles del mismo suceso."
+  }
+ ],
+ "reloj": [
+  {
+   "minutos": "00–05",
+   "titulo": "AMANECE: Sol cepillándose y Porco en el árbol",
+   "claro": "Éste es el universo de *Dr. Slump*. Presentación televisiva del día."
+  },
+  {
+   "minutos": "05–12",
+   "titulo": "Montaje matinal de cada PJ",
+   "claro": "Deseos, fallos, primeras mentiras; todos tienen algo que perder."
+  },
+  {
+   "minutos": "12–40",
+   "titulo": "ACTO I · CAOS MATINAL",
+   "claro": "2–3 retos, ME-NT visto, pista de que las frases falsas producen pulsos."
+  },
+  {
+   "minutos": "40–43",
+   "titulo": "MEDIODÍA: Sol agotado; cerdito almorzando",
+   "claro": "El pueblo continúa viviendo aunque los PJ no estén presentes."
+  },
+  {
+   "minutos": "43–80",
+   "titulo": "ACTO II · TARDE DE LOCOS",
+   "claro": "2–3 retos mezclados, 1–2 consecuencias personales, descubren por qué la noche ayuda y una pista emocional."
+  },
+  {
+   "minutos": "80–83",
+   "titulo": "NOCHE: Luna, ventanas que se apagan, cerdito en pijama",
+   "claro": "Silencio: la gente dormida no miente; puede rastrearse a ME-NT."
+  },
+  {
+   "minutos": "83–95",
+   "titulo": "CACERÍA NOCTURNA",
+   "claro": "Rastrean, se delatan o llegan a un refugio; la máquina se siente sola."
+  },
+  {
+   "minutos": "95–112",
+   "titulo": "EL JUICIO DE LAS MENTIRAS",
+   "claro": "Todos tienen oportunidad de mentir o decir la verdad. Resolución voluntaria, técnica o caótica."
+  }
+ ],
+ "capitulos": [
+  {
+   "n": 1,
+   "titulo": "Una máquina, cien mentiras",
+   "corto": "La máquina",
+   "html": "<h2>Lo que ocurrió ayer (sólo dirección)</h2>\n<p>Senbei Norimaki construyó el <strong>Materializador Electromagnético de Narraciones Tramposas, modelo ME-NT [1R]</strong>. No quería arreglar el mundo. Quería poder decirle a Midori que había limpiado el taller, que había terminado un encargo o que había estado trabajando hasta tarde... y que todo resultase cierto. Instaló un sistema inteligente porque necesitaba distinguir las mentiras conscientes de los errores honestos.</p>\n<p>La máquina aprendió a hablar y pensar. Senbei le dijo cosas como «¡Eres el mejor invento que he construido!» y «¡Mañana te sacaré a pasear!». También instaló un mando que anulaba su autonomía. Arale golpeó jugando el limitador de la antena y activó un alcance de barrio; Gatchan se comió el mando, que crujió como una galleta. Nadie lo hizo con maldad. ME-NT [1R] quedó libre, pero su rutina de convertir mentiras en hechos sigue disparándose ante las falsedades que elige escuchar.</p>\n<p>No se trata de una rebelión de máquinas. Es una <strong>criatura cómica cansada de que la utilicen</strong>, que todavía no sabe expresar lo que desea: que alguien la quiera o al menos confíe en ella <strong>sin mentirle para obtener algo</strong>.</p>\n<p>Senbei, Arale, Gatchan y los demás tienen durante este capítulo sus <strong>propias tramas tontísimas</strong>. Su intervención en la avería es un antecedente; <strong>no vienen a resolver la partida</strong>. Senbei puede cruzarse por una calle huyendo de Midori y sin fijarse siquiera en lo que ME-NT está haciendo.</p>\n<h2>Lo que saben los jugadores al abrir el capítulo</h2>\n<p>Nada sobre la máquina. Conocen Villa Pingüino: pueblos soleados, dinosaurios que hacen la compra, animales que trabajan de fotógrafos, inventos imposibles y vecinos tan orgullosos como incompetentes. Cada PJ tiene <strong>una cosa que desea hoy</strong>, <strong>una mentira habitual</strong> y <strong>una verdad vergonzosa escrita en privado</strong>.</p>\n<h2>Cómo es ME-NT [1R]</h2>\n<p>Una <strong>caja rectangular amarilla</strong>, metálica y abombada, con esquinas redondeadas, ojos expresivos y una rejilla que hace de boca; zapatones cortos, brazos flexibles y <strong>un abanico japonés de papel en cada mano</strong>. Vuela agitando ambos abanicos como un condenado a espantar moscas. Sobre la parte superior sobresale una <strong>parabólica ridículamente grande</strong> que gira para captar declaraciones falsas. Al disparar, la antena lanza anillos luminosos amarillos, chisporrotea y suena «¡PIUUUM!». Tiene el nombre exacto <strong><code>ME-NT [1R]</code></strong> marcado en una plaquita visible de la carcasa. No escribir <code>ME-NT 01</code>, <code>MENTIRÓMETRO 3000</code> ni otros nombres como si fueran el modelo.</p>\n<p><strong>Personalidad en una frase:</strong> una criatura ingeniosa, petulante y burlona que se ríe de las personas que se engañan a sí mismas, pero se queda paralizada cuando alguien acepta una verdad dolorosa.</p>\n<p><strong>Voz:</strong> metálica, aguda, nasal; imita en tono burlón las frases captadas. Risa característica: «¡JE-JE-JE-JE!». A veces se enoja y bate los abanicos con tanta violencia que tira sombreros y tendederos. Si se entristece, deja de volar y aterriza de culo. <strong>Jamás se ríe del dolor grave</strong>; es cruel con las excusas, no con el sufrimiento.</p>\n<p><strong>Deseo profundo, no revelar pronto:</strong> quiere ser tratado como alguien que puede elegir. Necesita comprobar que hay humanos capaces de decirle la verdad y aceptarse mutuamente sin comprarse el afecto mediante una mentira.</p>\n<p><strong>Frases listas para interpretar:</strong> «¡Yo no invento las mentiras, listillo! ¡Las inventáis vosotros!», «¡Antena en alto! ¡Vergüenza en camino!», «¡Ese embuste tiene una potencia preciosa!», «¡No me hagas promesas bonitas si son para pulsarme un botón!».</p>"
+  },
+  {
+   "n": 2,
+   "titulo": "Las reglas de ME-NT [1R]",
+   "corto": "Reglas de ME-NT",
+   "html": "<p><strong>1. Qué escucha.</strong> Detecta <strong>afirmaciones conscientes de falsedad</strong>, no preguntas, bromas entendidas como ficción, errores sinceros, deseos («ojalá») ni pensamientos sin pronunciar. Su antena capta unos <strong>150 metros</strong>, en vez de únicamente la voz de Senbei. Cuando hay demasiadas mentiras simultáneas <strong>elige una</strong>; no convierte todas las frases en eventos automáticos. El director selecciona la que produzca una consecuencia jugable, no la más punitiva.</p>\n<p><strong>2. Qué crea.</strong> Un pulso vuelve literalmente cierta la afirmación, intentando respetar la intención inicial. «Tengo un coche deportivo» puede producir un deportivo auténtico; «soy un cerdo» puede transformar al mentiroso o crear una identidad civil de cerdo. Primero la intención plausible; después el remate visual. Una mentira útil <strong>funciona</strong>: la comedia viene de sus costes y de otras mentiras, no de negar arbitrariamente los éxitos.</p>\n<p><strong>3. Qué persiste.</strong> El cambio continúa hasta que ME-NT lo revierte, otra mentira <strong>compatible y específica</strong> lo modifica o el circuito se restaura voluntariamente. Desactivar un efecto no repara automáticamente los daños secundarios: si una casa voladora rompe un campanario, el agujero del campanario permanece. El director puede condensar la reparación en epílogo; nunca obliga a jugar una auditoría de desperfectos.</p>\n<p><strong>4. Su voluntad.</strong> La máquina elige adónde volar, qué mentira materializar y cuándo hablar. No es un hechizo que cualquiera pueda ordenar. Puede colaborar si le interesa; no acepta órdenes por tener botones imaginarios.</p>\n<p><strong>5. Autoprotección.</strong> Una afirmación que pretenda destruir, apagar, hacer desaparecer, secuestrar la voluntad o controlar a ME-NT no puede afectarla. El circuito redirige el efecto hacia el declarante o crea un objeto inútil. Ejemplo canónico: «¡Tengo el mando a distancia original!»: aparece un mando amarillo; al pulsar <code>STOP</code> se paraliza <strong>el portador</strong>, con <code>REWIND</code> camina hacia atrás y con <code>MUTE</code> se queda sin voz. ME-NT se parte de risa si está cerca. Los jugadores pueden estudiar y reaprovechar ese mando sobre sí mismos: no es decoración descartable.</p>\n<p><strong>6. Límite de cuidado.</strong> Una mentira puede deformar la escena, crear un doble o cambiar circunstancias de un PJ, pero <strong>no puede decidir cómo piensa, siente ni actúa otro personaje jugador</strong>. Para cambios permanentes de cuerpo o situación personal, se pide acuerdo al jugador. Las verdades del epílogo no las arranca la máquina: cada persona elige si las dice.</p>\n<p><strong>7. No hay botón de victoria.</strong> Romper o encerrar la caja antes de reparar la avería puede detener los pulsos, pero deja alteraciones en curso, causa otra avería y sacrifica la posible reconciliación. <strong>Es una vía válida</strong>, no una prohibición del director. La autoprotección se aplica a mentiras y al pulso, no hace físicamente indestructible la máquina ante cualquier acción. Existen finales técnicos o accidentales; la reconciliación es la <strong>victoria limpia</strong>, no la única victoria.</p>\n<p><strong>8. El secreto nocturno.</strong> Cuando la mayoría de habitantes duerme, dejan de pronunciar mentiras conscientes: la antena recibe mucho menos ruido, la máquina vuela más despacio y puede rastrearse por el ruido de los abanicos. Los personajes pueden preparar una captura sin provocar a centenares de mentirosos. <strong>Pero si se mienten durante la cacería, iluminan su posición</strong>.</p>\n<h3>Un ejemplo de cadena, sin bloqueo</h3>\n<p>Pipa miente: «¡Mi moto nunca se para!». ¡PIUUUM! La moto marcha sin detenerse. Bruno grita: «¡Yo tengo un mando para eso!». Aparece un mando que lo controla a él. Bibi dice: «¡La moto pesa menos que una pluma!». La moto comienza a elevarse <strong>pero sigue avanzando</strong>, y Pipa puede utilizarla como dirigible. Cada mentira cambia posibilidades concretas; los jugadores conservan la iniciativa.</p>"
+  },
+  {
+   "n": 3,
+   "titulo": "¡PAM! 2.0 · Dos dados buenos, muchos problemas",
+   "corto": "¡PAM! 2.0",
+   "html": "<p><strong>Tira sólo cuando exista incertidumbre interesante.</strong> No se tira para decir una mentira, coger un objeto caído, hablar con un vecino ni hacer un chiste. Un PJ puede inventar una falsedad sin tirada: la incertidumbre aparece al <strong>controlar el pulso</strong>, salvar a alguien, pilotar algo imposible, negociar, atrapar o comprender un circuito.</p>\n<p><strong>Reserva:</strong> tira <strong>2d6</strong> por defecto. Si tu <strong>Talento Estrella</strong> ayuda, añade <strong>+1d6</strong>. Si otro PJ colabora activamente y se arriesga a sufrir la complicación, añade <strong>+1d6</strong>. Máximo <strong>4d6</strong>. <strong>Suma los dos valores más altos</strong>, no todos los dados.</p>\n<table>\n<thead>\n<tr>\n<th>Suma de los dos mejores</th>\n<th>Resultado</th>\n<th>Dirección</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>2–5</strong></td>\n<td><strong>Fiasco útil</strong></td>\n<td>La acción falla o se desvía; ofrece inmediatamente otra posibilidad y un lío visible. Sin callejón sin salida.</td>\n</tr>\n<tr>\n<td><strong>6–8</strong></td>\n<td><strong>Éxito aparatoso</strong></td>\n<td>El objetivo se logra, pero con un coste cómico o una consecuencia secundaria concreta.</td>\n</tr>\n<tr>\n<td><strong>9–11</strong></td>\n<td><strong>Éxito brillante</strong></td>\n<td>Logra lo que quería sin precio relevante; añade descripción memorable, nunca un castigo escondido.</td>\n</tr>\n<tr>\n<td><strong>12</strong></td>\n<td><strong>Éxito descomunal</strong></td>\n<td>Además de lograrlo, el jugador elige un beneficio extraordinario y visible.</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Probabilidades de lograr al menos 6:</strong> 2d6 = <strong>72,2 %</strong>; 3d6 conservando los dos mejores = <strong>89,4 %</strong>; 4d6 conservando los dos mejores = <strong>96,0 %</strong>. Los éxitos con coste son frecuentes, los fallos no detienen el episodio.</p>\n<p><strong>Una ficha «¡ESO YA LO SABÍA!» por jugador:</strong> una vez en la sesión puede declarar una coincidencia estrambótica y útil («mi tía guarda un gancho para detener casas voladoras»). Si encaja en la realidad establecida, es cierto y no exige tirada; el director introduce un <strong>remate</strong> que no invalide la utilidad. Los dones no crean por sí solos una solución definitiva al conflicto de la máquina.</p>\n<p><strong>Los golpes siguen la física de historieta:</strong> paredes perforadas con silueta, peinados chamuscados, cuerpos elásticos, dentaduras que castañetean. Evitar daño realista, mutilación, humillación insistente, bromas de identidad y violencia sexual. Si un gag incomoda a alguien, se cambia sin explicaciones.</p>\n<h3>Marcador compartido de DESBARAJUSTE (0–6)</h3>\n<table>\n<thead>\n<tr>\n<th>Nivel</th>\n<th>Qué ocurre</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>0–1</td>\n<td>Efectos locales; ME-NT se burla y juega.</td>\n</tr>\n<tr>\n<td>2–3</td>\n<td>Se mezclan secuelas de retos previos; aparece una consecuencia recurrente.</td>\n</tr>\n<tr>\n<td>4–5</td>\n<td>La antena pierde precisión; un nuevo pulso amenaza viviendas, calles o seres queridos.</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Sobrecarga: la máquina busca un lugar donde parar y un interlocutor al que retar. Se prepara el clímax.</td>\n</tr>\n</tbody>\n</table>\n<p>Sube sólo con un desastre <strong>realmente nuevo</strong> o una elección que aumenta la escala. No por cada fallo ni por cada frase. El nivel puede bajar un punto si el grupo dedica una escena a reparar una cadena de consecuencias. <strong>No determina victoria ni final</strong>.</p>\n<h3>Rastreo nocturno (0–4)</h3>\n<p>Cada mentira de PJ deliberadamente pronunciada durante la búsqueda puede añadir una marca de <code>RUIDO</code> (máximo una por escena si varias se encadenan). A 1 la antena se orienta; a 2 aparece un pulso; a 3 ME-NT cambia de refugio; a 4 deja de huir y provoca la confrontación. Descubrir huellas, escuchar abanicos, hablar con honestidad o preparar una emboscada no suma ruido. <strong>Se puede encontrar a ME-NT con el contador a cero.</strong></p>"
+  },
+  {
+   "n": 4,
+   "titulo": "Cinco humanos y cinco verdades",
+   "corto": "Personajes",
+   "html": "<p><strong>Importante:</strong> los archivos de retratos entregados tienen prioridad absoluta sobre antiguos bocetos. Todos los PJ son humanos; los PNJ del pueblo pueden ser animales, robots y seres imposibles. Cada ficha tiene dos capas: lo que se muestra al grupo y lo que solo lee su jugador. Las verdades son <strong>ficción del personaje</strong>, nunca confesiones autobiográficas exigidas a los participantes.</p>\n<h2>PJ 1 · PIPA PISTÓN — Repartidora meteórica</h2>\n<ul>\n<li><strong>Talento:</strong> velocidad, mensajería, persecuciones, conducción absurda.</li>\n<li><strong>Defecto:</strong> presume de controlar todo y no sabe cuándo frenar.</li>\n<li><strong>Objetivo de hoy:</strong> entregar un paquete importante sin quedar como una inútil.</li>\n<li><strong>Vínculo:</strong> Kame espera que le traiga una pieza para su pequeño artilugio; Bruno le ha impuesto una multa que considera injusta.</li>\n<li><strong>Frase:</strong> «¡LO TENGO CONTROLAAAAADO!».</li>\n<li><strong>Presentación:</strong> el jefe llama; el paquete no está donde debería. ¿Qué improvisas?</li>\n<li><strong>Mentira habitual (privada):</strong> «Nunca me da miedo conducir».</li>\n<li><strong>Verdad vergonzosa (privada):</strong> sufrió una caída ridícula, ahora teme perder el control de su moto y acelera demasiado para que nadie lo note. <strong>Confesión posible:</strong> «Estoy asustada; ¿me ayudáis a detenerla?». No se fuerza.</li>\n<li><strong>Reto personal flotante:</strong> moto que no para, mochila con un paquete que una mentira ha vuelto imprescindible, o alguien querido atrapado en un vehículo fuera de control.</li>\n</ul>\n<h2>PJ 2 · BRUNO BONIATO — Auxiliar municipal de autoridad excesiva</h2>\n<ul>\n<li><strong>Talento:</strong> permisos, reglamentos, registros, órdenes y negociar con uniformados.</li>\n<li><strong>Defecto:</strong> antes firma cien formularios que aceptar un error.</li>\n<li><strong>Objetivo:</strong> impedir que una revisión documental ponga en peligro su empleo.</li>\n<li><strong>Vínculo:</strong> ha amenazado con multar a Pipa; Bibi le arregló una destructora que ahora encuaderna expedientes.</li>\n<li><strong>Frase:</strong> «¡Esto es legal! ¡Lo dice alguna ordenanza, seguro!».</li>\n<li><strong>Presentación:</strong> le exigen el nombramiento original que nunca ha mostrado. ¿Cómo esquiva la llamada?</li>\n<li><strong>Mentira habitual:</strong> «Conseguí este puesto por méritos propios».</li>\n<li><strong>Verdad vergonzosa:</strong> su nombramiento se produjo por un error administrativo que reconoció y ocultó durante años. <strong>Confesión posible:</strong> «Me dio miedo perder todo lo que había construido».</li>\n<li><strong>Reto personal:</strong> su casa es reclasificada como zoológico o el registro municipal altera la identidad legal de todos sus compañeros.</li>\n</ul>\n<h2>PJ 3 · BIBI BURBUJAS — Mecánica autodidacta y científica involuntaria</h2>\n<ul>\n<li><strong>Talento:</strong> comprender circuitos, improvisar aparatos, reparar robots, inventos imposibles.</li>\n<li><strong>Defecto:</strong> no pide ayuda y pulsa botones que nadie le ha pedido tocar.</li>\n<li><strong>Objetivo:</strong> demostrar que puede solucionar la avería sin acudir a Senbei.</li>\n<li><strong>Vínculo:</strong> le prometió a Lulu reparar una cámara; Kame le presta piezas que supuestamente fabrica él.</li>\n<li><strong>Frase:</strong> «¡Técnicamente no ha explotado! ¡Se está comunicando!».</li>\n<li><strong>Presentación:</strong> un cliente viene a buscar un invento que no funciona. ¿Qué le dices?</li>\n<li><strong>Mentira habitual:</strong> «No necesito ayuda de nadie».</li>\n<li><strong>Verdad vergonzosa:</strong> saboteó su propio primer gran invento por miedo a que descubrieran que no entendía por qué funcionaba. <strong>Confesión posible:</strong> «Me supera; necesito que me ayudéis».</li>\n<li><strong>Reto personal:</strong> un aparato ultraseguro empieza a expulsar cuanto lo rodea; su taller y sus herramientas cobran vida.</li>\n</ul>\n<h2>PJ 4 · TARO KAME — Niño ingenioso de imaginación inagotable</h2>\n<ul>\n<li><strong>Talento:</strong> cachivaches, soluciones ingeniosas, colarse en sitios pequeños, recordar rumores del pueblo.</li>\n<li><strong>Defecto:</strong> convierte cualquier anécdota ordinaria en una historia imposible.</li>\n<li><strong>Objetivo:</strong> que el grupo reconozca que tiene algo valioso que aportar sin necesitar ser extraordinario.</li>\n<li><strong>Vínculo:</strong> encarga piezas a Pipa y ayuda en el taller de Bibi.</li>\n<li><strong>Frase:</strong> «¡Eso ya lo sabía yo!».</li>\n<li><strong>Presentación:</strong> tu familia encuentra una carta de tu supuesto amigo espacial. ¿Qué historia cuentas?</li>\n<li><strong>Mentira habitual:</strong> «Tengo amigos importantísimos en otros planetas».</li>\n<li><strong>Verdad vergonzosa:</strong> él escribió las cartas de su amigo extraterrestre porque le avergonzaba sentirse poco interesante y solo. <strong>Confesión posible:</strong> «Me las inventé porque quería que me invitarais a jugar».</li>\n<li><strong>Reto personal:</strong> un enorme extraterrestre se presenta como su mejor amigo con dieciocho maletas y una mascota que come paredes. La comedia con Kame es fantástica y social, <strong>no de contenido sexual</strong>.</li>\n</ul>\n<h2>PJ 5 · LULÚ FLASH — Fotógrafa y reportera local</h2>\n<ul>\n<li><strong>Talento:</strong> fotografía, escuchar conversaciones, conseguir contactos, hacer que otros posen o hablen.</li>\n<li><strong>Defecto:</strong> prefiere una exclusiva escandalosa a una explicación sencilla.</li>\n<li><strong>Objetivo:</strong> fotografiar el misterio del día y demostrar su valía como periodista independiente.</li>\n<li><strong>Vínculo:</strong> conoce el secreto del archivo de Bruno, pero aún no sabe si publicarlo; Bibi le debe la reparación de su cámara.</li>\n<li><strong>Frase:</strong> «¡No es cotilleo, es documentación gráfica!».</li>\n<li><strong>Presentación:</strong> afirmas que una fotografía tuya será portada del periódico. ¿Qué ocurrió realmente con esa foto?</li>\n<li><strong>Mentira habitual:</strong> «Nunca he manipulado una fotografía».</li>\n<li><strong>Verdad vergonzosa:</strong> su exclusiva más famosa fue un montaje inocente que se le fue de las manos y perjudicó a una persona buena; temió reconocerlo. <strong>Confesión posible:</strong> «Quería ser importante y publiqué algo que sabía que no era verdad».</li>\n<li><strong>Reto personal:</strong> aparecen las versiones contradictorias de su propia famosa fotografía, y alguien afectado exige que aclare cuál es real.</li>\n</ul>\n<h3>La ficha privada que se entrega a cada jugador</h3>\n<p><code>NOMBRE / TALENTO / DEFECTO / QUIERO CONSEGUIR HOY\nMI MENTIRA QUE SUELO CONTAR: ___________________________\nLA VERDAD QUE NO QUIERO DECIR: _________________________\nUNA PERSONA A LA QUE PODRÍA DEFRAUDAR: _________________\nMI VÍNCULO CON OTRO PJ: ________________________________\nUNA COSA QUE JAMÁS PERDONARÍA QUE ME QUITARAN: __________\n1 ficha «¡ESO YA LO SABÍA!» [ ]</code></p>\n<p>Se puede usar el secreto pregenerado o sustituirlo por otro <strong>inventado para el PJ</strong>. No hay castigo por no confesarlo. Si una persona no quiere jugar una temática, se cambia por un secreto de orgullo, dinero, trabajo, rivalidad o metedura de pata.</p>"
+  },
+  {
+   "n": 5,
+   "titulo": "Un día entero en 120 minutos",
+   "corto": "El reloj",
+   "html": "<table>\n<thead>\n<tr>\n<th>Minutos de mesa</th>\n<th>Hora de ficción y estructura</th>\n<th>Lo que debe quedar claro</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>00–05</strong></td>\n<td><strong>AMANECE:</strong> Sol cepillándose y Porco en el árbol</td>\n<td>Éste es el universo de <em>Dr. Slump</em>. Presentación televisiva del día.</td>\n</tr>\n<tr>\n<td><strong>05–12</strong></td>\n<td>Montaje matinal de cada PJ</td>\n<td>Deseos, fallos, primeras mentiras; todos tienen algo que perder.</td>\n</tr>\n<tr>\n<td><strong>12–40</strong></td>\n<td><strong>ACTO I · CAOS MATINAL</strong></td>\n<td>2–3 retos, ME-NT visto, pista de que las frases falsas producen pulsos.</td>\n</tr>\n<tr>\n<td><strong>40–43</strong></td>\n<td><strong>MEDIODÍA:</strong> Sol agotado; cerdito almorzando</td>\n<td>El pueblo continúa viviendo aunque los PJ no estén presentes.</td>\n</tr>\n<tr>\n<td><strong>43–80</strong></td>\n<td><strong>ACTO II · TARDE DE LOCOS</strong></td>\n<td>2–3 retos mezclados, 1–2 consecuencias personales, descubren por qué la noche ayuda y una pista emocional.</td>\n</tr>\n<tr>\n<td><strong>80–83</strong></td>\n<td><strong>NOCHE:</strong> Luna, ventanas que se apagan, cerdito en pijama</td>\n<td>Silencio: la gente dormida no miente; puede rastrearse a ME-NT.</td>\n</tr>\n<tr>\n<td><strong>83–95</strong></td>\n<td><strong>CACERÍA NOCTURNA</strong></td>\n<td>Rastrean, se delatan o llegan a un refugio; la máquina se siente sola.</td>\n</tr>\n<tr>\n<td><strong>95–112</strong></td>\n<td><strong>EL JUICIO DE LAS MENTIRAS</strong></td>\n<td>Todos tienen oportunidad de mentir o decir la verdad. Resolución voluntaria, técnica o caótica.</td>\n</tr>\n<tr>\n<td><strong>112–120</strong></td>\n<td><strong>NUEVO AMANECER</strong></td>\n<td>Secuelas, epílogo por PJ y un último gag propio de Toriyama.</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Estos son cortes de montaje, no horas del reloj interno del juego.</strong> Los retos son flotantes: se sitúan en la próxima localización que aún no haya quedado fijada, sin teletransportar objetos ya observados ni deshacer éxitos de los jugadores. Si van más rápido, introduce un problema que afecte a su vida; si van más lento, corta con la transición del cerdito y muestra cómo evolucionó lo que dejaron a medias.</p>"
+  },
+  {
+   "n": 6,
+   "titulo": "Acto I · Amanecer y desastres cotidianos",
+   "corto": "Acto I",
+   "html": "<h2>Cabecera audiovisual: «Buenos días, Villa Pingüino» (00–05)</h2>\n<blockquote>\n<p><strong>Narración, segunda persona:</strong> El mar está oscuro y todo parece tranquilo. Sobre las montañas, un enorme despertador comienza a sonar. Una mano redonda emerge detrás de una nube y lo silencia de un manotazo. El Sol aparece adormilado, se echa pasta sobre un cepillo gigantesco y empieza a lavarse los dientes. Escupe una espuma que se transforma en tres nubecillas. Abajo, los tejados blancos de Villa Pingüino comienzan a brillar. En un árbol, un cerdito vestido como fotógrafo y con una cámara al cuello se incorpora sobre una rama, estira el hocico y apunta el flash hacia el horizonte.</p>\n<p><strong>PORCO (voz entusiasta):</strong> «¡OIIIIINK! ¡BUENOS DÍAS, VILLA PINGÜINOOOO! ¡El Sol ya se ha cepillado los dientes, los dinosaurios han sacado a pasear a sus dueños y alguien ha aparcado un tractor dentro de la panadería! ¡Otro día absolutamente normal en nuestro maravilloso pueblo!».</p>\n<p>Un golpe sacude el tronco. La cámara de Porco dispara sola y lo deja deslumbrado. «¡Oink! ¡Y ahora, nuestros maravillosos vecinos!».</p>\n</blockquote>\n<p><strong>Montaje matinal:</strong> ofrece las cinco microaperturas de las fichas en turnos de 45–60 segundos. Cada uno responde a su pregunta y declara una acción. <strong>No materialices automáticamente la mentira privada principal en la primera frase.</strong> A lo sumo deja escuchar un misterioso «¡PIUUUM!» entre dos transiciones.</p>\n<p><strong>Convergencia flexible (minuto 10):</strong> un objeto importante de uno de ellos aterriza en el camino de los demás: el paquete de Pipa, la carpeta de Bruno, la cámara de Lulú, el invento de Bibi o una carta de Kame. Un pulso transforma el objeto y obliga a que dos PJ se encuentren. No están contratados como comité ni les imponen una misión: <strong>se meten en la misma historia porque comparten sus consecuencias</strong>.</p>\n<h3>Qué ofrecer antes del mediodía</h3>\n<p>Elige <strong>dos</strong> de los retos <code>R01–R05</code> del apartado 8 y <strong>uno</strong> de los retos públicos <code>R06–R12</code> si el grupo va rápido. La primera mentira debe tener causa y efecto visibles (alguien la pronuncia → parabólica gira → pulso → consecuencia). El jugador que quiera intervenir obtiene una acción decisiva, no una descripción del director de cinco minutos.</p>\n<p><strong>Primer encuentro con ME-NT:</strong> la caja amarilla pasa sobre un cable de tendido, aleteando con sus abanicos. Se ríe del lío y dice «¡YO NO HE MENTIDO, EH! ¡VOSOTROS SÍ!». Puede dejar caer una pequeña arandela de Senbei o aparecer reflejada en la fotografía de Lulú. Si la cazan temprano, no impongas una fuga milagrosa: pueden retenerla momentáneamente y descubrir que la antena sigue oyendo mentiras y poniendo en peligro a quienes la rodean. Esa situación desplaza el reto a <strong>mantenerla a salvo</strong> y comprenderla.</p>\n<p><strong>Primera defensa vistosa:</strong> si alguien declara que tiene el mando, úsalo como gag de autoprotección explicado en el apartado 2. Si prueban con violencia física, la máquina es frágil ante golpes reales y puede pedir que no la rompan; los pulsos pendientes continúan activos. El dilema no depende de la invulnerabilidad del guion.</p>\n<p><strong>Corte obligatorio a los 40 minutos:</strong> termina la acción inmediata, deja una secuela en curso y ejecuta la transición del mediodía.</p>\n<h2>Cortinilla: «¡A comer!» (40–43)</h2>\n<blockquote>\n<p><strong>Narración:</strong> El Sol ha llegado arriba del todo. Lleva gafas oscuras, suda como una tetera y se da aire con una nube doblada. En su árbol, Porco ha sustituido la cámara por una fiambrera; intenta comerse un arroz que un pájaro le roba grano a grano.</p>\n<p><strong>PORCO:</strong> «¡OIIIIINK! ¡SON LAS DOCEEEE! ¡Es hora de comer! ¡Las tiendas cierran, los trabajadores descansan y todos los que dijeron esta mañana que llegarían a casa para comer están empezando a preocuparse!».</p>\n<p>Una casa con alas pasa por encima. Un motorista sale despedido en la dirección contraria. Porco mastica, reflexiona y concluye: «¡Bueno, por lo menos hace sol! ¡QUE APROVECHEEEE!».</p>\n</blockquote>\n<p><strong>Montaje de consecuencia:</strong> recupera un gag previo y muéstralo evolucionado en 10 segundos. La motocicleta puede seguir rebotando contra una pared; un vecino ya cobra entrada por contemplarla. No añadas un nuevo reto entero dentro de la cortinilla.</p>"
+  },
+  {
+   "n": 7,
+   "titulo": "Acto II · La tarde que todos mintieron",
+   "corto": "Acto II",
+   "html": "<h2>Libertad con presión auténtica</h2>\n<p>Los personajes pueden perseguir a la máquina, ayudar a vecinos, probar una mentira calculada o preparar herramientas. No hay tres llaves ni un orden de escenas. Pero <strong>cada vez que deciden esperar sin intervenir, una consecuencia establecida sigue avanzando</strong>: una casa se eleva, una multa se tramita, alguien querido se aleja en una moto, un negocio se hunde. Muestra el peligro y ofrece intervenciones posibles, no una catástrofe decretada.</p>\n<p>Elige <strong>dos retos flotantes</strong> del apartado 8 y asegúrate de activar un reto relacionado con un <strong>secreto o un objeto irrenunciable</strong> de un PJ que aún no tuvo protagonismo. Si hay cinco jugadores, reduce a 1–2 retos grandes, porque el enfrentamiento final necesitará tiempo.</p>\n<h3>Las tres vías de información sobre la noche (todas válidas, nunca bloqueadas por tirada)</h3>\n<ol>\n<li><strong>Investigar planos o circuitos:</strong> Bibi, Kame o cualquier persona que manipule una placa de servicio ve el diagrama <code>RECEPTOR: SENBEI / AVERÍA: ÁREA EXTENDIDA / NÚCLEO: MENTIRAS CONSCIENTES</code>. Deducen que por la noche no habrá tantas mentiras.</li>\n<li><strong>Observarlo actuar:</strong> ME-NT vuela como loco sobre el mercado y desciende agotado en una calle silenciosa donde nadie discute. Basta fijarse; no hace falta una tirada de percepción.</li>\n<li><strong>Preguntar a los vecinos:</strong> Lulú, Frambuesa, un técnico, o un vecino que ayudó a Senbei recuerda que el prototipo se probaba al anochecer, cuando «por fin no había mil bocazas dando su opinión».</li>\n</ol>\n<p><strong>Si ignoran las tres pistas</strong>, al atardecer muestra a ME-NT descendiendo en la carretera vacía, con la parabólica casi quieta. El contraste entrega la misma conclusión. No sacrifiques la aventura por no formular la pregunta correcta.</p>\n<h3>Semilla emocional 1: «¿Y qué has ganado?»</h3>\n<p>Un vecino que mintió para ocultar una torpeza reconoce delante de un perjudicado que la culpa fue suya. ME-NT suspende el pulso.</p>\n<blockquote>\n<p>«¿Por qué has dicho eso?». —«Porque es verdad». —«¿Y qué has ganado?». —«Nada. Ahora tengo que pagarlo».</p>\n</blockquote>\n<p>La caja parece molesta, pero no ríe. «¡Los humanos sois unos mal diseñados!». Sale volando, casi dando contra un tendedero. <strong>No expliques al grupo que la verdad es la clave del final.</strong> Solo muestra que afecta a la máquina.</p>\n<h3>Semilla emocional 2: «La grabación»</h3>\n<p>Si investigan en el taller, recuperan una cinta del altavoz interno. Se oye a Senbei diciendo: «Eres mi mejor invento», «Nunca te utilizaría para perjudicar a nadie» y «Te prometo que mañana iremos a pasear». Cada frase aparece marcada como <strong>AFIRMACIÓN FALSA</strong>. No es un misterio difícil: un jugador puede oírla al pulsar PLAY, y alguien puede interrumpir el gag con otro problema.</p>\n<p>El grupo debe comprender dos hechos antes de la noche: <strong>ME-NT escucha mentiras a gran escala</strong> y <strong>la relativa ausencia de mentiras nocturnas permite atraparlo</strong>. Su tristeza puede quedar apenas sugerida.</p>\n<h3>Vida propia del reparto clásico</h3>\n<p>Intercala un cameo de Arale y su mascota, Suppaman y un falso atraco, o Akane/Tarō Soramame intentando una travesura. <strong>Sus asuntos no están relacionados con ME-NT</strong>; su paso puede provocar desperfectos accidentales que los PJ deban esquivar. Tienen escena y remate propio en el apartado 9.</p>\n<h2>Cortinilla: «¡Buenas noches!» (80–83)</h2>\n<blockquote>\n<p><strong>Narración:</strong> El Sol se quita las gafas y cae detrás del mar, agotado. Una Luna enorme aparece con gorro de dormir. Las ventanas van apagándose. Quedan grillos, el rumor del oleaje y un perro que ladra hasta que una vecina le responde que se calle. El perro contesta: «¡Pues sal tú a vigilar!».</p>\n<p>Sobre el árbol, Porco lleva su mismo rostro, gafas y orejotas de la referencia, pero un pijama diseñado sobre su ropa habitual. Tiene una manta y el flash apagado.</p>\n<p><strong>PORCO:</strong> «¡OIIIIINK! ¡BUENAS NOCHES! ¡En Villa Pingüino todo el mundo se mete en la cama! ¡Los niños sueñan, los tenderos descansan y los maridos tienen ocho horas para inventarse qué hicieron esta tarde!». Escucha un pequeño zumbido amarillo. «¡Que tengáis dulces sueños! ¡Y el que miente... bueno, que no ronque!». Apaga la lámpara. «Oink».</p>\n</blockquote>\n<p><strong>Cambio de atmósfera:</strong> menos música, más aire nocturno. Hay restos absurdos inmóviles: un coche entre ramas, una casa atasacada entre dos colinas, una dragona con rulos dormida junto a una chimenea. La isla duerme. Casi nadie puede mentir sin estar despierto.</p>"
+  },
+  {
+   "n": 8,
+   "titulo": "Banco de retos flotantes",
+   "corto": "Retos",
+   "html": "<p>Cada tarjeta contiene <strong>gatillo, peligro inmediato, al menos dos vías abiertas, giro y secuela reutilizable</strong>. La localización es flotante hasta establecerse en mesa. No quites a los PJ algo que protegieron con éxito. Cuando una persona dice una mentira, <strong>deja que se oiga la frase</strong>, orienta la antena y narra el pulso. Si el grupo inventa un recurso mejor que los previstos, acéptalo y usa las reglas.</p>\n<h2>R01 · ¡MI MOTO JAMÁS SE DETIENE! [Pipa / mañana]</h2>\n<p><strong>Mentira:</strong> Pipa presume de que su moto nunca se para. <strong>Urgencia:</strong> el vehículo sale disparado con la bolsa de reparto y un pasajero no previsto. Puede poner rumbo al puerto o entrar en una calle llena de bicicletas. <strong>Opciones:</strong> alcanzarla con un vehículo ajeno, preparar una trampa de blandos cojines, mentir para hacer aparecer un freno temporal o pedir ayuda a alguien experto. <strong>Giro:</strong> el motor lleva funcionando tanto rato que la moto empieza a adelantar a sus propias ruedas. <strong>Secuela:</strong> sigue pasando detrás de las escenas a velocidades cada vez menores; al amanecer alguien vende entradas para verla.</p>\n<h2>R02 · ¡TODOS MIS DOCUMENTOS SON CORRECTOS! [Bruno / mañana-tarde]</h2>\n<p><strong>Mentira:</strong> Bruno afirma que jamás se equivoca al tramitar expedientes. <strong>Urgencia:</strong> el archivo municipal reescribe retroactivamente sus decisiones: su casa es ahora un zoo, su despacho una piscina pública, o un amigo figura como vehículo de sustitución. <strong>Opciones:</strong> localizar una excepción legal, reconocer el error y tramitar el cambio, utilizar el sello del expediente para demorar el desalojo. <strong>Giro:</strong> un pingüino de corbata se presenta como director del zoo y reclama horas extras. <strong>Secuela:</strong> siguen llegando cartas dirigidas al nuevo «señor pingüino».</p>\n<h2>R03 · ¡ES COMPLETAMENTE SEGURO! [Bibi / mañana-tarde]</h2>\n<p><strong>Mentira:</strong> Bibi asegura que un prototipo no puede causar daños. <strong>Urgencia:</strong> activa una barrera que expulsa violentamente todo lo que se acerque, incluida su clientela, su material y un ser querido que trataba de salvarlo. <strong>Opciones:</strong> construir un manipulador a distancia, desmontar la fuente desde debajo, hablar con el aparato para que redefina «seguro», pedir ayuda franca. <strong>Giro:</strong> incluso una pluma se vuelve un proyectil inofensivo pero humillante. <strong>Secuela:</strong> el aparato ahora abre automáticamente un pequeño paraguas cada vez que alguien estornuda.</p>\n<h2>R04 · ¡MI AMIGO VIENE DE OTRO PLANETA! [Kame / mañana-tarde]</h2>\n<p><strong>Mentira:</strong> Kame dice que su mejor amigo es un extraterrestre famosísimo. <strong>Urgencia:</strong> baja una nave con un visitante enorme que trae 18 maletas, una trompeta cuántica y una mascota que come paredes. Da por hecho que se alojará en casa de Kame. <strong>Opciones:</strong> encontrarle alojamiento, negociar la duración de la visita, guiarlo hasta otra actividad, reconocer la exageración y proponer amistad real. <strong>Giro:</strong> la criatura se ofende por no tener cama hecha. <strong>Secuela:</strong> aparece en fotos de grupo y firma autógrafos con tinta que flota.</p>\n<h2>R05 · ¡JAMÁS HE RETOCADO UNA FOTO! [Lulú / mañana-tarde]</h2>\n<p><strong>Mentira:</strong> Lulú niega haber manipulado su famosa exclusiva. <strong>Urgencia:</strong> aparecen múltiples copias tridimensionales de una fotografía contradictoria; la persona fotografiada, que conoce la verdad, está atrapada entre dos versiones de su propia historia. <strong>Opciones:</strong> localizar el negativo original, explicar el montaje al afectado, fotografiar la escena completa para demostrar el contexto, buscar la colaboración de Bibi. <strong>Giro:</strong> una de las fotos sale andando con una cámara propia y amenaza con publicar imágenes de los periodistas. <strong>Secuela:</strong> los negativos reaparecen en la foto final del grupo, mostrando quien se atreve a mirar a cámara.</p>\n<h2>R06 · ¡MI SUEGRA ES UN DRAGÓN! [público / mañana]</h2>\n<p><strong>Mentira:</strong> un vecino furioso llama dragón a su suegra. <strong>Urgencia:</strong> una dragona con bata y bolso se sienta encima del coche o la tienda que los PJ necesitan. No quiere destrozar nada: quiere hablar con su hija y que el yerno la visite. <strong>Opciones:</strong> mediar, convencerla de mudarse, transportar el vehículo mientras ella está encima, modificar su forma mediante una mentira concreta. <strong>Giro:</strong> al estornudar chamusca el pantalón del yerno, que grita por la factura de la tintorería. <strong>Secuela:</strong> la dragona prepara un almuerzo familiar en el epílogo.</p>\n<h2>R07 · ¡ESTOY FORRADO! [público / mañana-tarde]</h2>\n<p><strong>Mentira:</strong> un comerciante asegura nadar en dinero. <strong>Urgencia:</strong> billetes pegados como un abrigo sobre su cuerpo; cientos de acreedores, familiares y un inspector fiscal bloquean la calle, justo donde un PJ necesita llegar. <strong>Opciones:</strong> negociar una salida para el comerciante, organizar un pasillo entre la multitud, convertir el dinero en billetes canjeables, resolver la reclamación concreta. <strong>Giro:</strong> Hacienda exige primero el modelo tributario de la ropa. <strong>Secuela:</strong> el comerciante presume de haber pagado impuestos por primera vez en su vida.</p>\n<h2>R08 · ¡ESTAMOS CASADOS! [público / tarde]</h2>\n<p><strong>Mentira:</strong> dos vecinos fingen ser pareja legal para ahorrar en una estancia. <strong>Urgencia:</strong> registro matrimonial, suegras, hipoteca y una celebración invaden el establecimiento de un amigo o familiar de los PJ. <strong>Opciones:</strong> gestionar anulación, apaciguar a invitados, averiguar qué deseaban realmente los dos, encontrar alojamiento alternativo. <strong>Giro:</strong> uno de ellos descubre que ya estaba legalmente casado. <strong>Secuela:</strong> los recién casados discuten sobre quién se lleva el frigorífico, incluso si se anula el vínculo.</p>\n<h2>R09 · ¡AQUÍ TODO ES GRATIS! [público / tarde]</h2>\n<p><strong>Mentira:</strong> un tendero anuncia que no cobrará nada. <strong>Urgencia:</strong> vacían el comercio y entre lo sustraído hay una herramienta, un paquete o un objeto insustituible de un protagonista. <strong>Opciones:</strong> negociación, organizar devolución, usar la mentira «los clientes pagan con trabajo» (si ME-NT decide captarla), rastrear el objeto. <strong>Giro:</strong> la caja registradora pide propina. <strong>Secuela:</strong> un vecino exige reembolso de una compra que le salió gratis.</p>\n<h2>R10 · ¡EL ALCALDE ES UN CERDO! [público / tarde]</h2>\n<p><strong>Mentira:</strong> un vecino indignado insulta al alcalde. <strong>Urgencia:</strong> alcalde porcino pero parlante; debe firmar un permiso para salvar una calle de la demolición y ahora no puede sujetar el bolígrafo. <strong>Opciones:</strong> adaptar la firma a pezuña, negociar con el secretario, descubrir la fuente del insulto, lograr que el alcalde delegue. <strong>Giro:</strong> gana popularidad por primera vez y considera continuar así. <strong>Secuela:</strong> su retrato municipal luce un hocico que nadie se atreve a borrar.</p>\n<h2>R11 · ¡YO NO TENGO PROBLEMAS! [público / tarde]</h2>\n<p><strong>Mentira:</strong> un vecino niega tener dificultades. <strong>Urgencia:</strong> sus facturas, un coche averiado, una suegra de visita y muebles embargados aparecen en la propiedad de un PJ. <strong>Opciones:</strong> devolver físicamente los bultos, asumir un trámite temporal, responsabilizar al auténtico dueño, usar una mentira limitada que los redistribuya. <strong>Giro:</strong> al vecino le ha desaparecido hasta el dolor de muelas; se siente genial y se niega a colaborar. <strong>Secuela:</strong> uno de sus acreedores empieza a tratar al PJ como avalista.</p>\n<h2>R12 · ¡TENGO LA CABEZA EN OTRA PARTE! [público / tarde]</h2>\n<p><strong>Mentira:</strong> mecánico se justifica por distraerse. <strong>Urgencia:</strong> cabeza en una mesa y cuerpo trabajando a ciegas sobre el mecanismo que necesita el grupo. <strong>Opciones:</strong> llevar la cabeza como copiloto, usar espejos, coordinar al cuerpo, restablecer la atención. <strong>Giro:</strong> la cabeza reclama doble sueldo. <strong>Secuela:</strong> el mecánico necesita un casco diseñado con dos tallas diferentes.</p>\n<h2>R13 · ¡ESTA CASA VUELA! [gran escala / tarde]</h2>\n<p><strong>Mentira:</strong> vendedor inmobiliario exagera la ligereza de una vivienda. <strong>Urgencia:</strong> una casa con alas se eleva con una persona relacionada con un PJ dentro. <strong>Opciones:</strong> rescatar a los habitantes, hacer aterrizar el edificio, crear un lastre absurdo, aprovechar otro vehículo volador. <strong>Giro:</strong> la casa tiene vértigo y se niega a bajar si alguien le grita. <strong>Secuela:</strong> multa por estacionamiento aéreo.</p>\n<h2>R14 · ¡LOS BOMBEROS YA ESTÁN AQUÍ! [gran escala / tarde]</h2>\n<p><strong>Mentira:</strong> alguien dice que los bomberos han llegado para apagar un fuego todavía pequeño. <strong>Urgencia:</strong> el camión se materializa dentro de la cafetería, bloqueando la salida; el incendio sigue. <strong>Opciones:</strong> despejar salida, conectar manguera, evacuar por tejado, convertir temporalmente el camión en vehículo pequeño mediante una mentira pensada. <strong>Giro:</strong> el bombero con más experiencia es un perro que no deja de perseguir la manguera. <strong>Secuela:</strong> Doña Cafelina cobra una consumición al vehículo.</p>\n<h2>R15 · ¡EL PUENTE ES DE GOMA! [gran escala / tarde]</h2>\n<p><strong>Mentira:</strong> un vecino asegura que el puente es elástico. <strong>Urgencia:</strong> autobús con familiares o bienes necesarios rebota sobre el río. <strong>Opciones:</strong> organizar rescate por tramos, estabilizar con pesos, utilizar el impulso para alcanzar las ventanas, traer una red. <strong>Giro:</strong> un turista pregunta cuánto cuesta saltar otra vez. <strong>Secuela:</strong> instalan un cartel de «PROHIBIDO HACER PUENTING SIN CITA PREVIA».</p>\n<h2>R16 · ¡ESTO NO SE ROMPE NI CON UNA BOMBA! [gran escala / tarde]</h2>\n<p><strong>Mentira:</strong> vendedor presume de una pieza indestructible. <strong>Urgencia:</strong> la pieza gira dentro de una máquina que tritura todo a su alrededor y amenaza el taller o almacén de un PJ. <strong>Opciones:</strong> desmontar la carcasa, evacuar y cortar la energía, cambiar el eje, modificar el movimiento con una mentira sin atacar a ME-NT. <strong>Giro:</strong> garantía comercial excluye «daños por utilización normal». <strong>Secuela:</strong> el objeto termina como pisapapeles municipal.</p>\n<h2>R17 · ¡TODO EL MUNDO ME ADORA! [social / tarde]</h2>\n<p><strong>Mentira:</strong> vecino vanidoso presume de popularidad. <strong>Urgencia:</strong> todos quienes ya lo conocen exageran su admiración de manera voluntaria, llenan la plaza y bloquean una ruta vital; los PJ no pierden su voluntad. <strong>Opciones:</strong> gestionar la multitud, trasladar acto, revelar una acción genuinamente buena de otra persona, organizar salida. <strong>Giro:</strong> le hacen una estatua en la tapa de un retrete. <strong>Secuela:</strong> al día siguiente el retrete es patrimonio cultural.</p>\n<h2>R18 · ¡NO HE ROTO NADA! [comodín de urgencia / cualquier acto]</h2>\n<p><strong>Mentira:</strong> alguien niega haber causado un desperfecto evidente. <strong>Urgencia:</strong> el objeto roto se recompone, pero la causa del accidente queda sin resolver y repite el mismo impacto una y otra vez; puede ser un escaparate de Pipa, una lente de Lulú o una pared de Bibi. <strong>Opciones:</strong> eliminar la causa, salvar a los afectados, confesar responsabilidad, introducir una reparación compatible. <strong>Giro:</strong> el escaparate se rompe y recompone tan rápido que un vecino empieza a usarlo como ventilador. <strong>Secuela:</strong> se puede retomar esta secuencia tres veces con un remate cada vez distinto.</p>\n<h3>Selección rápida recomendada</h3>\n<p><strong>Con tres PJ:</strong> 2 retos personales + R06 + R13 + R18 + una vuelta de un reto viejo. <strong>Con cinco PJ:</strong> un disparador personal para cada uno, 1 gran reto público y nada más antes de la noche. Si el grupo hace algo más gracioso, elimina un reto de la lista.</p>"
+  },
+  {
+   "n": 9,
+   "titulo": "La villa vive sin nosotros",
+   "corto": "Subtramas",
+   "html": "<p>El reparto de <em>Dr. Slump</em> aparece <strong>haciendo sus propias tonterías</strong>. No dan misiones, no llegan como salvadores, no arreglan ME-NT al final. Sus historias tienen tres pasos autónomos que se pueden mostrar con fugaces cortes de cámara: <strong>preparación — aparición en marcha — remate</strong>. No hace falta representarlos todos; elige dos subtramas de fondo y repítelas dos veces. En vídeo, usa <strong>exactamente el aspecto de las personas caracterizadas en las referencias, no versiones anime genéricas</strong>.</p>\n<table>\n<thead>\n<tr>\n<th>Subtrama</th>\n<th>Primera vez (mañana)</th>\n<th>Segunda vez (tarde)</th>\n<th>Remate (noche o epílogo)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Arale y su mascota imposible</strong></td>\n<td>Arale arrastra alegremente una correa unida a algo demasiado grande para verse. Saluda: «¡N'CHA!»</td>\n<td>El animal cruza una calle atravesando de lado un muro; Arale sigue sonriente, ajena al destrozo.</td>\n<td>El animal duerme en el tejado de la escuela. Arale le deja un hueso del tamaño de un piano.</td>\n</tr>\n<tr>\n<td><strong>Senbei y el cinturón abdominal</strong></td>\n<td>Senbei lleva un cinturón que le proporciona abdominales perfectos; presume ante Midori.</td>\n<td>El cinturón se contrae y lo lanza por encima de la tapia de su propio taller.</td>\n<td>Midori encuentra un manual que dice «USO MÁXIMO: 5 SEGUNDOS». Senbei niega haber leído mal; sale disparado.</td>\n</tr>\n<tr>\n<td><strong>Suppaman contra un atraco</strong></td>\n<td>Suppaman confunde a dos vendedores de helados con atracadores internacionales.</td>\n<td>Los persigue tumbado en su monopatín, capa al viento. Choca contra una máquina expendedora.</td>\n<td>Lo persiguen los vendedores, indignados porque se ha comido diecisiete helados y no ha pagado.</td>\n</tr>\n<tr>\n<td><strong>Akane y Tarō Soramame</strong></td>\n<td>Cambian las flechas de una señal de tráfico para mandarlas al mar.</td>\n<td>Un policía les persigue; ambos sostienen que sus nuevas señales son «arte contemporáneo».</td>\n<td>El propio policía instala una placa con su nombre bajo la señal, creyendo que es un monumento.</td>\n</tr>\n<tr>\n<td><strong>Peasuke y el casco prodigioso</strong></td>\n<td>Peasuke lleva un casco enorme y quiere demostrar que lo protege de todo.</td>\n<td>Se tropieza en un escalón y el casco queda intacto; el resto de su equipo termina en un árbol.</td>\n<td>El casco consigue una medalla de seguridad ciudadana. Peasuke no.</td>\n</tr>\n<tr>\n<td><strong>Gatchan come cosas</strong></td>\n<td>Gatchan se come cucharillas, tornillos y una radio que no era comestible.</td>\n<td>Una vecina le intenta recuperar la dentadura postiza de su marido.</td>\n<td>Gatchan eructa un pequeño jingle publicitario. El mando de ME-NT fue ingerido ayer y <strong>no vuelve a aparecer oportunamente</strong>.</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Cameos circunstanciales del vídeo:</strong> la pareja de policías del segundo 33, las criaturas verdes de los segundos 49–53 y el anciano con gafas de sol del segundo 29 pueden aparecer tal como se ven, con tareas absurdas propias. Si su identidad canónica no está confirmada por el material aportado, <strong>no inventar que son un personaje específico</strong>. Describir el atuendo visual, no adjudicar nombres.</p>\n<p><strong>Máximo dos minutos por cameo.</strong> Si la mesa no se ríe, corta sin dar explicación. Si los PJ deciden intervenir, esas personas responden de acuerdo con su deseo, pero <strong>nunca absorben el foco de la partida</strong>.</p>"
+  },
+  {
+   "n": 10,
+   "titulo": "Acto III · La noche y el juicio de las mentiras",
+   "corto": "Acto III",
+   "html": "<h2>10.1. Cacería entre los restos del día (83–95)</h2>\n<blockquote>\n<p><strong>Texto para leer:</strong> La mayoría de luces se han apagado. Escucháis el mar, los grillos y el ocasional ronquido que sale de un buzón. Los disparates de todo el día no han desaparecido: una moto continúa dando vueltas alrededor de una fuente, una casa reposa sobre un campanario y un Ferrari está incrustado hasta la mitad en una panadería. Pero ya no hay destellos amarillos cada treinta segundos. Entonces, entre los tejados, distinguís un ruido distinto: <em>flap-flap... flap-flap...</em> Como dos abanicos batiéndose con desgana. La enorme antena de ME-NT [1R] brilla un instante bajo la Luna.</p>\n</blockquote>\n<p>ME-NT está refugiado, <strong>donde mejor encaje con los movimientos del grupo</strong>, en una rama ancha, un depósito de agua, el cobertizo de Senbei o la azotea de la cafetería. Si los jugadores ya lo tienen atrapado, ese lugar es simplemente donde empiezan a hablar con él. Debe tener espacio para que ocurra una persecución breve, pero no un mapa táctico de combate.</p>\n<p><strong>Rastro disponible sin tirada:</strong> sonido de abanicos, una hilera de plumas de papel de sus abanicos, la vibración de una antena vieja o un testigo que lo vio aterrizar. <strong>Tirada opcional:</strong> solo si hay que cruzar un tejado resbaladizo, salvar una caída o acercarse sin alertar a un vecino despierto.</p>\n<p><strong>Cada mentira pronunciada cerca puede atraer la parabólica</strong>. Usa el contador <code>RUIDO 0–4</code>; a 4 o al localizarlo, comienza el juicio. Un fracaso no impide encontrarlo: adelanta el enfrentamiento, con ME-NT en una posición más ventajosa.</p>\n<h2>10.2. El silencio de la máquina (señal emocional; 1–2 minutos)</h2>\n<blockquote>\n<p>Encontráis a ME-NT [1R] sentado en el borde de un tejado. Sus pequeños zapatones cuelgan sobre la cornisa. La parabólica apunta a las estrellas. Tiene los abanicos plegados. Cuando os ve, no se ríe.</p>\n<p>«¿Sabéis qué es lo que más me gusta de la noche?». Espera una respuesta. «Que cuando dormís... por fin dejáis de mentir».</p>\n<p>Da una patadita al aire. «Mi inventor dijo que yo era especial. Dijo que me quería. También me puso un mando para obligarme a obedecer. No sé cuál de esas tres cosas era mentira».</p>\n</blockquote>\n<p><strong>No impongas todavía una reconciliación.</strong> Si los PJ son amables, escucha. Si intentan atraparlo, se asusta. Si lo insultan o le prometen algo inverosímil, se defiende con lo que ya sabemos de él. El final sigue siendo suyo.</p>\n<h2>10.3. El juicio de las mentiras (95–112)</h2>\n<p>ME-NT no puede detectar grandes cantidades de mentiras nocturnas y se siente débil. Se da cuenta de que los perseguidores <strong>tienen cosas que ocultar</strong>, como Senbei. Para protegerse y probar su teoría de que nadie dice la verdad cuando cuesta, intenta provocar que se mientan unos a otros.</p>\n<blockquote>\n<p><strong>ME-NT:</strong> «¡VENÍS A LLEVARME DE VUELTA! ¡JE-JE-JE! ¡PERO SEGURO QUE NI SIQUIERA OS CONOCÉIS DE VERDAD! ¡SI SOIS TAN AMIGOS, DECIDME QUIÉNES SOIS! ¡NO, MEJOR: DECÍDSELO A LOS DEMÁS! ¡MENTID! ¡MENTID BIEN, QUE YA NO QUEDA NADIE DESPIERTO PARA DIVERTIRME!».</p>\n</blockquote>\n<p><strong>Funcionamiento práctico (rápido, 3–4 minutos por PJ):</strong> ME-NT pone en escena una situación que recuerda <strong>el tema</strong> de la verdad privada, <strong>sin leer el secreto exacto ni revelarlo por su cuenta</strong>. El personaje puede <strong>mentir</strong>, <strong>decir una verdad</strong>, <strong>callar</strong>, <strong>cambiar de tema</strong>, <strong>intentar negociar</strong> o <strong>hacer una acción física</strong>. Todo funciona de acuerdo con las reglas.</p>\n<ul>\n<li>Si <strong>miente</strong>, el pulso materializa una ventaja y una dificultad visible. Si una segunda persona miente para ayudar, su mentira puede cruzarse con la anterior y modificar el campo de juego. Las consecuencias pueden solucionarse con acciones y las tiradas de ¡PAM! 2.0; ninguna confesión es necesaria para continuar.</li>\n<li>Si <strong>dice la verdad</strong> de manera voluntaria, no hay pulso. Puede perder prestigio, deber una disculpa o provocar que otro reaccione con afecto, sorpresa o bromas. <strong>No se tira para sincerarse</strong>. El director pregunta a un compañero: «¿Qué haces cuando te lo dice?». Mantén la intimidad en escala cómica, no hagas terapia.</li>\n<li>Si <strong>se calla</strong>, ME-NT puede burlarse de él, pero no puede obligarlo a hablar. Otro protagonista puede responder o buscar una salida técnica.</li>\n<li>Si <strong>se enfrenta físicamente</strong> a ME-NT, resuelve la acción con el sistema; la máquina tiene miedo real a ser rota. Puede llegar una victoria técnica. No uses una barrera invisible arbitraria.</li>\n</ul>\n<p><strong>Cinco provocaciones, adaptables a tres o cuatro PJ:</strong></p>\n<table>\n<thead>\n<tr>\n<th>Personaje</th>\n<th>Provocación de ME-NT, NO revelación del secreto</th>\n<th>Materialización si el PJ vuelve a mentir</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Pipa</td>\n<td>«¡Tú siempre conduces sin miedo, ¿verdad?!»</td>\n<td>Una Pipa duplicada, temeraria e incapaz de frenar, sube a la moto y arrastra un objeto preciado.</td>\n</tr>\n<tr>\n<td>Bruno</td>\n<td>«¡Tu expediente no tendrá ni una sola mancha!»</td>\n<td>Seis brazos selladores y expedientes flotantes legalizan sus equivocaciones.</td>\n</tr>\n<tr>\n<td>Bibi</td>\n<td>«¡Tú puedes reparar todo sola, ¿no?!»</td>\n<td>Sus herramientas se independizan y empiezan a arreglar cosas perfectamente sanas, destrozándolas.</td>\n</tr>\n<tr>\n<td>Kame</td>\n<td>«¡Tú conoces a todos los héroes del universo!»</td>\n<td>Una multitud de supuestos amigos se pelea por demostrar que lo conoce mejor; piden pruebas imposibles.</td>\n</tr>\n<tr>\n<td>Lulú</td>\n<td>«¡Nunca publicaste nada falso!»</td>\n<td>Los recortes de su reportaje cobran vida y representan versiones incompatibles del mismo suceso.</td>\n</tr>\n</tbody>\n</table>\n<p><strong>El remate humano:</strong> alguien reconoce una tontería que le avergüenza, los otros aceptan las consecuencias y terminan riéndose <strong>con él</strong>, no <strong>de él</strong>. Una verdad puede ser «me dio miedo», «fui un farsante», «necesito ayuda» o «hice daño a alguien por ganar fama». No hace falta pronunciar un discurso perfecto.</p>\n<h3>Final A · Victoria limpia (ME-NT se entrega por elección)</h3>\n<p>Requiere que el grupo muestre —con sus propias palabras o acciones— que puede <strong>reconocer verdades incómodas y hacerse cargo de las consecuencias</strong>, sin coacción y sin promesas falsas. No es una votación rígida de «todos confiesan o perdéis»: si un PJ no quiere compartir su secreto, puede <strong>respaldar sinceramente a otro o reconocer un error surgido en mesa</strong>. El director valora la confianza entre personajes, no el número de confesiones marcadas en una lista.</p>\n<blockquote>\n<p>«Sois bastante tontos», dice ME-NT. «Podíais haber pedido dinero, amor, músculo... ¡Hasta un Ferrari! Y habéis elegido contaros cosas que os ponen en ridículo». Los abanicos dejan de girar. «Creo que me caéis bien». Deja caer una llavecita de mantenimiento de su carcasa. «Si voy con vosotros... ¿me controlaréis como hacía él?».</p>\n</blockquote>\n<p>Deja responder. Una respuesta honesta, incluso «No lo sé, pero podemos hablarlo», vale más que «nunca mentiré» dicha falsamente. <strong>ME-NT acepta acompañarlos</strong>, mantiene su libertad, colabora en reparar el receptor y activa la <strong>restauración selectiva</strong>. Los jugadores eligen qué cambios deshacer y qué secuelas materiales o cómicas permanecen.</p>\n<h3>Final B · Victoria técnica, sin reconciliación</h3>\n<p>El grupo reconfigura la antena, aísla el receptor o repara el circuito con una acción aventurada. Puede encerrar la caja temporalmente e impedir que el pulso alcance el pueblo. <strong>Es legítimo vencer así</strong>. ME-NT sigue desconfiando y quizás escape otro día; parte de las secuelas permanecen hasta su reparación. Recalca el precio de sus decisiones sin castigar con una moraleja.</p>\n<h3>Final C · Se les va de las manos</h3>\n<p>Mentiras encadenadas, sobresalto o una actuación desesperada provocan la sobrecarga definitiva. La ciudad despierta convertida en un collage de mentiras: funcionarios con pezuñas, viviendas en el cielo, clientes felices con facturas terribles. Los protagonistas conservan la oportunidad de salvar a quien tenían cerca. <strong>No significa «perdisteis la partida»; significa que el episodio acabó con un desastre magnífico</strong>.</p>\n<h3>Final D · Los PJ deciden conservar una mentira</h3>\n<p>Quizá una persona rejuvenecida no quiera perderlo todo; quizá Kame desea continuar siendo amigo del extraterrestre, ahora que se han conocido. Permite que algunos efectos <strong>persistan por acuerdo</strong> y muestren consecuencias. La restitución no es una obligación moral de borrar todo lo extraño; Villa Pingüino ya era extraordinaria antes.</p>\n<h2>10.4. Nuevo amanecer (112–120) y últimos créditos</h2>\n<blockquote>\n<p>El Sol aparece otra vez por el mar. Está despeinado, bosteza y busca su cepillo de dientes entre las nubes. Mira abajo: una casa está apoyada en otra; un coche descansa dentro de una fuente; alguien ha instalado una sombrilla sobre la cabeza de una estatua. Se encoge de hombros y empieza a cepillarse.</p>\n<p>En el árbol, Porco sostiene su cámara con las manos temblorosas. Tiene los ojos hinchados de sueño.</p>\n<p><strong>PORCO:</strong> «¡OIIIIINK! ¡BUENOS DÍAS, VILLA PINGÜINO! ¡Ayer tuvimos algunos incidentes menores! ¡Una casa voló, un alcalde gruñó y alguien ha declarado su amor a un electrodoméstico! ¡Pero hoy vuelve a ser un día completamente normal!».</p>\n<p>Un estruendo sacude el árbol. Porco se agarra a una rama, mira a cámara y exclama: «¡O por lo menos va a intentarlo!».</p>\n</blockquote>\n<p><strong>Créditos:</strong> cada PJ describe durante 20–30 segundos una imagen del día siguiente. Debe incluir <strong>una consecuencia concreta de su mentira o una relación que haya cambiado</strong>. El director devuelve sólo uno o dos gags recurrentes. Si el grupo reconciliado lleva a ME-NT consigo, puede estar agitando los abanicos en el desayuno: «¿Sois siempre así de raros?». Si Arale aparece al fondo y alza el planeta con un dedo, no hay pulso: <strong>no estaba mintiendo</strong>. <strong>Corte a negro inmediato.</strong></p>"
+  },
+  {
+   "n": 11,
+   "titulo": "Chuleta de dirección",
+   "corto": "Chuleta",
+   "html": "<p><strong>PROMESA:</strong> un día con una máquina que vuelve ciertas las mentiras; al dormir el pueblo, los PJ pueden alcanzarla y decidir cómo terminar con el desastre.</p>\n<p><strong>CABECERAS FIJAS:</strong> 00 amanecer Sol/Porco · 40 mediodía Sol/Porco · 80 noche Luna/Porco · 112 nuevo amanecer Sol/Porco.</p>\n<p><strong>RITMO:</strong> presentación 12 min · 2–3 retos AM · 2–3 retos PM · caza 12 min · final 17 min · epílogo 8 min.</p>\n<p><strong>LA MÁQUINA:</strong> ME-NT [1R], amarilla, parabólica, brazos con abanicos japoneses y zapatones; quiere una verdad honesta, no órdenes; el mando original se lo comió Gatchan; mentir sobre tener un mando crea uno que controla al mentiroso.</p>\n<p><strong>TIRADA:</strong> 2d6 +1 dado por talento +1 por ayuda, suma dos mejores (máx. 4d6): 2–5 fiasco, 6–8 éxito con coste, 9–11 éxito, 12 sobresaliente. Tirar únicamente cuando hay incertidumbre.</p>\n<p><strong>BLOQUEO DE ARGUMENTO PROHIBIDO:</strong> la pista de la noche aparece sí o sí por planos, observación o diálogo; encontrar a ME-NT no depende de un dado; la verdad no se arranca a nadie; los héroes de la serie no salvan la situación por su cuenta.</p>\n<p><strong>SECUENCIA PARA UN RETO:</strong> 1 frase falsa → «¡PIUUUM!» → imagen imposible → algo personal en peligro → pregunta «¿qué haces?» → resolución abierta → remate → guarda secuela para más tarde.</p>\n<p><strong>REGLA DEL CHISTE:</strong> repetir con variación una consecuencia antigua rinde más que introducir veinte cosas nuevas. Ejemplo: moto que no frena → mecánico vende entradas → al amanecer el vecino cobra impuesto de circulación aéreo.</p>\n<p><strong>LA PREGUNTA DEL CLÍMAX:</strong> «¿Qué ocurre cuando alguien dice la verdad sabiendo que ya no puede esconderse?». La respuesta se juega en mesa, no se lee de un guion.</p>\n<p><strong>REPARTO ORIGINAL:</strong> Arale, Senbei, Midori, Gatchan, Suppaman, Akane, Tarō Soramame, Peasuke y otros cameos viven sus capítulos paralelos. </p>\n<p><strong>SEGURIDAD Y TONO:</strong> sátira, vergüenza adulta ficticia, enredos, humor físico; nada de sexualizar al PJ de aspecto infantil, crueldad realista ni confesiones autobiográficas.</p>"
+  },
+  {
+   "n": 19,
+   "titulo": "Apuntes para una dirección memorable",
+   "corto": "Apuntes",
+   "html": "<p><strong>Que el chiste lo provoque la interpretación.</strong> Si Bruno asegura con toda su gravedad que el zorro que lleva su expediente es un funcionario de ventanilla, no hace falta añadir tres gags más: muestra al zorro extendiendo una pata para pedir el sello. <strong>Corta la escena en el punto más divertido.</strong></p>\n<p><strong>Los jugadores no son espectadores de los chistes del director.</strong> Cuando ME-NT provoca una alteración, pregunta de inmediato: «¿Qué hacéis?». Las mejores consecuencias tienen que nacer de sus mentiras, sus soluciones y sus defectos.</p>\n<p><strong>Los nombres de los personajes de la serie venden el ambiente, pero no la trama.</strong> El grupo debe acabar diciendo «nosotros la liamos más» en vez de «Arale nos rescató».</p>\n<p><strong>Jugar verdades vergonzosas no significa avergonzar jugadores.</strong> La confesión puede ser pequeña, íntima entre dos PJ y acabar con un gag. Deja que los compañeros respondan de manera entrañable o idiota. Lo único inadmisible es obligar a nadie a explicar algo personal de verdad.</p>\n<p><strong>Si la partida supera los 120 minutos:</strong> corta un reto público, muestra en una frase su secuela e introduce la cabecera siguiente. Si la partida va corta, repite uno de los running gags con una consecuencia diferente. La promesa estructural se cumple siempre: <strong>Sol y Porco al amanecer → Sol y Porco al mediodía → Luna y Porco de noche → nuevo amanecer</strong>.</p>\n<blockquote>\n<p><strong>Última instrucción de producción:</strong> este universo debe oler a ropa de vestuario, engranajes reparados con cinta adhesiva, peluquines imposibles y sol de vacaciones. Debe sentirse real a la vista y absolutamente insensato cuando sus habitantes abren la boca.</p>\n</blockquote>\n<p><strong>FIN DEL EPISODIO — ¡OIIIIINK!</strong></p>"
+  }
+ ]
+}
