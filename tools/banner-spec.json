@@ -1,0 +1,140 @@
+[
+ {
+  "src": "/Volumes/Datos_Dock/FoundryVTT/Trabajo MENTIRA/art/new/pdf-acto2.png",
+  "focus": 0.5,
+  "accent": [
+   226,
+   23,
+   46
+  ],
+  "kicker": "Semanal ¡PAM! · Especial Villa Pingüino",
+  "title": [
+   "¡MENTIRA",
+   "COCHINA!"
+  ],
+  "subtitle": [
+   "Un día en que todas las mentiras se vuelven verdad"
+  ],
+  "tagline": [
+   "Mini sistema y aventura · Foundry VTT 13–14 · Castellano"
+  ],
+  "fonts": {
+   "kicker": [
+    "/Volumes/Datos_Dock/FoundryVTT/Data/systems/mr-mentira-cochina/scripts/fonts/Bangers-Regular.ttf",
+    0
+   ],
+   "title": [
+    "/Volumes/Datos_Dock/FoundryVTT/Data/systems/mr-mentira-cochina/scripts/fonts/DelaGothicOne-Regular.ttf",
+    0
+   ],
+   "subtitle": [
+    "/Volumes/Datos_Dock/FoundryVTT/Data/systems/mr-mentira-cochina/scripts/fonts/ZenMaruGothic-Bold.ttf",
+    0
+   ],
+   "tagline": [
+    "/Volumes/Datos_Dock/FoundryVTT/Data/systems/mr-mentira-cochina/scripts/fonts/ZenMaruGothic-Bold.ttf",
+    0
+   ]
+  },
+  "colors": {
+   "kicker": [
+    255,
+    214,
+    10
+   ],
+   "title": [
+    255,
+    214,
+    10
+   ],
+   "subtitle": [
+    255,
+    255,
+    255
+   ],
+   "tagline": [
+    245,
+    238,
+    219
+   ]
+  },
+  "title_max": 0.2,
+  "title_track": 0.0,
+  "title_lead": 1.2,
+  "out": "docs/img/banner.webp",
+  "size": [
+   1600,
+   560
+  ],
+  "veil": 1.0
+ },
+ {
+  "src": "/Volumes/Datos_Dock/FoundryVTT/Trabajo MENTIRA/art/new/pdf-acto2.png",
+  "focus": 0.5,
+  "accent": [
+   226,
+   23,
+   46
+  ],
+  "kicker": "Semanal ¡PAM! · Especial Villa Pingüino",
+  "title": [
+   "¡MENTIRA",
+   "COCHINA!"
+  ],
+  "subtitle": [
+   "Un día en que todas las mentiras se vuelven verdad"
+  ],
+  "tagline": [
+   "Mini sistema y aventura · Foundry VTT 13–14 · Castellano"
+  ],
+  "fonts": {
+   "kicker": [
+    "/Volumes/Datos_Dock/FoundryVTT/Data/systems/mr-mentira-cochina/scripts/fonts/Bangers-Regular.ttf",
+    0
+   ],
+   "title": [
+    "/Volumes/Datos_Dock/FoundryVTT/Data/systems/mr-mentira-cochina/scripts/fonts/DelaGothicOne-Regular.ttf",
+    0
+   ],
+   "subtitle": [
+    "/Volumes/Datos_Dock/FoundryVTT/Data/systems/mr-mentira-cochina/scripts/fonts/ZenMaruGothic-Bold.ttf",
+    0
+   ],
+   "tagline": [
+    "/Volumes/Datos_Dock/FoundryVTT/Data/systems/mr-mentira-cochina/scripts/fonts/ZenMaruGothic-Bold.ttf",
+    0
+   ]
+  },
+  "colors": {
+   "kicker": [
+    255,
+    214,
+    10
+   ],
+   "title": [
+    255,
+    214,
+    10
+   ],
+   "subtitle": [
+    255,
+    255,
+    255
+   ],
+   "tagline": [
+    245,
+    238,
+    219
+   ]
+  },
+  "title_max": 0.2,
+  "title_track": 0.0,
+  "title_lead": 1.2,
+  "out": "docs/img/social.png",
+  "size": [
+   1280,
+   640
+  ],
+  "veil": 1.0
+ }
+]
