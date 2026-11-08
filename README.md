@@ -11,6 +11,11 @@
   <img alt="En español" src="https://img.shields.io/badge/idioma-espa%C3%B1ol-2fa84f?style=for-the-badge&labelColor=1b1515">
 </p>
 
+<p align="center">
+  <a href="https://github.com/ManuRomera/mr-mentira-cochina/releases/latest/download/MR-Mentira-Cochina.pdf"><img alt="Descargar el PDF de la aventura" src="https://img.shields.io/badge/%F0%9F%93%96_Descargar_el_PDF-e2172e?style=for-the-badge&labelColor=e2172e&color=1b1515" height="44"></a>
+  <a href="https://github.com/ManuRomera/mr-mentira-cochina/releases/latest/download/mr-mentira-cochina.zip"><img alt="Descargar el sistema" src="https://img.shields.io/badge/%E2%AC%87_Descargar_el_sistema-ffd60a?style=for-the-badge&labelColor=ffd60a&color=1b1515" height="44"></a>
+</p>
+
 # MR- ¡Mentira Cochina!
 
 Mini sistema y aventura de inicio para **Foundry VTT**: una comedia de enredo de 120 minutos en Villa Pingüino. Durante un solo día, una caja amarilla con una parabólica ridícula, **ME-NT [1R]**, vuelve ciertas las mentiras de todo el pueblo. Al caer la noche, los protagonistas la persiguen sin sospechar que no necesita que la derroten, sino escuchar una verdad dicha sin esperar nada a cambio.
@@ -56,6 +61,15 @@ El libro de la aventura va maquetado como un número de la revista «¡PAM!» (B
 ## Lo de siempre
 
 Accesibilidad (tamaño de texto, alto contraste, fuente legible, sin movimiento, modo oscuro), seguridad en mesa (Pausa, Velo y Tarjeta X anónimas), memoria de ventanas, lupa sobre las imágenes, diagnóstico y créditos en Ajustes.
+
+## Descargas
+
+| Qué | Enlace directo |
+|---|---|
+| **PDF de la aventura** (revista B5, 44 págs., 21 MB) | [MR-Mentira-Cochina.pdf](https://github.com/ManuRomera/mr-mentira-cochina/releases/latest/download/MR-Mentira-Cochina.pdf) |
+| Sistema para Foundry (zip, 39 MB) | [mr-mentira-cochina.zip](https://github.com/ManuRomera/mr-mentira-cochina/releases/latest/download/mr-mentira-cochina.zip) |
+| Manifiesto para instalar desde Foundry | `https://github.com/ManuRomera/mr-mentira-cochina/releases/latest/download/system.json` |
+| Todas las versiones | [Releases](https://github.com/ManuRomera/mr-mentira-cochina/releases) |
 
 ## Instalación
 
